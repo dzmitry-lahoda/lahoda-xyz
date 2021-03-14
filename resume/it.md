@@ -27,7 +27,7 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Positions
 
-### 2020.10-2021.03, full-time, remote. [Sprout Therapy](https://www.joinsprouttherapy.com/)
+### 2020.10-2021.03, consultant, remote. [Sprout Therapy](https://www.joinsprouttherapy.com/)
 
 Healthcare.
 
