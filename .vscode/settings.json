@@ -21,4 +21,8 @@
   "foam.edit.linkReferenceDefinitions": "withExtensions",
   "foam.openDailyNote.directory": "journal",
   "foam.openDailyNote.titleFormat": "fullDate",
+  "cSpell.words": [
+    "Dzmitry",
+    "Greenshot"
+  ],
 }
