@@ -27,14 +27,11 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Positions
 
-<<<<<<< HEAD
-### 2021.03- now, consultant, remote. [Solana](https://solana.com/)
+
+### 2021.03-now, consultant, remote. [Solana](https://solana.com/)
 
 Blockchain.
 
-
-=======
->>>>>>> 1bf04ebde321f39883f9fe73c005e7b6605cc2c7
 ### 2020.10-2021.03, consultant, remote. [Sprout Therapy](https://www.joinsprouttherapy.com/)
 
 Healthcare.
@@ -73,7 +70,7 @@ Visual Studio Code, terminal, search tools, Greenshot, text communication tools,
 ## Products
 
 
-### 2021.03-now Solana Program Library
+### 2021.03-now. Solana Program Library
 
 - porting DeFi, Solidity and other contracts to Solana
 - improving coding practices to contracts
