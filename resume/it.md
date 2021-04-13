@@ -27,7 +27,12 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Positions
 
-### 2020.10-2021.03, full-time, remote. [Sprout Therapy](https://www.joinsprouttherapy.com/)
+### 2021.03- now, consultant, remote. [Solana](https://solana.com/)
+
+Blockchain.
+
+
+### 2020.10-2021.03, consultant, remote. [Sprout Therapy](https://www.joinsprouttherapy.com/)
 
 Healthcare.
 
@@ -63,6 +68,12 @@ Git,  ProjectLibre, FreeMind, concept mapping, Foam Research, Markdown, OpenRepG
 Visual Studio Code, terminal, search tools, Greenshot, text communication tools, SQL, Gremlin.
 
 ## Products
+
+
+### 2021.03-now Solana Program Library
+
+- porting DeFi, Solidity and other contracts to Solana
+- improving coding practices to contracts
 
 ### 2020.10-2021.03, Sprout Therapy, Parents (Demand)
 
