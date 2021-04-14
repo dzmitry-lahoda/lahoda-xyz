@@ -16,7 +16,7 @@ Worked with all possible storage mediums and query languages.
 
 Computer user since 1993, write programs since 2004, code version control and automated tests since 2007, increase my velocity by open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
 
-Dzmitry enjoys type systems and automated quality assurance of any kind. 
+Dzmitry enjoys type systems and automated quality assurance of any kind, and writing in English. 
 
 For the last year or so, he learns applied mathematics in his free time.
 
@@ -127,7 +127,7 @@ Cloud-native microservice-based call and contact center.
 * Coded matchmaking and some battle logic.
 * Integrated best practices into the game studio to prevent business losses due to security breaches
 * Facilities migration from paper-based workflow to digital one with the proper hierarchy of work items.
-* Learned from the flat cross-functional team of developers and designers of approx. 10 people in delivering game from Proof of Concept into Release.
+* Delivering game from Proof of Concept into Release.
 * ASP.NET, networking, Orleans, MongoDb
 
 ### 2017.10 - 2018.10, full-time. [Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php) (engineering)
@@ -135,12 +135,11 @@ Cloud-native microservice-based call and contact center.
 [Windows desktop application](https://www.youtube.com/watch?v=Iuqq1RdgY0A&list=PLdK8AlEjocsVVJfXTdzvzHBNrR31DNS8n) to show and analyze measurement data from car sensors.
 
 * Improved code practices and performance, reduced technical debt
-* Made synchronous blocking mutable state components into asynchronous reactive non-blocking immutable
+* Made synchronous blocking mutable state components into asynchronous reactive non-blocking immutable. 
+* Did for 1 month as side effect of doing other feature what the whole team was doing for half year.
 * Shared practices with the team about testing, process, collaboration, documentation.
 * Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
 * Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
-* Worked with teams from Germany and visited them regularly. Worked hard to make all collaboration online and transparent
-* Was in the stream of 5 developers, within 40 people project.
 * WPF, XAML
   
 ### 06.06.2015 - 31.08.2017, full-time. [Legal eDiscovery server engine](https://legal.thomsonreuters.com/en/products/ediscovery-point)
@@ -148,8 +147,7 @@ Cloud-native microservice-based call and contact center.
 [e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
 * Developed asynchronous actor-like data-intensive persisted engine and intelligent multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
-* Planned, tasked and lead month-long features
-* Improved intelligent multi-tenant distributed file system aimed for handling millions of documents
+* Maintained intelligent multi-tenant distributed file system aimed for handling millions of documents
 * Developed orchestration with error handling of event-driven services, HTTP API, billing, audit, reporting, query provider to NoSql database, reusable infrastructure components, asynchronous data- and work-flows
 * Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
 * Used several data storages(relational, document, files, queue, cache).
@@ -158,8 +156,6 @@ Cloud-native microservice-based call and contact center.
 * Document and prototyped replacement of distributed lock-based flows into lock-free event-sourced flows for performance and consistency, disentangled cases where we could use eventual consistency and approximations, and were not
 * Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
 * Articulated several cross-team inefficiencies up to resolutions, helped the customer to improve skill-position fit of some employers
-* Trained my writing English to be properly structured, clear and action inducing
-* Worked within the distributed team of 30 developers
 * SQL, ElasticSearch, NAS
   
 ### 2014.07-2015.01, full-time. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/)
@@ -187,7 +183,6 @@ Windows software for linking data between documents, financial data charting too
 * Used virtual machines to test in different setups and fix multiuser environments
 * Tripped to France to do talks on the customer side
 * Made internal tools for productivity, profiling, optimizations and performance analysis
-* Worked in coordination with 50+ developers from several countries, started from small end-user functional team, become distributed framework team of changing size with many functional teams
 * WPF, COM, XAML, WCF, MS-RPC, C
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010)
