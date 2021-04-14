@@ -77,9 +77,10 @@ Visual Studio Code, terminal, search tools, Greenshot, text communication tools,
 
 ### 2020.10-2021.03, Sprout Therapy, Parents (Demand)
 
-- coded some flows for long term therapy from login, to questionnaires to documents signing.
+- coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
 - functional and type driven coding 
-- Rust, CQRS ES, PDF rendering, GraphQL, SQL 
+- low level PDF rendering
+- Rust, CQRS ES, GraphQL, SQL 
 
 ### 2020.03 - now, Crey Games
 
