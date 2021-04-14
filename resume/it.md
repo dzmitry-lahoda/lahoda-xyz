@@ -10,7 +10,7 @@ Dzmitry has fluent C1/Advanced English, especially specifically while reading an
 
 He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
 
-Dzmitry created integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks. Worked in many domains. Dzmitry did not yet code graphic-intensive solutions or blockchains. 
+Dzmitry created integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks. Worked in many domains. Dzmitry did not yet code graphic-intensive solutions or math stuff. 
 
 Worked with all possible storage mediums and query languages.
 
