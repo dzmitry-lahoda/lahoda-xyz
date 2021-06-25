@@ -4,19 +4,19 @@ Dzmitry Lahoda is coding software since 2004.
 
 ## Overview
 
-These days enjoys coding Rust, F#, Rust/F# styled C# 9, Zig. 
+These days enjoys coding Rust, Zig, F#, Rust/F# styled C# 10. 
 
 Dzmitry has C1/Advanced English, especially specifically while reading and writing.
 
 He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
 
-Dzmitry created integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks. Worked in many domains. 
+Dzmitry created integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks. Worked in many domains. Dzmitry did not yet code graphic-intensive solutions or math stuff. 
 
 Worked with all possible storage mediums and query languages.
 
 Computer user since 1993, write programs since 2004, code version control and automated tests since 2007, increase my velocity by open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
 
-Dzmitry enjoys type systems and automated quality assurance of any kind. 
+Dzmitry enjoys type systems and automated quality assurance of any kind, and writing in English. 
 
 For the last year or so, he learns applied mathematics in his free time.
 
@@ -47,9 +47,10 @@ Visual Studio Code, terminal, search tools, Greenshot, text communication tools,
 
 ### 2020.10-2021.03, [Sprout Therapy](https://www.joinsprouttherapy.com/), Parents (Demand). Healthcare.
 
-- coded some flows for long term therapy from login, to questionnaires to documents generation and signing
+- coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
 - functional and type driven coding 
-- Rust, CQRS ES, PDF rendering 
+- low level PDF rendering
+- Rust, CQRS ES, GraphQL, SQL 
 
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
@@ -96,13 +97,15 @@ Cloud-native microservice-based call and contact center.
 * Integrated best practices into the game studio to prevent business losses due to security breaches
 * Facilities migration from paper-based workflow to digital one with the proper hierarchy of work items.
 * Learned from the flat cross-functional team of developers and designers of approx. 10 people in delivering game from Proof of Concept into Release.
+* Delivering game from Proof of Concept into Release.
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer. Engineering.
 
 [Windows desktop application](https://www.youtube.com/watch?v=Iuqq1RdgY0A&list=PLdK8AlEjocsVVJfXTdzvzHBNrR31DNS8n) to show and analyze measurement data from car sensors.
 
 * Improved code practices and performance, reduced technical debt
-* Made synchronous blocking mutable state components into asynchronous reactive non-blocking immutable
+* Made synchronous blocking mutable state components into asynchronous reactive non-blocking immutable. 
+* Did for 1 month as side effect of doing other feature what the whole team was doing for half year.
 * Shared practices with the team about testing, process, collaboration, documentation.
 * Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
 * Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
@@ -114,8 +117,7 @@ Cloud-native microservice-based call and contact center.
 [e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
 * Developed asynchronous actor-like data-intensive persisted engine and intelligent multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
-* Planned, tasked and lead month-long features
-* Improved intelligent multi-tenant distributed file system aimed for handling millions of documents
+* Maintained intelligent multi-tenant distributed file system aimed for handling millions of documents
 * Developed orchestration with error handling of event-driven services, HTTP API, billing, audit, reporting, query provider to NoSql database, reusable infrastructure components, asynchronous data- and work-flows
 * Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
 * Used several data storages(relational, document, files, queue, cache).
