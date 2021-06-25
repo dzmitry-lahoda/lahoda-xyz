@@ -27,10 +27,10 @@ For the last year or so, he learns applied mathematics in his free time.
 ## Using (in random order)
 
 
-Rust, F#, C# 9, .NET Core 5, ASP.NET, Orleans, REST, GraphQL, [BDD][11], [TDD][17], types drive development, clouds, virtualization, Kubernetes, Windows 10, Prometheus, ELK, WinAPI, [COM][14], Hashicorp Terraform,
+Rust, F#, C# 10, .NET 5, Orleans Actors, [BDD][11], [TDD][17], types drive development, clouds, virtualization, Kubernetes, Windows 10, Prometheus, ELK, WinAPI, [COM][14], Hashicorp,
 Git,  ProjectLibre, FreeMind, concept mapping, Foam Research, Markdown, OpenRepGrid, PlantUml, Mermaid, GraphViz, spreadsheets, 
 [IPC](https://en.wikipedia.org/wiki/Inter-process_communication "IPC"), HTTP, UDP, WebSockets, various formats of data on wire,
-Visual Studio Code, terminal, search tools, Greenshot, text communication tools, SQL, Gremlin, KustoQL, microservices, event queues, UDP, document DB, XAML, ElasticSearch, binary object storages.
+Visual Studio Code, terminal, search tools, Greenshot, text communication tools, (Any)QL, Gremlin, microservices, event queues, UDP, document DB, XAML, ElasticSearch, binary object storages.
 
 ## Products
 
