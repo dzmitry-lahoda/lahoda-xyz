@@ -42,7 +42,7 @@ Visual Studio Code, terminal, search tools, Greenshot, text communication tools,
 
 ### 2021.03-2021.04. [Solana](https://solana.com/). Software Engineer. Blockchain.
 
-- DeFi, NFT, chats and crowd funding contracts on Solana chain (ported Solidity or coded by specifications)
+- [NFT, chats](https://github.com/Satellite-im/satellite-solana-contracts), [DeFi, crowd funding contracts](https://solstarter.org/) on Solana chain (ported Solidity or coded by specifications)
 - improving Rust coding practices for contracts
 
 ### 2020.10-2021.03, [Sprout Therapy](https://www.joinsprouttherapy.com/), Parents (Demand). Healthcare.
