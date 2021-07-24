@@ -4,7 +4,7 @@ Dzmitry Lahoda is coding software since 2004.
 
 ## Overview
 
-These days enjoys coding Rust, Zig, F#, Rust/F# styled C# 10. 
+These days enjoys coding Rust, Zig, Haskell. 
 
 Dzmitry has C1/Advanced English, especially specifically while reading and writing.
 
@@ -27,10 +27,8 @@ For the last year or so, he learns applied mathematics in his free time.
 ## Using (in random order)
 
 
-Rust, F#, C# 10, .NET 5, Orleans Actors, [BDD][11], [TDD][17], types drive development, clouds, virtualization, Kubernetes, Windows 10, Prometheus, ELK, WinAPI, [COM][14], Hashicorp,
-Git,  ProjectLibre, FreeMind, concept mapping, Foam Research, Markdown, OpenRepGrid, PlantUml, Mermaid, GraphViz, spreadsheets, 
-[IPC](https://en.wikipedia.org/wiki/Inter-process_communication "IPC"), HTTP, UDP, WebSockets, various formats of data on wire,
-Visual Studio Code, terminal, search tools, Greenshot, text communication tools, (Any)QL, Gremlin, microservices, event queues, UDP, document DB, XAML, ElasticSearch, binary object storages.
+Rust, F#, C# 10, .NET 5, Orleans Actors, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp,
+Git, [IPC](https://en.wikipedia.org/wiki/Inter-process_communication "IPC"), HTTP, UDP, WebSockets, various formats of data on wire, Visual Studio Code, any query langauge or storage, microservices, distributed computng, ElasticSearch.
 
 ## Products
 
@@ -40,9 +38,9 @@ Visual Studio Code, terminal, search tools, Greenshot, text communication tools,
 - Some simple features - shadow sprites, frustum culling, character sit/stand up flow.
 - ECS, Rust.
 
-### 2021.03-2021.04. [Solana](https://solana.com/). Software Engineer. Blockchain.
+### 2021.03-2021.04, 2021.07. [Solana](https://solana.com/). Software Engineer. Blockchain.
 
-- [NFT, chats](https://github.com/Satellite-im/satellite-solana-contracts), [DeFi, crowd funding contracts](https://solstarter.org/) on Solana chain (ported Solidity or coded by specifications)
+- [NFT, chats](https://github.com/Satellite-im/satellite-solana-contracts), [DeFi, crowd funding contracts](https://solstarter.org/), staking/rewards on Solana chain (ported Solidity or coded by specifications)
 - improving Rust coding practices for contracts
 
 ### 2020.10-2021.03, [Sprout Therapy](https://www.joinsprouttherapy.com/), Parents (Demand). Healthcare.
