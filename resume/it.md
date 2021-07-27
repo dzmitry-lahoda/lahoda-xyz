@@ -22,17 +22,16 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Profiles
 
-[Github](https://github.com/dzmitry-lahoda) [Gitlab](https://gitlab.com/dzmitry-lahoda)  [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
+[Github](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
 ## Using (in random order)
 
 
-Rust, F#, C# 10, .NET 5, Orleans Actors, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp,
-Git, [IPC](https://en.wikipedia.org/wiki/Inter-process_communication "IPC"), HTTP, UDP, WebSockets, various formats of data on wire, Visual Studio Code, any query langauge or storage, microservices, distributed computng, ElasticSearch.
+Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch.
 
 ## Products
 
-### 2021.06-now, new  type of chat. [Sophya](https://sophya.world) (I am just having fun:) )
+### 2021.06-now, new  type of chat. [Sophya](https://sophya.world)
 
 - Bug fix in based gamechat engine (character direction, leaks, debugging improvements, character destination position)
 - Some simple features - shadow sprites, frustum culling, character sit/stand up flow.
@@ -61,6 +60,7 @@ Git, [IPC](https://en.wikipedia.org/wiki/Inter-process_communication "IPC"), HTT
 - Setup distributed logging and alerting,  built statistically sound alerts and monitoring dashboards
 - Found a unique way to port some F# features onto C# 9 (no alternatives yet found on github)
 - Custom in memory matchmaking allocation loop via cashing threading channels (in memory actors)
+- Agones, .NET 5, Go
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 
 
@@ -254,7 +254,5 @@ Credential Identifier Credential ID A3-BY002-S-4101019
 [17]: https://en.wikipedia.org/wiki/Test-driven_development
 [18]: https://en.m.wikipedia.org/wiki/Dependency_injection
 [19]: https://en.wikipedia.org/wiki/XML
-[20]: https://vue.tufts.edu/
 [21]: https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language
-[22]: https://jenkins.io/
 [23]: https://www.gerritcodereview.com/
