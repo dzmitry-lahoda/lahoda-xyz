@@ -16,7 +16,7 @@ Worked with all possible storage mediums and query languages.
 
 Computer user since 1993, write programs since 2004, code version control and automated tests since 2007, increase my velocity by open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
 
-Dzmitry enjoys type systems and automated quality assurance of any kind, and writing in English. 
+Dzmitry enjoys type systems and automated quality assurance of any kind, and writing in English. He always finds how to improve coding at hand at different levels.
 
 For the last year or so, he learns applied mathematics in his free time.
 
@@ -26,21 +26,14 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Using (in random order)
 
-
-Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch.
+Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, Entity Component System.
 
 ## Products
-
-### 2021.06-now, new  type of chat. [Sophya](https://sophya.world)
-
-- Bug fix in based gamechat engine (character direction, leaks, debugging improvements, character destination position)
-- Some simple features - shadow sprites, frustum culling, character sit/stand up flow.
-- ECS, Rust.
 
 ### 2021.03-2021.04, 2021.07. [Solana](https://solana.com/). Software Engineer. Blockchain.
 
 - [NFT, chats](https://github.com/Satellite-im/satellite-solana-contracts), [DeFi, crowd funding contracts](https://solstarter.org/), staking/rewards on Solana chain (ported Solidity or coded by specifications)
-- improving Rust coding practices for contracts
+- Rust 
 
 ### 2020.10-2021.03, [Sprout Therapy](https://www.joinsprouttherapy.com/), Parents (Demand). Healthcare.
 
@@ -86,13 +79,12 @@ Cloud-native microservice-based call and contact center.
 * Bootstrapped actor-based solution with WebSocket frontend for meta part of the game.
 * Guided migration from [OOP][1] to [DOD][5] [ECS][10]-like design to increase performance of realtime part
 * Coded realtime synchronization protocol and compression; convenient and fast serialization
-* Improved coding of features using latest language features
 * Used channels with cooperative multithreading and concurrent queue to implement HPC realtime game server
 * Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users
 * Automated distributed deployment
-* Improved development and release velocity. Facilitated improvement of code organization at large, introduced full-stack low cost structured logging and vertical semantic namespacing, cross IDE builds
+* Facilitated improvement of code organization at large, introduced full-stack low cost structured logging and vertical semantic namespacing, cross IDE builds
 * Coded matchmaking and some battle logic.
-* Integrated best practices into the game studio to prevent business losses due to security breaches
+* Made sure all 
 * Facilities migration from paper-based workflow to digital one with the proper hierarchy of work items.
 * Learned from the flat cross-functional team of developers and designers of approx. 10 people in delivering game from Proof of Concept into Release.
 * Delivering game from Proof of Concept into Release.
