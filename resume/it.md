@@ -71,7 +71,6 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 Cloud-native microservice-based call and contact center.
 
 * Made call handling microservice scalable by eliminating in-memory state.
-* Proposed and communicated improvements to changed build and deployment to be cloud-native and continuos with gates.
 * Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
   
 ### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Software Engineer
@@ -129,7 +128,7 @@ Cloud-native microservice-based call and contact center.
 
 Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
 
-* I delivered and lead technical integration various products for financial professionals into cohesive integrated solution. Some parts of my works are open-sourced on GitHub.
+* I delivered and lead technical integration various products for financial professionals into cohesive integrated solution.
 * Engaged in deliver cross teams and cross technologies(native and managed) integration framework to get larger business value.
 * Using deep understanding of technologies to deliver business results and enablers
 * Improved knowledge sharing and collaboration in distributed teams
