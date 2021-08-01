@@ -26,7 +26,7 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Using (in random order)
 
-Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, Entity Component System.
+Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, Entity Component System, API description languages
 
 ## Products
 
@@ -40,7 +40,7 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 - coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
 - functional and type driven coding 
 - low level PDF rendering
-- Rust, CQRS ES, GraphQL, SQL 
+- Rust, CQRS ES
 
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
