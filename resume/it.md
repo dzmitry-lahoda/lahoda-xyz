@@ -26,16 +26,16 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Using (in random order)
 
-Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, Entity Component System, API description languages
+Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, API description languages, many design and constutruction patterns.
 
 ## Products
 
-### 2021.03-2021.04, 2021.07. [Solana](https://solana.com/). Software Engineer. Blockchain.
+### 2021.03-now. Software Engineer. Blockchain and p2p.
 
-- [NFT, chats](https://github.com/Satellite-im/satellite-solana-contracts), [DeFi, crowd funding contracts](https://solstarter.org/), staking/rewards on Solana chain (ported Solidity or coded by specifications)
-- Rust 
+- Coded lending, AMM, NFT, chats, lending-solana-contracts, DeFi, crowd funding contracts, IDO, staking/rewards, read Solidity, designed architectures.
+- Rust, Solana, Fluence, Substrate
 
-### 2020.10-2021.03, [Sprout Therapy](https://www.joinsprouttherapy.com/), Parents (Demand). Healthcare.
+### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
 
 - coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
 - functional and type driven coding 
