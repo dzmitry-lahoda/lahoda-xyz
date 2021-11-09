@@ -90,8 +90,6 @@ Cloud-native microservice-based call and contact center.
 * Shared practices with the team about testing, process, collaboration, documentation.
 * Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
 * Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
-* Worked with teams from Germany and visited them regularly. Worked hard to make all collaboration online and transparent
-* Was in the stream of 5 developers, within 40 people project.
   
 ### 06.2015 - 08.2017. [Thomson Reuters Legal eDiscovery server engine](https://legal.thomsonreuters.com/en/products/ediscovery-point). Legal.
 
@@ -107,8 +105,6 @@ Cloud-native microservice-based call and contact center.
 * Document and prototyped replacement of distributed lock-based flows into lock-free event-sourced flows for performance and consistency, disentangled cases where we could use eventual consistency and approximations, and were not
 * Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
 * Articulated several cross-team inefficiencies up to resolutions, helped the customer to improve skill-position fit of some employers
-* Trained my writing English to be properly structured, clear and action inducing
-* Worked within the distributed team of 30 developers
   
 ### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal
 
@@ -129,26 +125,18 @@ Windows software for linking data between documents, financial data charting too
 * Solved data, authentication, multiple login prevention, auto-upgrade on client.
 * Made internal tools for productivity, profiling, optimizations and performance analysis.
 * Debugged multithreaded and multiprocess issues.
-* Effectively introduced [TDD][17], [DI][18], [BDD][11], achieved near-zero bug development.
-* Aggressively eliminated technical debt using modern code practices
-* Used virtual machines to test in different setups and fix multiuser environments
-* Tripped to France to do talks on the customer side
 * Made internal tools for productivity, profiling, optimizations and performance analysis
-* Worked in coordination with 50+ developers from several countries, started from small end-user functional team, become distributed framework team of changing size with many functional teams
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010)
 
 * [Prototyped](https://gitlab.com/dzmitry-lahoda/learning-machine-learning/tree/master/mir) visualization to organizes music collection onto 2 dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox). 
 * Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classifies via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
-* With zero supervision, idea and whole implementation are mine.
-
 
 ### 2008.07, 2009.07, internship. [Time Lapse Microscopy Capture Tool](https://www.youtube.com/watch?v=t1TauTaMb6Y), [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
 
 * Scientific domain and hands-on experience in collaboration [with scientists on English](https://www.youtube.com/watch?v=t1TauTaMb6Y).
 * Developed Windows application for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) during [summer school](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/doc/summer_school_cz)
 * Featured continual shooting of photos via a camera attached to the microscope, measuring photo quality, tuning camera settings, plotting entropy calculation, logging results
-* Was under scientific guidance of 2 Ph.D. students
 
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by)
 
