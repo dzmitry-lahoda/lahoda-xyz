@@ -32,7 +32,7 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 
 ### 2021.03-now. Software Engineer. Blockchain and p2p.
 
-- Coded lending, AMM, NFT, chats, lending-solana-contracts, DeFi, crowd funding contracts, IDO, staking/rewards, read Solidity, designed architectures.
+- Coded lending, AMM, NFT, chats, lending, DeFi, crowd funding, IDO, staking/rewards, designed from scratch or ported from Solidity.
 - Rust, Solana, Fluence, Substrate
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
@@ -51,9 +51,8 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 - Prototype of graph db modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
 - Researched alternative and implemented migration from one game servers orchestration engine to other  
 - Setup distributed logging and alerting,  built statistically sound alerts and monitoring dashboards
-- Found a unique way to port some F# features onto C# 9 (no alternatives yet found on github)
 - Custom in memory matchmaking allocation loop via cashing threading channels (in memory actors)
-- Agones, .NET 5, Go
+- Agones, .NET 5
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 
 
