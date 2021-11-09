@@ -26,7 +26,7 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Using (in random order)
 
-Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, microservices, distributed computing, ElasticSearch, API description languages, many design and constutruction patterns.
+Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Prometheus, ELK, Hashicorp, Git, networks, Visual Studio Code, any query langauge or storage, distributed computing, ElasticSearch, API description languages, many design and constutruction patterns.
 
 ## Products
 
@@ -40,19 +40,15 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 - coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
 - functional and type driven coding 
 - low level PDF rendering
-- Rust, CQRS ES
+- Rust
 
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
-- Ownership on hybrid instance allocation for game servers
-- Created persisted distributed state machine for game versions upgrades
-- Found possible holes regarding security and scalability 
-- Design and coding referral, game event objectives, online presence and other flows into mircoservice architecture
+- Hybrid cloud native instance allocation for game servers
+- Distributed game versions upgrades
+- Referral, game event objectives, online presence and other flows into mircoservice architecture
 - Prototype of graph db modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
-- Researched alternative and implemented migration from one game servers orchestration engine to other  
-- Setup distributed logging and alerting,  built statistically sound alerts and monitoring dashboards
-- Custom in memory matchmaking allocation loop via cashing threading channels (in memory actors)
-- Agones, .NET 5
+- Distributed logging and alerting, monitoring dashboards
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 
 
@@ -61,9 +57,7 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 * Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
 * Wrote tool to test flows via queue
 * Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run 
-* Visited USA for 3 weeks trip.
 * Decided not to participating in integrating Jet into Walmart corporation via old version of Java.
-* Event sourcing
 
 ### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/).
 
