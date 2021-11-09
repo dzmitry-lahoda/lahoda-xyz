@@ -73,20 +73,13 @@ Cloud-native microservice-based call and contact center.
 * Made call handling microservice scalable by eliminating in-memory state.
 * Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
   
-### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Software Engineer
-
-* Bootstrapped actor-based solution with WebSocket frontend for meta part of the game.
-* Guided migration from [OOP][1] to [DOD][5] [ECS][10]-like design to increase performance of realtime part
-* Coded realtime synchronization protocol and compression; convenient and fast serialization
-* Used channels with cooperative multithreading and concurrent queue to implement HPC realtime game server
+### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend/DevOps Software Engineer
+* Game from Proof of Concept into Release.
+* Matchmaking, battles, 
+* Actor, WebSockets, [ECS][10], UDP, channels
+* Realtime synchronization protocol and compression; convenient and fast serialization
 * Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users
 * Automated distributed deployment
-* Facilitated improvement of code organization at large, introduced full-stack low cost structured logging and vertical semantic namespacing, cross IDE builds
-* Coded matchmaking and some battle logic.
-* Made sure all 
-* Facilities migration from paper-based workflow to digital one with the proper hierarchy of work items.
-* Learned from the flat cross-functional team of developers and designers of approx. 10 people in delivering game from Proof of Concept into Release.
-* Delivering game from Proof of Concept into Release.
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer. Engineering.
 
