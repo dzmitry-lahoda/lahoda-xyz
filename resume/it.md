@@ -32,13 +32,12 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 
 ### 2021.03-now. Software Engineer. Blockchain and p2p.
 
-- Coded lending, AMM, NFT, chats, lending, DeFi, crowd funding, IDO, staking/rewards, designed from scratch or ported from Solidity.
-- Rust, Solana, Fluence, Substrate
+- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity.
+- Rust, Solana, Substrate, Fluence
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
 
-- coded some flows for long term therapy from login, from questionnaires to documents signing to marketing
-- functional and type driven coding 
+- login, questionnaires, documents signing, marketing flows on CQRS/ES
 - low level PDF rendering
 - Rust
 
@@ -52,7 +51,7 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Promet
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 
 
-* Jet lagged after best leads to make [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation (short term project)
+* [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation
 * Debugged and patched scalability issue in graph database driver
 * Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
 * Wrote tool to test flows via queue
@@ -135,7 +134,6 @@ Windows software for linking data between documents, financial data charting too
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by)
 
 * Coded some server-side part to get data to and from database
-* Worked with 3 junior developers and manager
 
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/)
 
