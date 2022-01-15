@@ -1,14 +1,12 @@
 # About 
 
-Dzmitry Lahoda is coding software since 2004. 
-
-These days enjoys coding Rust and Metaverse. 
+Dzmitry Lahoda creates software since 2004. 
 
 Dzmitry has C1/Advanced English.
 
 He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
 
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, baseic applied statisitcs. 
+Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics. 
 
 Worked in many domains. Dzmitry did not yet code graphic-intensive solutions, databases or math heavy stuff. 
 
@@ -20,11 +18,11 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Profiles
 
-[Github](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
+[GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
-## Expretise in use in random order
+## Expertise in use in random order
 
-Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query langauges and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns.
+Rust,  .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, blockchain.
 
 ## Products
 
@@ -42,8 +40,8 @@ Rust, F#, automated testing, clouds, virtualization, Kubernetes, Windows, Hashic
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
 - Hybrid cloud native instance allocation and updates for game servers via GitOps
-- Referral, game event objectives, online presence and other flows into mircoservice architecture
-- Prototype of graph db modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
+- Referral, game event objectives, online presence and other flows into microservice architecture
+- Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
 - Distributed logging and alerting, monitoring dashboards
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 

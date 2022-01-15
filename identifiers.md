@@ -1,8 +1,13 @@
 
 
+# LLC UA
+
+USREOU 44615284
+
+IBAN UA78 3808 0500 0000 0026 0027 6817 7 UAH
 # gov
 
-Passport number: MP3239213ss
+Belarus Passport number: MP3239213ss
 
 UPN(unique payer number): 692171113
 
@@ -15,10 +20,7 @@ dzmitry.lahoda@gmail.com
 
 # tel
 
-+375299195188
-
-+375255318270
-
++380639580301
 
 # chats
 
