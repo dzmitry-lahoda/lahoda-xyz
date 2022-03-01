@@ -28,8 +28,8 @@ Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hash
 
 ### 2021.03-now. Software Engineer. Blockchain and p2p.
 
-- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity.
-- Rust, Solana, Substrate, Fluence
+- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity, off chain (indexing and offchain).
+- Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), Fluence
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
 
