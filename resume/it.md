@@ -22,14 +22,14 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Expertise in use in random order
 
-Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and      storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, blockchain, modelling languages.
+Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, modelling languages, infrastucture as code.
 
 ## Products
 
 ### 2021.03-now. Software Engineer. Blockchain and p2p.
 
 - DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity, off chain (indexing and offchain).
-- Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), Fluence
+- Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
 
@@ -39,7 +39,7 @@ Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hash
 
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
-- Hybrid cloud native instance allocation and updates for game servers via GitOps
+- Hybrid cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
 - Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
 - Distributed logging and alerting, monitoring dashboards
@@ -50,8 +50,7 @@ Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hash
 * Debugged and patched scalability issue in graph database driver
 * Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
 * Wrote tool to test flows via queue
-* Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run 
-* Decided not to participating in integrating Jet into Walmart corporation via old version of Java.
+* Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
 
 ### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/).
 
@@ -110,7 +109,7 @@ Windows software for linking data between documents, financial data charting too
 * Improved knowledge sharing and collaboration in distributed teams
 * Refactoring existing code into components with proper variability engineering
 * Coded custom [IPC](16) and asynchronous modules systems
-* Solved data, authentication, multiple login prevention, auto-upgrade on client.
+* Solved client side of data, authentication, multiple login prevention, auto-upgrade.
 * Made internal tools for productivity, profiling, optimizations and performance analysis.
 * Debugged multithreaded and multiprocess issues.
 * Made internal tools for productivity, profiling, optimizations and performance analysis
@@ -135,7 +134,7 @@ Windows software for linking data between documents, financial data charting too
 Created industrial [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) application connected to a woodworking machine.
 
 * Coded tools to edit/store/execute sawing plans, change sawing machine setup and monitor sawing process.
-* Programmed configuration file format parser, custom system event loop, custom text window system with edit boxes/menus/labels/help, communication protocol with hardware [LPT](https://en.wikipedia.org/wiki/Parallel_port) port.
+* Programmed configuration file format parser, custom system event loop, custom text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware [LPT](https://en.wikipedia.org/wiki/Parallel_port) port.
 * Worked and communicated with microcontroller programmer.
 
 ### 2004.09-2005.03, part time. Graduates database
@@ -147,9 +146,9 @@ Created industrial [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) application co
 
 ### 2018-2020, Hackatons
 
-Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which were legal hackatons.  So nothing was born out these...
+Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which were legal hackatons.
 
-### 2012-2019.10, Security and privacy and serverless
+### 2012-now, Security, privacy and serverless
 
 * Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective, learned how pricy these tools are.
 * Used deGoogled phone for one year and saw how ineffective a person is without a corporation.
@@ -170,12 +169,7 @@ Many math courses on https://brilliant.org/profile/dzmitry-rrotsd/about/
 
 ### 2019.12-2020.04 English, British Council
 
-IELTS 7.0. CEFR Level C1
-
-Issued date and, if applicable, expiration date of the certification or license Issued May 2020No Expiration Date
-
-Credential Identifier Credential ID A3-BY002-S-4101019
-
+IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 ### 2010.04-2014.02, part time
 
