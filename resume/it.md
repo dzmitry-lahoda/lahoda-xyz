@@ -6,9 +6,7 @@ Dzmitry has C1/Advanced English.
 
 He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
 
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics. 
-
-Worked in many domains. Dzmitry did not yet code graphic-intensive solutions, databases or math heavy stuff. 
+Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics. He worked in legal, financial, game, blockchain, engineering, communications, healthcare, ecommerce, industrial, research, accounting, entertainment domains.
 
 Computer user since 1993, write programs since 2004, code version control and automated tests since 2007, increase my velocity by open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
 
@@ -28,7 +26,7 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ### 2021.03-now. Software Engineer. Blockchain and p2p.
 
-- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity, off chain (indexing and offchain).
+- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity, off chain solutions.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
