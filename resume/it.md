@@ -24,9 +24,9 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ## Products
 
-### 2021.03-now. Software Engineer. Blockchain and p2p.
+### 2021.03-now. Software Engineer.  Web3.0m blockchain, p2p.
 
-- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards), user registry, chats, designed from scratch or ported from Solidity, off chain solutions.
+- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported from Solidity, off/cross chain solutions.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
