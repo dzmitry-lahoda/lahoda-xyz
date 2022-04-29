@@ -6,7 +6,7 @@ Dzmitry has C1/Advanced English.
 
 He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
 
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics. 
+Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics.
 
 Worked in many domains. Dzmitry did not yet code graphic-intensive solutions, databases or math heavy stuff. 
 
@@ -22,7 +22,7 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Expertise in use in random order
 
-Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and      storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, blockchain, modelling languages.
+Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, blockchain, modelling languages, Go.
 
 ## Products
 
@@ -33,9 +33,9 @@ Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hash
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
 
+- Rust
 - login, questionnaires, documents signing, marketing flows on CQRS/ES
 - low level PDF rendering
-- Rust
 
 ### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
 
@@ -100,6 +100,12 @@ Cloud-native microservice-based call and contact center.
 * Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [XML based][19] [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 * Fixed issues in fault tolerant background task executions and notifications
 
+### 2011.07-2013.01. Website security/forensics audit for [PKI][2]
+
+* Used reverse engineering to find several holes in site security from client code to DB
+* Proposed alternative implementation of services
+* Scripted to automate security issues
+
 ### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial
 
 Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
@@ -155,12 +161,6 @@ Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which
 * Used deGoogled phone for one year and saw how ineffective a person is without a corporation.
 * Using distributed networks to store and read data, and understood what is future of computing.
 * Built couple of jamstack sites
-
-### 2011.07-2013.01, fun time. Website security/forensics audit for [PKI][2]
-
-* Used reverse engineering to find several holes in site security from client code to DB
-* Proposed alternative implementation of services
-* Provided scripts to business to do security evaluation continuously
 
 ## Education
 
