@@ -22,11 +22,7 @@ For the last year or so, he learns applied mathematics in his free time.
 
 ## Expertise in use in random order
 
-<<<<<<< HEAD
-Rust, .NET, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, blockchain, modelling languages, Go.
-=======
-Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, modelling languages, infrastucture as code.
->>>>>>> cde0e4b89d75c0821092aceedc6119678012dca6
+Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, modelling languages, infrastructure as code, blockchain, p2p, Go.
 
 ## Products
 
