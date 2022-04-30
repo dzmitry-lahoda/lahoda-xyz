@@ -26,25 +26,31 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ## Products
 
-### 2021.03-now. Software Engineer.  Web3.0m blockchain, p2p.
+### 2021.03-now. Software Engineer.  Web3.0, blockchain, p2p
 
 - DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported from Solidity, off/cross chain solutions.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
-### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Software Engineer. Healthcare.
+### 2021.05-2021.11. Software Engineer. Metaverse
+
+- Made several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
+- Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
+- Rust
+
+### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Backend Software Engineer. Healthcare
 
 - Rust
 - login, questionnaires, documents signing, marketing flows on CQRS/ES
 - low level PDF rendering
 
-### 2020.03 - now, [Crey Games](playcrey.com). Software Engineer. GameDev
+### 2020.03 - now, [Crey Games](playcrey.com). Backend Software Engineer and DevOps. GameDev
 
 - Hybrid cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
 - Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
 - Distributed logging and alerting, monitoring dashboards
 
-### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). 
+### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). Backend Software Engineer
 
 * [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation
 * Debugged and patched scalability issue in graph database driver
@@ -52,22 +58,22 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 * Wrote tool to test flows via queue
 * Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
 
-### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/).
+### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps
 
 Cloud-native microservice-based call and contact center.
 
 * Made call handling microservice scalable by eliminating in-memory state.
 * Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
   
-### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend/DevOps Software Engineer
+### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
 * Game from Proof of Concept into Release.
-* Matchmaking, battles, 
+* Matchmaking, battles, meta configuration
 * Actor, WebSockets, [ECS][10], UDP, channels
 * Realtime synchronization protocol and compression; convenient and fast serialization
 * Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users
 * Automated distributed deployment
 
-### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer. Engineering.
+### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Desktop Software Engineer. Engineering.
 
 [Windows desktop application](https://www.youtube.com/watch?v=Iuqq1RdgY0A&list=PLdK8AlEjocsVVJfXTdzvzHBNrR31DNS8n) to show and analyze measurement data from car sensors.
 
@@ -78,7 +84,7 @@ Cloud-native microservice-based call and contact center.
 * Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
 * Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
   
-### 06.2015 - 08.2017. [Thomson Reuters Legal eDiscovery server engine](https://legal.thomsonreuters.com/en/products/ediscovery-point). Legal.
+### 06.2015 - 08.2017. [Thomson Reuters Legal eDiscovery server engine](https://legal.thomsonreuters.com/en/products/ediscovery-point). Legal. Backend Software Engineer
 
 [e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
@@ -93,19 +99,19 @@ Cloud-native microservice-based call and contact center.
 * Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
 * Articulated several cross-team inefficiencies up to resolutions, helped the customer to improve skill-position fit of some employers
   
-### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal
+### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Fullstack Software Engineer
 
 * Maintained client-server application framework, which has technical part dated back to 2003 and domain model from 1990s
 * Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [XML based][19] [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 * Fixed issues in fault tolerant background task executions and notifications
 
-### 2011.07-2013.01. Website security/forensics audit for [PKI][2]
+### 2011.07-2013.01. Website security/forensics audit for [PKI][2]. Researcher.
 
 * Used reverse engineering to find several holes in site security from client code to DB
 * Proposed alternative implementation of services
 * Scripted to automate security issues
 
-### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial
+### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial. Desktop Software Engineer
 
 Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
 
@@ -120,7 +126,7 @@ Windows software for linking data between documents, financial data charting too
 * Debugged multithreaded and multiprocess issues.
 * Made internal tools for productivity, profiling, optimizations and performance analysis
 
-### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010)
+### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher.
 
 * [Prototyped](https://gitlab.com/dzmitry-lahoda/learning-machine-learning/tree/master/mir) visualization to organizes music collection onto 2 dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox). 
 * Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classifies via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
@@ -131,11 +137,11 @@ Windows software for linking data between documents, financial data charting too
 * Developed Windows application for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) during [summer school](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/doc/summer_school_cz)
 * Featured continual shooting of photos via a camera attached to the microscope, measuring photo quality, tuning camera settings, plotting entropy calculation, logging results
 
-### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by)
+### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by). Intern
 
 * Coded some server-side part to get data to and from database
 
-### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/)
+### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/). Driver/Desktop Software Engineer
 
 Created industrial [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) application connected to a woodworking machine.
 
@@ -159,7 +165,7 @@ Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which
 * Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective, learned how pricy these tools are.
 * Used deGoogled phone for one year and saw how ineffective a person is without a corporation.
 * Using distributed networks to store and read data, and understood what is future of computing.
-* Built couple of jamstack sites
+* Built couple of serverless sites
 
 ## Education
 
