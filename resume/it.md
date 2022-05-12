@@ -26,18 +26,18 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ## Products
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer.
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works.
 
 - DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported from Solidity, off/cross chain solutions.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
-### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Freelance.
+### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works.
 
 - Rust
 - Made several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
 - Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
 
-### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Backend Software Engineer. Healthcare. Freelance.
+### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works.
 
 - Rust
 - login, questionnaires, documents signing, marketing flows on CQRS/ES
