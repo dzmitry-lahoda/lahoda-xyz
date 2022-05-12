@@ -26,24 +26,24 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ## Products
 
-### 2021.03-now. Software Engineer.  Web3.0, blockchain, p2p
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer.
 
 - DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported from Solidity, off/cross chain solutions.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
-### 2021.05-2021.11. Software Engineer. Metaverse
+### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Freelance.
 
+- Rust
 - Made several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
 - Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
-- Rust
 
-### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Backend Software Engineer. Healthcare
+### 2020.10-2021.03, [Elemy](https://www.elemy.com/).  Backend Software Engineer. Healthcare. Freelance.
 
 - Rust
 - login, questionnaires, documents signing, marketing flows on CQRS/ES
 - low level PDF rendering
 
-### 2020.03 - now, [Crey Games](playcrey.com). Backend Software Engineer and DevOps. GameDev
+### 2020.03 - 2022.06, [Crey Games](playcrey.com). Backend Software Engineer and DevOps. GameDev
 
 - Hybrid cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
