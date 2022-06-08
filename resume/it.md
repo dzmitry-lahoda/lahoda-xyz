@@ -16,6 +16,8 @@ Dzmitry enjoys type systems and automated proves of any kind, and writing in Eng
 
 He learns applied mathematics in his free time.
 
+Dzmitry likes texts,  helps distributed teams to deliver better results leading by example of doing agile lean documentation and knowledge sharing.
+
 ## Profiles
 
 [GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
@@ -93,11 +95,9 @@ Cloud-native microservice-based call and contact center.
 * Developed orchestration with error handling of event-driven services, HTTP API, billing, audit, reporting, query provider to NoSql database, reusable infrastructure components, asynchronous data- and work-flows
 * Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
 * Used several data storages(relational, document, files, queue, cache).
-* Improved teams capability to produce better software faster by setting up practices of agile lean documentation and knowledge sharing
 * Created malicious e-Discovery hardening data set
 * Document and prototyped replacement of distributed lock-based flows into lock-free event-sourced flows for performance and consistency, disentangled cases where we could use eventual consistency and approximations, and were not
 * Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
-* Articulated several cross-team inefficiencies up to resolutions, helped the customer to improve skill-position fit of some employers
   
 ### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Fullstack Software Engineer
 
@@ -105,7 +105,7 @@ Cloud-native microservice-based call and contact center.
 * Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [XML based][19] [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 * Fixed issues in fault tolerant background task executions and notifications
 
-### 2011.07-2013.01. Website security/forensics audit for [PKI][2]. Researcher.
+### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher.
 
 * Used reverse engineering to find several holes in site security from client code to DB
 * Proposed alternative implementation of services
@@ -115,10 +115,8 @@ Cloud-native microservice-based call and contact center.
 
 Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
 
-* I delivered and lead technical integration various products for financial professionals into cohesive integrated solution.
+* Designed and delivered technical integration various products for financial professionals into cohesive integrated solution.
 * Engaged in deliver cross teams and cross technologies(native and managed) integration framework to get larger business value.
-* Using deep understanding of technologies to deliver business results and enablers
-* Improved knowledge sharing and collaboration in distributed teams
 * Refactoring existing code into components with proper variability engineering
 * Coded custom [IPC](16) and asynchronous modules systems
 * Solved client side of data, authentication, multiple login prevention, auto-upgrade.
