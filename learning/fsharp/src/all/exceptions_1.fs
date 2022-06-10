@@ -1,0 +1,4 @@
+
+
+
+exception MyException of string

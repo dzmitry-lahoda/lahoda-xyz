@@ -1,0 +1,49 @@
+
+
+Q: What’s the number of non-empty languages that contain only strings of 0's and 1's of length n?
+A:
+if n = 1
+1
+0
+
+n1 = 2
+
+if n = 2
+
+01
+00
+11
+10
+
+n2 = 4
+
+if n = 3
+
+000
+001
+011
+111
+111
+110
+100
+101
+010
+
+n3 = 9
+
+2^n strings
+
+so lang for n = 2 is when we have only n1 string or only n2 strings or combine and get n3 strings
+n1 + n2 +  n3  = 15
+2^2^n -1  = ??
+
+
+
+
+
+
+
+
+
+
+

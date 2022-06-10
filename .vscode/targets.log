@@ -1,0 +1,329 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 23:53:08 2022
+
+# Variables
+
+# environment
+PROVIDE_FULLSTACK_ACTION = true
+# environment
+SYSTEMDRIVE = C:
+# environment
+GHCUP_INSTALL_BASE_PREFIX = C:\
+# environment
+LC_ALL = C
+# environment
+CAMLIBS = C:\Program Files\darktable\lib\libgphoto2\2.5.27
+# environment
+USERPROFILE = C:\Users\dz
+# environment
+UUID = 51dda387-f4ea-48c3-8ed9-9ca94efec4f6
+# environment
+LOCALAPPDATA = C:\Users\dz\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-53a354e8-17d4-443c-a272-3a31ba616b63-sock
+# environment
+VSCODE_CWD = C:\Users\dz\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Users\dz\scoop\modules;C:\Users\dz\Documents\WindowsPowerShell\Modules
+# environment
+AZURECLIPATH = C:\Users\dz\scoop\apps\azure-cli\current\wbin
+# default
+MAKE_COMMAND := C:/Users/dz/scoop/apps/make/current/bin/make.exe
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
+# environment
+GOPATH = C:\Users\dz\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_32292_MDCPXJLCONJUZQKV
+# environment
+IOLIBS = C:\Program Files\darktable\lib\libgphoto2_port\0.12.0
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+GIT_INSTALL_ROOT = C:\Users\dz\scoop\apps\git\current
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\dz\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\dz\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\dz\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro for Workstations
+# makefile
+CURDIR := d:/git/lahoda-xyz
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+UTM_SOURCE = vscode
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 32292
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\dz
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\dz\.local\share\solana\install\releases\1.9.4\solana-release\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7\;C:\Program Files\Airshipper\;C:\Users\dz\AppData\Roaming\local\bin;C:\Users\dz\scoop\apps\python\current\Scripts;C:\Users\dz\scoop\apps\python\current;C:\Users\dz\scoop\apps\openssl\current\bin;C:\Users\dz\.local\share\solana\install\active_release\bin;C:\Users\dz\scoop\apps\nodejs\current\bin;C:\Users\dz\scoop\apps\nodejs\current;C:\Users\dz\scoop\apps\latex\current\texmfs\install\miktex\bin\x64;C:\Users\dz\scoop\apps\dotnet-sdk\current;C:\Users\dz\.cargo\bin;C:\Users\dz\scoop\shims;C:\Users\dz\AppData\Local\Microsoft\WindowsApps;C:\Users\dz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dz\.dotnet\tools;C:\Users\dz\.dotnet\tools;C:\Users\dz\go\bin;C:\Program Files (x86)\mitmproxy\bin;C:\Users\dz\AppData\Local\Programs\Fiddler;C:\ghcup\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DZ-PC-11
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+OPENSSL_CONF = C:\Users\dz\scoop\apps\openssl\current\bin\cnf\openssl.cnf
+# environment
+OPENSSL_LIB_DIR = C:\Users\dz\scoop\apps\openssl\current\lib
+# environment
+LOGONSERVER = \\DZ-PC-11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = dz
+# environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AZURE_CLI_PATH = C:\Users\dz\scoop\apps\azure-cli\current\wbin
+# environment
+USERDOMAIN = DZ-PC-11
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# environment
+MAGICK_HOME = C:\Program Files\darktable\lib\GraphicsMagick-1.3.37\modules-Q8\coders
+# makefile
+.DEFAULT_GOAL := 
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+OPENSSL_INCLUDE_DIR = C:\Users\dz\scoop\apps\openssl\current\include
+# environment
+LIBCLANG_PATH = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin
+# environment
+USERDOMAIN_ROAMINGPROFILE = DZ-PC-11
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\dz\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+MSBUILDSDKSPATH = C:\Users\dz\scoop\apps\dotnet-sdk\current\sdk\6.0.100\Sdks
+# environment
+GOLANG_EXECUTABLE = go
+# environment
+STACK_ROOT = C:\sr
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\dz
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\dz\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\8557c2107889f36ae1070b486dacd03d-1.68.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+CABAL_DIR = C:\cabal
+# environment
+SESSIONNAME = Console
+# environment
+TELEMETRY_ID = 2669e931-4e33-4b0f-a0d8-19d2878d7cff
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8d01
+# environment
+DOTNET_ROOT = C:\Users\dz\scoop\apps\dotnet-sdk\current
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+# variable set hash-table stats:
+# Load=119/1024=12%, Rehash=0, Collisions=9/143=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/git/lahoda-xyz, mtime 1653847699): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 243 B / avg = 9 B
+# current buf: size = 8174 B / used = 243 B / count = 26 / avg = 9 B
+
+# strcache performance: lookups = 29 / hit rate = 10%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Fri Jun 10 23:53:08 2022
+
+ 

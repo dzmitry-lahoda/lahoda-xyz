@@ -1,0 +1,14 @@
+10T14:06:00Z
+
+Предложил супруге с сыном заехать в музей квантум весёлый. Сказала нет ибо ей надо учиться. Предложил только я и Мирослав - не согласилась.
+
+Возил Мирушку к зубному. Рядом был музей с египтянской выставкой и мумия. Предложил сходить после зубного. Согласия не получил.
+
+12T13:22:00Z
+
+Tried to write recursion via direct stack usage and loop to get amplitude of number binary tree. Spent 2 hours and failed. Language based recursion took 15 minutes. 
+
+
+
+
+

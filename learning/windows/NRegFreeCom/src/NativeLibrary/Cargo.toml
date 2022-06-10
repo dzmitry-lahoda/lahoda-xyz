@@ -1,0 +1,10 @@
+[package]
+name = "native_library_server"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "native_library"
+
+[dependencies]
+com = "0.6.0"

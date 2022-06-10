@@ -1,0 +1,19 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1392737057119" ID="ID_1562284403" MODIFIED="1392737122659" TEXT="Socio">
+<node CREATED="1323006363221" ID="ID_1225139160" MODIFIED="1392737062737" POSITION="right" TEXT="&#x43f;&#x441;&#x438;&#x445;&#x43e;&#x43b;&#x43e;&#x433;&#x438;&#x44f;">
+<node CREATED="1323006373012" ID="ID_796965121" MODIFIED="1323006377202" TEXT="&#x442;&#x440;&#x430;&#x43d;&#x441;&#x43f;&#x435;&#x440;&#x441;&#x43e;&#x43d;&#x430;&#x43b;&#x44c;&#x43d;&#x430;&#x44f;"/>
+<node CREATED="1323006379687" ID="ID_487238811" MODIFIED="1323006390724" TEXT="&#x442;&#x430;&#x43d;&#x430;&#x442;&#x43e; &#x442;&#x435;&#x43b;&#x43e; &#x442;&#x435;&#x440;&#x430;&#x43f;&#x438;&#x44f;"/>
+<node CREATED="1323006406441" ID="ID_185816157" MODIFIED="1323006450681" TEXT="&#x441;&#x446;&#x435;&#x43d;&#x430;&#x440;&#x438;&#x439; &#x436;&#x438;&#x437;&#x43d;&#x438;">
+<node CREATED="1323006416664" ID="ID_1752164242" MODIFIED="1323006418942" TEXT="&#x43f;&#x43e;&#x437;&#x438;&#x446;&#x438;&#x44f;"/>
+<node CREATED="1323006421231" ID="ID_503163423" MODIFIED="1323006427676" TEXT="&#x440;&#x43e;&#x43b;&#x44c;"/>
+<node CREATED="1323006432217" ID="ID_1494290483" MODIFIED="1323006435092" TEXT="&#x441;&#x442;&#x438;&#x43b;&#x44c;"/>
+<node CREATED="1323006452822" ID="ID_1035349333" MODIFIED="1323006480087" TEXT="&#x441;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x43d;&#x430;&#x44f; &#x442;&#x435;&#x440;&#x430;&#x43f;&#x438;&#x44f;">
+<node CREATED="1323006469499" ID="ID_631437094" MODIFIED="1323006474133" TEXT="&#x43a;&#x438;&#x431;&#x435;&#x440;&#x43d;&#x435;&#x442;&#x438;&#x43a;&#x430;"/>
+<node CREATED="1323006482596" ID="ID_1006274447" MODIFIED="1323006501128" TEXT="&#x43b;&#x44e;&#x434;&#x432;&#x438;&#x433; &#x444;&#x43e;&#x43d; &#x431;&#x435;&#x440;&#x442;&#x430;&#x43b;&#x430;&#x43d;&#x444;&#x438;"/>
+</node>
+</node>
+<node CREATED="1323006487936" ID="ID_1386503861" MODIFIED="1323006492560" TEXT="&#x43f;&#x441;&#x438;&#x445;&#x43e;&#x430;&#x43d;&#x430;&#x43b;&#x438;&#x437;"/>
+</node>
+</node>
+</map>

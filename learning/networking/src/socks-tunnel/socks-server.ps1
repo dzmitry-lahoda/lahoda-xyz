@@ -1,0 +1,1 @@
+go-shadowsocks2.exe -s 'ss://AEAD_CHACHA20_POLY1305:your-password@:8488' -verbose

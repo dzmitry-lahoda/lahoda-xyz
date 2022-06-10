@@ -1,0 +1,19 @@
+{
+    "name": "Client",
+    "references": [
+        "Unity.Networking.Transport",
+        "UnityEngine.Ucg.Matchmaking",
+        "Shared",
+        "Unity.ucg.QoS",
+        "unity.ucg.mmconnector"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

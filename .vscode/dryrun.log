@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/git/lahoda-xyz'
+make: Leaving directory 'd:/git/lahoda-xyz'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

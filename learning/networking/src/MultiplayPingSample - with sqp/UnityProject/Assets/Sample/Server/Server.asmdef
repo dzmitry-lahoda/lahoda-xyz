@@ -1,0 +1,19 @@
+{
+    "name": "Server",
+    "references": [
+        "Unity.Ucg.Usqp",
+        "Unity.Networking.Transport",
+        "Shared",
+        "Unity.Burst",
+        "Unity.Collections"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

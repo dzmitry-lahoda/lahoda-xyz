@@ -1,0 +1,1 @@
+docker run --publish 9090:9090 --mount type=bind,source=${pwd}/prometheus/prometheus.yml,target=/etc/prometheus/prometheus.yml prom/prometheus

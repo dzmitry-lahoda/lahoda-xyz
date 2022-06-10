@@ -1,0 +1,27 @@
+# .NET and Windows
+packages
+.paket/paket.exe
+paket.lock
+bin
+obj
+exe
+dll
+build
+debug
+release
+ipch
+_ReSharper.*
+desktop.ini
+*.suo
+*.user
+*.vs
+
+# tf
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+terraform.tfvars
+.secrets
+*.tfplan
+.ionide/symbolCache.db

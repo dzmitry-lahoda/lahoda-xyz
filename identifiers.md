@@ -1,53 +1,59 @@
+# Overview
+
+These idenfiers you can find/collaborate/chat (with) me.
+
+## Banks
+
+### Revolut
+
+BIK: REVOLT21
+
+IBAN: LT653250070425391862
+
+Address: 7 Westferry Circus, Canary Wharf, London E14 4HD
+
+## Email
+
+[dzmitry@lahoda.pro](email:dzmitry@lahoda.pro)
 
 
-# LLC UA
+## Phones
 
-USREOU 44615284
+[+351914069170](tel:+351914069170)
 
-IBAN UA78 3808 0500 0000 0026 0027 6817 7 UAH
-# gov
+[+380639580301](tel:+380639580301)
 
-Belarus Passport number: MP3239213
-
-UPN(unique payer number): 692171113
-
-# email
-
-dzmitry@lahoda.pro
-
-dzmitry.lahoda@gmail.com
+[+48501195651](tel:+48501195651)
 
 
-# tel
-
-tel:+375299195188
-
-tel:+380639580301
-
-tel:+48501195651
-
-tel:+351914069170
-
-# chats
+## chats
 
 [Telegram dzmitry_lahoda](https://t.me/dzmitry_lahoda)
 
 Skype dzmitry.lahoda.epam
 
-# keys
+## Keys
 
 solana 5RwjjfPnSjnuUNoNpyB5jsJwHkz5ZzWWT399HoPAMeTy
 
-# banks
+## Govermental
 
-
-BIK: REVOLT21 
-CURRENCY: EUR
-IBAN: LT653250070425391862
-Address: 7 Westferry Circus, Canary Wharf, London E14 4HD
-
-
-# portugal
+### Portugal
 
 NISS 12089808875
 NIF 310653835
+
+### LLC UA
+
+USREOU 44615284
+
+#### Bank
+
+IBAN UA78 3808 0500 0000 0026 0027 6817 7 UAH
+
+
+### Belarus
+
+Belarus Passport number: MP3239213
+
+UPN(unique payer number): 692171113
