@@ -49,7 +49,7 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 
 ### 2020.03 - 2022.06, [Crey Games](playcrey.com). Backend Software Engineer and DevOps. GameDev
 
-- Hybrid cloud native instance allocation, updates and matchmaking for game servers
+- Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
 - Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users). 
 - Distributed logging and alerting, monitoring dashboards
@@ -57,9 +57,8 @@ Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, W
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). Backend Software Engineer
 
 * [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation
-* Debugged and patched scalability issue in graph database driver
+* Wrote distributed testing tools, debugged and patched scalability issue in graph database driver
 * Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
-* Wrote tool to test flows via queue
 * Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
 
 ### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps
