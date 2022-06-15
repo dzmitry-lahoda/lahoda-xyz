@@ -18,6 +18,8 @@ He learns applied mathematics in his free time.
 
 Dzmitry likes texts,  helps distributed teams to deliver better results leading by example of doing agile lean documentation and knowledge sharing.
 
+Recently he became [digital nomad](https://www.airbnb.com/users/show/447201982).
+
 ## Profiles
 
 [GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
