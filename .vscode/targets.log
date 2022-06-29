@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 23:53:08 2022
+# Make data base, printed on Sat Jun 11 21:13:41 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 PROVIDE_FULLSTACK_ACTION = true
 # environment
@@ -29,7 +31,7 @@ UUID = 51dda387-f4ea-48c3-8ed9-9ca94efec4f6
 # environment
 LOCALAPPDATA = C:\Users\dz\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-53a354e8-17d4-443c-a272-3a31ba616b63-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-972bab80-a764-423b-a23b-749094e771f8-sock
 # environment
 VSCODE_CWD = C:\Users\dz\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -49,9 +51,11 @@ GOPATH = C:\Users\dz\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_32292_MDCPXJLCONJUZQKV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8864_VXYVGSDYYLDAAEDB
 # environment
 IOLIBS = C:\Program Files\darktable\lib\libgphoto2_port\0.12.0
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -91,7 +95,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 UTM_SOURCE = vscode
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -111,7 +115,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 32292
+VSCODE_PID = 8864
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -251,7 +255,7 @@ DOTNET_ROOT = C:\Users\dz\scoop\apps\dotnet-sdk\current
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=119/1024=12%, Rehash=0, Collisions=9/143=6%
+# Load=121/1024=12%, Rehash=0, Collisions=10/145=7%
 
 # Pattern-specific Variable Values
 
@@ -324,6 +328,6 @@ GNUmakefile:
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Fri Jun 10 23:53:08 2022
+# Finished Make data base on Sat Jun 11 21:13:41 2022
 
  

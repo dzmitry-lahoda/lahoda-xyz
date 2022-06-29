@@ -1,0 +1,13 @@
+digraph DNS {
+    ALIAS -> "@" [label = "from", headUrl = "https://docs.gandi.net/en/domain_names/faq/record_types/alias_record.html"]
+    "@" -> "example.com" [label = "means"];
+    ALIAS -> "www.example.com." [label = "to"]
+    ALIAS -> HOSTNAME [label ="references"];
+    HOSTNAME -> "www.example.com" [label ="example"];
+    "www.example.com." -> "www.example.com" [label = "to", labelURL ="www.example.com"];
+    CNAME -> SUBDOMAIN [label ="references"];
+    SUBDOMAIN -> "www" [label = "example"]; 
+    SUBDOMAIN -> HOSTNAME [label="of"];
+    "www" -> "www.example.com" [label = "routes to"];
+
+}
