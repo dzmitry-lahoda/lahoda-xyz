@@ -26,13 +26,13 @@ Recently he became [digital nomad](https://www.airbnb.com/users/show/447201982).
 
 ## Expertise in use in random order
 
-Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, API description languages, many design and construction patterns, modelling languages, infrastructure as code, blockchain, p2p, Go, Terraform.
+Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, several dozedns kinds of non turing and DSL languages, many design and construction patterns, modelling languages, infrastructure as code, blockchain, p2p, Go, Terraform, Solidity.
 
 ## Products
 
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works.
 
-- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported from Solidity, off/cross chain solutions.
+- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported, off/cross chain solutions, Virtual Machines.
 - Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works.
@@ -103,7 +103,7 @@ Cloud-native microservice-based call and contact center.
 ### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Fullstack Software Engineer
 
 * Maintained client-server application framework, which has technical part dated back to 2003 and domain model from 1990s
-* Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), [XML based][19] [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
+* Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), custom markup based [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 * Fixed issues in fault tolerant background task executions and notifications
 
 ### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher.
@@ -210,6 +210,4 @@ IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 [16]: https://en.wikipedia.org/wiki/Inter-process_communication
 [17]: https://en.wikipedia.org/wiki/Test-driven_development
 [18]: https://en.m.wikipedia.org/wiki/Dependency_injection
-[19]: https://en.wikipedia.org/wiki/XML
 [21]: https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language
-[23]: https://www.gerritcodereview.com/
