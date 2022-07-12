@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 21:13:41 2022
+# Make data base, printed on Tue Jul 12 19:23:37 2022
 
 # Variables
 
@@ -31,7 +31,7 @@ UUID = 51dda387-f4ea-48c3-8ed9-9ca94efec4f6
 # environment
 LOCALAPPDATA = C:\Users\dz\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-972bab80-a764-423b-a23b-749094e771f8-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4283fdf7-3c0f-46d1-9ea4-6f3ce048ddf5-sock
 # environment
 VSCODE_CWD = C:\Users\dz\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -51,7 +51,7 @@ GOPATH = C:\Users\dz\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8864_VXYVGSDYYLDAAEDB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8988_OICCDOZBFMMLQSKR
 # environment
 IOLIBS = C:\Program Files\darktable\lib\libgphoto2_port\0.12.0
 # environment
@@ -71,7 +71,7 @@ VSCODE_LOG_STACK = false
 # environment
 GIT_INSTALL_ROOT = C:\Users\dz\scoop\apps\git\current
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\dz\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\dz\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -115,7 +115,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8864
+VSCODE_PID = 8988
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -145,7 +145,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\dz\.local\share\solana\install\releases\1.9.4\solana-release\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7\;C:\Program Files\Airshipper\;C:\Users\dz\AppData\Roaming\local\bin;C:\Users\dz\scoop\apps\python\current\Scripts;C:\Users\dz\scoop\apps\python\current;C:\Users\dz\scoop\apps\openssl\current\bin;C:\Users\dz\.local\share\solana\install\active_release\bin;C:\Users\dz\scoop\apps\nodejs\current\bin;C:\Users\dz\scoop\apps\nodejs\current;C:\Users\dz\scoop\apps\latex\current\texmfs\install\miktex\bin\x64;C:\Users\dz\scoop\apps\dotnet-sdk\current;C:\Users\dz\.cargo\bin;C:\Users\dz\scoop\shims;C:\Users\dz\AppData\Local\Microsoft\WindowsApps;C:\Users\dz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dz\.dotnet\tools;C:\Users\dz\.dotnet\tools;C:\Users\dz\go\bin;C:\Program Files (x86)\mitmproxy\bin;C:\Users\dz\AppData\Local\Programs\Fiddler;C:\ghcup\bin
+PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\dz\.local\share\solana\install\releases\1.9.4\solana-release\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Airshipper\;C:\Program Files\PowerShell\7\;C:\Users\dz\AppData\Roaming\local\bin;C:\Users\dz\scoop\apps\python\current\Scripts;C:\Users\dz\scoop\apps\python\current;C:\Users\dz\scoop\apps\openssl\current\bin;C:\Users\dz\.local\share\solana\install\active_release\bin;C:\Users\dz\scoop\apps\nodejs\current\bin;C:\Users\dz\scoop\apps\nodejs\current;C:\Users\dz\scoop\apps\latex\current\texmfs\install\miktex\bin\x64;C:\Users\dz\scoop\apps\dotnet-sdk\current;C:\Users\dz\.cargo\bin;C:\Users\dz\scoop\shims;C:\Users\dz\AppData\Local\Microsoft\WindowsApps;C:\Users\dz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dz\.dotnet\tools;C:\Users\dz\.dotnet\tools;C:\Users\dz\go\bin;C:\Program Files (x86)\mitmproxy\bin;C:\Users\dz\AppData\Local\Programs\Fiddler;C:\ghcup\bin;C:\Users\dz\AppData\Local\Markdown Monster
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -223,15 +223,13 @@ STACK_ROOT = C:\sr
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = C:\Users\dz
-# environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\dz\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\8557c2107889f36ae1070b486dacd03d-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\8557c2107889f36ae1070b486dacd03d-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -255,7 +253,7 @@ DOTNET_ROOT = C:\Users\dz\scoop\apps\dotnet-sdk\current
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=121/1024=12%, Rehash=0, Collisions=10/145=7%
+# Load=120/1024=12%, Rehash=0, Collisions=10/144=7%
 
 # Pattern-specific Variable Values
 
@@ -328,6 +326,6 @@ GNUmakefile:
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Sat Jun 11 21:13:41 2022
+# Finished Make data base on Tue Jul 12 19:23:37 2022
 
  
