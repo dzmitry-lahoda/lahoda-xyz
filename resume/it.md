@@ -24,16 +24,30 @@ Recently he became [digital nomad](https://www.airbnb.com/users/show/447201982).
 
 [GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
-## Expertise in use in random order
+## Toolbox   
 
-Rust, .NET, blockchain, automated testing, clouds, virtualization, Kubernetes, Windows, Hashicorp, Git, networks, Visual Studio Code, query languages and storage(relational, graph, blobs, search, metrics), distributed computing, several dozedns kinds of non turing and DSL languages, many design and construction patterns, modelling languages, infrastructure as code, blockchain, p2p, Go, Terraform, Solidity.
+### Domain knowledge and experience
+
+Blockchain, automated quality assurance, clouds, virtualization, networks, distributed computing, storages, several dozens of non turing, DSL and modelling languages, many design and construction patterns, p2p.
+
+### Coding
+
+Rust, .NET, Solidity, Go
+
+### Environment
+
+Kubernetes, Git, Terraform, Nix
 
 ## Products
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works.
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works.
 
-- DeFi(Lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed), identities, chats, designed from scratch or ported, off/cross chain solutions, Virtual Machines.
-- Rust, Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
+- Rust
+- DeFi, lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, DAO(governance, democracy), identities, security audits  
+- off/cross chain solutions 
+- virtual machines
+- p2p chats
+- Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works.
 
@@ -114,16 +128,10 @@ Cloud-native microservice-based call and contact center.
 
 ### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial. Desktop Software Engineer
 
-Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
-
-* Designed and delivered technical integration various products for financial professionals into cohesive integrated solution.
-* Engaged in deliver cross teams and cross technologies(native and managed) integration framework to get larger business value.
-* Refactoring existing code into components with proper variability engineering
-* Coded custom [IPC](16) and asynchronous modules systems
-* Solved client side of data, authentication, multiple login prevention, auto-upgrade.
-* Made internal tools for productivity, profiling, optimizations and performance analysis.
-* Debugged multithreaded and multiprocess issues.
-* Made internal tools for productivity, profiling, optimizations and performance analysis
+Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams. 
+Solved many issues typical for fat complex multi process data enabled applications connected to cloud existed for years and coded from scratch
+Designed and delivered technical integration various products for financial professionals into cohesive integrated solution.
+Coded custom [IPC](16).
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher.
 
@@ -144,9 +152,8 @@ Windows software for linking data between documents, financial data charting too
 
 Created industrial [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) application connected to a woodworking machine.
 
-* Coded tools to edit/store/execute sawing plans, change sawing machine setup and monitor sawing process.
-* Programmed configuration file format parser, custom system event loop, custom text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware [LPT](https://en.wikipedia.org/wiki/Parallel_port) port.
-* Worked and communicated with microcontroller programmer.
+* Software to manage sawing plans, sawing machine setup and real time monitoring of sawing process.
+* Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware [LPT](https://en.wikipedia.org/wiki/Parallel_port) port.
 
 ### 2004.09-2005.03, part time. Graduates database
 
@@ -189,9 +196,8 @@ IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 ### 1994-2005. Gymnasium №1, Vileyka, Minsk region, Belarus
 
-* Specialization in physics and mathematics
-* Employed [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) for self-education
-* Participated in republic olympiad in Physics at 11th grade
+* Specialization in physics and mathematics via [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) for self-education
+* Participated in state wide olympiad in Physics in last grade
 
 [1]: https://en.wikipedia.org/wiki/Object-oriented_programming
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure
