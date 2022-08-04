@@ -26,9 +26,13 @@ Recently he became [digital nomad](https://www.airbnb.com/users/show/447201982).
 
 ## Toolbox   
 
-### Domain knowledge and experience
+### Technical knowledge and experience
 
-Blockchain, automated quality assurance, clouds, virtualization, networks, distributed computing, storages, several dozens of non turing, DSL and modelling languages, many design and construction patterns, p2p.
+Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed).
+Applied knowledge of storages(graph, relational, key values, blobs, documents, hierachical).
+Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, etc).
+Applied knowledge of many design, construction, architecture and processes patterns.
+Automated quality assurance.
 
 ### Coding
 
