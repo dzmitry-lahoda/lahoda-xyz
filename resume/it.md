@@ -29,9 +29,13 @@ Recently he became [digital nomad](https://www.airbnb.com/users/show/447201982).
 ### Technical knowledge and experience
 
 Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed).
-Applied knowledge of storages(graph, relational, key values, blobs, documents, hierachical).
-Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, etc).
-Applied knowledge of many design, construction, architecture and processes patterns.
+
+Applied knowledge of storages(graph, relational, key values, blobs, documents, hierarchical).
+
+Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation).
+
+Applied knowledge of many engineering, design, construction, architecture, and processes patterns.
+
 Automated quality assurance.
 
 ### Coding
@@ -40,7 +44,7 @@ Rust, .NET, Solidity, Go
 
 ### Environment
 
-Kubernetes, Git, Terraform, Nix
+Kubernetes, Git, Terraform, Nix. (soon Neovim will be here)
 
 ## Products
 
