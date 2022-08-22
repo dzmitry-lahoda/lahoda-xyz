@@ -10,7 +10,7 @@ Dzmitry coded integration solutions, client-servers, actor system, threading, cl
 
 Worked in many domains. Dzmitry did not yet code graphic-intensive solutions, databases or math heavy stuff. 
 
-Computer user since 1993, write programs since 2004, code version control and automated tests since 2007, increasштп velocity by open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
+Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010, self-learner since childhood, do [active learning](https://en.wikipedia.org/wiki/Active_learning) and [incremental reading](https://en.wikipedia.org/wiki/Incremental_reading).  Did generalized machine learning algorithms in 2010.
 
 Dzmitry enjoys type systems and automated proves of any kind, and writing in English. He always finds how to improve coding at hand at different levels.
 
