@@ -44,7 +44,7 @@ Rust, .NET, Solidity, Go
 
 ### Environment
 
-Kubernetes, Git, Terraform, Nix. (soon Neovim will be here)
+Kubernetes, Git, Terraform, Nix. (soon Helix will be here)
 
 ## Products
 
