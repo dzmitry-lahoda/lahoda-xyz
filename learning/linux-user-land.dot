@@ -1,0 +1,16 @@
+
+digraph {
+    "Configuration files, executable binaries, directories, drivers, networking and security connection"
+    getfacl
+    setfacl
+    "/etc/sudoers*"
+    adduser [shape="plaintext"];
+    "add new user" -> adduser [color = "red"];
+    adduser -> user [label="Creates"];
+    ACL -> user [label= "Targets"];
+    "read ACL" -> getfacl [color = "red"];
+    "Negative Permissions" -> "Positive ACL" [label= "override"] 
+    "Negative ACL" -> "Positive permissions" [label= "override"] 
+    ACL -> "Negative ACL" [label= "allow"]
+
+}
