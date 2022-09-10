@@ -1,2 +1,0 @@
-# dotnet-csharp-patterns
-
