@@ -1,2 +1,0 @@
-# elastic-search-examples
-

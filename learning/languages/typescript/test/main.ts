@@ -1,4 +1,4 @@
-import { suite, test } from '@testdeck/mocha';
+import { retries, suite, test } from '@testdeck/mocha';
 import { expect, assert } from "chai";
 import { Eq, struct, contramap } from 'fp-ts/lib/Eq';
 import { fromCompare, Ord, contramap as cmo } from 'fp-ts/lib/Ord';
@@ -8,6 +8,8 @@ import { semigroup } from 'fp-ts';
 import { SemigroupSum } from 'fp-ts/lib/number';
 import { getSemigroup } from 'fp-ts/lib/These';
 import { SemigroupAll } from 'fp-ts/lib/boolean';
+import { flap, Functor1 } from 'fp-ts/lib/Functor';
+import { Kind, URIS, URItoKind } from 'fp-ts/HKT';
 
 // interface A {
 //     b: string;
@@ -77,7 +79,87 @@ const eqItem: Eq<Item> = contramap((x: Item) => x.id)(eqNumber);
 
 const byAge: Ord<Item> = cmo((x: Item) => x.age)(ordNumber);
 
+interface A0<A0> {}
+interface A1<A0, A1> {}
+interface A2<A0, A1, A2> {}
+interface A3<A0, A1, A2, A3> {}
+
+export const URIC = "Foo"
+export type URIZ = typeof URIC
+
+interface DeclarationMergingExampleInterface {
+    a: Number
+}
+interface DeclarationMergingExampleInterface {
+    b: String
+}
+
+type Foo<A0, A1> = {
+    foobar : BigInt
+    a: A0,
+    b: A1,
+}
+
+interface A1<A0, A1> {
+    readonly [URIC]: Foo<A0, A1>
+}
+
+
+type MyResult = A1<string, number>["Foo"]
+
+export type AIS  = keyof A1<any, any>
+
+export type KK<URIZ extends AIS, E, A> = URIZ extends AIS ? A1<E, A> : any
+
+type FooBar = KK<"Foo", string, number>
+
+export interface FFF<F extends AIS> {
+    readonly URI : F
+    readonly map : <E, A, B>(fa: KK<F, E,A>, f: (a:A) => B) => KK<F, E, B>
+}
+
+export const functorE: FFF<"Foo"> = {
+    URI: 'Foo',
+    map: function <E, A, B>(fa: A1<E, A>, f: (a: A) => B): A1<E, B> {
+        // let x: FooBar = {
+        //     [URIC]: {
+        //         foobar: undefined,
+        //         a: undefined,
+        //         b: undefined
+        //     }
+        // }
+        return {
+            ["Foo"] : {
+                foobar: BigInt(42),
+                a: fa["Foo"].a,
+                b : f(fa["Foo"].b),
+            }
+
+        }
+    }
+}
+
+
+// function addOne<URI extends URIS>(F: Functor1<URI>) {
+//     return (fa: Kind<F, number>): Kind<F, number> => F.map(fa, (n) => n + 1)
+//   }
+
+type Fish = { swim: () => void };
+type Bird = { fly: () => void };
 @suite class SdkUnitTests {
+    @test "basic ts"() {
+        functorE
+        const a: number | undefined = undefined;
+        assert(!a); 
+        let x: Fish = { swim : () => console.log(42)}
+        if ("swim" in x) {
+            x.swim()
+        } 
+    
+        function xxx(a: never) {
+            const xx: Number = a;
+        }
+    }
 
     @test "fp"() {
         assert(elem(eqNumber)(42, [1, 2, 3, 42]))
