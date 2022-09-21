@@ -47,11 +47,6 @@ NIF 310653835
 
 USREOU 44615284
 
-#### Bank
-
-IBAN UA78 3808 0500 0000 0026 0027 6817 7 UAH
-
-
 ### Belarus
 
 Belarus Passport number: MP3239213
