@@ -116,7 +116,7 @@ Cloud-native microservice-based call and contact center.
 [e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
 - Developed asynchronous actor-like data-intensive persisted engine and intelligent multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
-- Maintained intelligent multi-tenant distributed file system aimed for handling millions of documents
+- Maintained multi-tenant distributed file system aimed for handling millions of documents
 - Developed orchestration with error handling of event-driven services, HTTP API, billing, audit, reporting, query provider to NoSql database, reusable infrastructure components, asynchronous data- and work-flows
 - Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
 - Used several data storages(relational, document, files, queue, cache).
@@ -148,10 +148,9 @@ Coded custom [IPC](16).
 - [Prototyped](https://gitlab.com/dzmitry-lahoda/learning-machine-learning/tree/master/mir) visualization to organizes music collection onto 2 dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox).
 - Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classifies via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
 
-### 2008.07, 2009.07, internship. [Time Lapse Microscopy Capture Tool](https://www.youtube.com/watch?v=t1TauTaMb6Y), [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
-
-- Scientific domain and hands-on experience in collaboration [with scientists on English](https://www.youtube.com/watch?v=t1TauTaMb6Y).
-- Developed Windows application for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) during [summer school](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/doc/summer_school_cz)
+### 2008.07, 2009.07, internship. Time Lapse Microscopy Capture Tool, [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
+.
+- Developed Windows application for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) during summer school.
 - Featured continual shooting of photos via a camera attached to the microscope, measuring photo quality, tuning camera settings, plotting entropy calculation, logging results
 
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by). Intern
