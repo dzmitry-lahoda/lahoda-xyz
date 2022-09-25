@@ -41,7 +41,7 @@ Automated quality assurance.
 
 ### Coding
 
-Rust, .NET, Solidity, Go
+Rust, .NET, Go, ...
 
 ### Environment
 
