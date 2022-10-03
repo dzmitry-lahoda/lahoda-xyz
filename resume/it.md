@@ -1,25 +1,19 @@
 # Dzmitry Lahoda
 
-He creates software since 2004.
-
-Dzmitry has C1/Advanced English.
-
-He likes product/quality/lean/transparency/openness/effectiveness oriented approaches. Dzmitry really enjoys real-time collaboration via messaging in chats.
-
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics.
-
-Worked in many domains.
+Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics in many domains.
 
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry enjoys type systems and automated proves of any kind, and writing in English. He always finds how to improve coding at hand at different levels.
+Dzmitry enjoys type systems and automated proves of any kind.
 
 He learns applied mathematics in his free time.
 
-Dzmitry likes texts,  helps distributed teams to deliver better results leading by example of doing agile lean documentation and knowledge sharing.
+Dzmitry has C1/Advanced English.
 
-[Digital nomad](https://www.airbnb.com/users/show/447201982).
+He enjoys real-time collaboration via messaging in chats and objective dicussions.
+
+Resides in Portugal and will not relocate.
 
 ## Profiles
 
@@ -46,6 +40,10 @@ Rust, .NET, Go, ...
 ### Environment
 
 Kubernetes, Git, Terraform, Nix. (soon Helix will be here)
+
+### Collaboration
+
+Plantuml, Graphviz, Markdown
 
 ## Products
 
