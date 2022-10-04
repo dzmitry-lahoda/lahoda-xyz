@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>indexed_memory.ArrayIndexer-20190429-072100</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17763.437 (1809/October2018Update/Redstone5)
+Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=2.2.203
+  [Host] : .NET Core 2.2.4 (CoreCLR 4.6.27521.02, CoreFX 4.6.27521.01), 64bit RyuJIT
+  Core   : .NET Core 2.2.4 (CoreCLR 4.6.27521.02, CoreFX 4.6.27521.01), 64bit RyuJIT
+</code></pre>
+<pre><code>Job=Core  Runtime=Core  InvocationCount=1  
+UnrollFactor=1  
+</code></pre>
+
+<table>
+<thead><tr><th>      Method</th><th>N</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Ratio</th><th>RatioSD</th>
+</tr>
+</thead><tbody><tr><td>bool_array</td><td>100000</td><td>4.371 ms</td><td>0.1171 ms</td><td>0.3321 ms</td><td>1.00</td><td>0.00</td>
+</tr><tr><td>u64BitsWriteBitRef</td><td>100000</td><td>11.844 ms</td><td>0.2352 ms</td><td>0.5162 ms</td><td>2.70</td><td>0.26</td>
+</tr></tbody></table>
+</body>
+</html>
