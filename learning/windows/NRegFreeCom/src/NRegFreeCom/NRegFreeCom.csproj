@@ -1,28 +1,249 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-  <ItemGroup>
-    <Content Remove="bin"/>
-    <Content Remove="obj"/>
-  </ItemGroup>
-
-</Project>
-
-    <!-- <NoWin32Manifest>False</NoWin32Manifest>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7B5AE2C-7A0E-4496-A03B-9065C9A9A1C6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NRegFreeCom</RootNamespace>
+    <AssemblyName>NRegFreeCom</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NoWin32Manifest>False</NoWin32Manifest>
     <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\NET40</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\..\build\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET40</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
     <DocumentationFile>..\..\build\Debug\NRegFreeCom.XML</DocumentationFile>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>PdbOnly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\build\Release\</OutputPath>
+    <DefineConstants>TRACE;NET40</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\build\Release\NRegFreeCom.XML</DocumentationFile>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
     <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
     <AssemblyOriginatorKeyFile>NRegFreeCom.snk</AssemblyOriginatorKeyFile>
-
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <BaseIntermediateOutputPath>obj\NET40</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <BaseIntermediateOutputPath>obj\NET40</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="PInvoke.AdvApi32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.AdvApi32.0.5.184\lib\net45\PInvoke.AdvApi32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.BCrypt, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.BCrypt.0.5.184\lib\net45\PInvoke.BCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Crypt32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Crypt32.0.5.184\lib\net45\PInvoke.Crypt32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.DbgHelp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.DbgHelp.0.5.184\lib\net45\PInvoke.DbgHelp.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.DwmApi, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.DwmApi.0.5.184\lib\net45\PInvoke.DwmApi.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Gdi32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Gdi32.0.5.184\lib\net45\PInvoke.Gdi32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Hid, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Hid.0.5.184\lib\net45\PInvoke.Hid.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.ImageHlp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.ImageHlp.0.5.184\lib\net45\PInvoke.ImageHlp.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Kernel32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Kernel32.0.5.184\lib\net45\PInvoke.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Magnification, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Magnification.0.5.184\lib\net45\PInvoke.Magnification.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Msi, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Msi.0.5.184\lib\net45\PInvoke.Msi.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.NCrypt, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.NCrypt.0.5.184\lib\net45\PInvoke.NCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.NetApi32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.NetApi32.0.5.184\lib\net45\PInvoke.NetApi32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.NTDll, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.NTDll.0.5.184\lib\net45\PInvoke.NTDll.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Ole32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Ole32.0.5.184\lib\net45\PInvoke.Ole32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Psapi, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Psapi.0.5.184\lib\net45\PInvoke.Psapi.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.SetupApi, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.SetupApi.0.5.184\lib\net45\PInvoke.SetupApi.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.SHCore, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.SHCore.0.5.184\lib\net45\PInvoke.SHCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Shell32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Shell32.0.5.184\lib\net45\PInvoke.Shell32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.User32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.User32.0.5.184\lib\net45\PInvoke.User32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Userenv, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Userenv.0.5.184\lib\net45\PInvoke.Userenv.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.UxTheme, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.UxTheme.0.5.184\lib\net45\PInvoke.UxTheme.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Windows.Core, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Windows.Core.0.5.184\lib\net35\PInvoke.Windows.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Windows.ShellScalingApi, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Windows.ShellScalingApi.0.5.184\lib\net45\PInvoke.Windows.ShellScalingApi.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.WtsApi32, Version=0.5.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.WtsApi32.0.5.184\lib\net45\PInvoke.WtsApi32.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Validation, Version=2.4.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Validation.2.4.15\lib\net45\Validation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComClrInfoBase.cs" />
+    <Compile Include="ComClrInfoFactory.cs" />
+    <Compile Include="ComDispatchUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComInterfaceInfo.cs" />
+    <Compile Include="ComMarshall.cs" />
+    <Compile Include="ComClassInfo.cs" />
+    <Compile Include="IAssemblyInfo.cs" />
+    <Compile Include="IAssemblyNameInfo.cs" />
+    <Compile Include="Interop\ACTCTX.cs" />
+    <Compile Include="ActivationContext.cs" />
+    <Compile Include="Interop\ClassStyles.cs" />
+    <Compile Include="Interop\CoInit.cs" />
+    <Compile Include="Interop\OLEVERB.cs" />
+    <Compile Include="ITypeLibAttributes.cs" />
+    <Compile Include="Threading\Dispatcher.cs" />
+    <Compile Include="Interop\ComTypes\IClassFactory_AutoMarshal.cs" />
+    <Compile Include="Interop\ComTypes\IDispatch.cs" />
+    <Compile Include="Interop\DEF_Objbase.cs" />
+    <Compile Include="Interop\HRESULTS.cs" />
+    <Compile Include="IAssembly.cs" />
+    <Compile Include="IAssemblySystem.cs" />
+    <Compile Include="Threading\IDispatcher.cs" />
+    <Compile Include="Interop\SafeLibraryHandle.cs" />
+    <Compile Include="IRegAsm.cs" />
+    <Compile Include="MachineRegAsm.cs" />
+    <Compile Include="PathAppender.cs" />
+    <Compile Include="PeHeaderReader.cs" />
+    <Compile Include="Properties\PackagingInfo.cs" />
+    <Compile Include="ReferenceCountedObject.cs" />
+    <Compile Include="RegAsm.cs" />
+    <Compile Include="RegFileParsingException.cs" />
+    <Compile Include="RegFileReader.cs" />
+    <Compile Include="RegValueObject.cs" />
+    <Compile Include="Threading\WindowsWaitHandleExtensions.cs" />
+    <Compile Include="Tracing.cs" />
+    <Compile Include="Interop\CLSCTX.cs" />
+    <Compile Include="ComExceptionChecker.cs" />
+    <Compile Include="Interop\Constants.cs" />
+    <Compile Include="Interop\DEF.cs" />
+    <Compile Include="Interop\DIRECTORY_FLAGS.cs" />
+    <Compile Include="Interop\ENUMRESNAMEPROC.cs" />
+    <Compile Include="Interop\FDW_REASONS.cs" />
+    <Compile Include="Interop\ComTypes\IBytesRequestResponse.cs" />
+    <Compile Include="Interop\ComTypes\ICallFrameEvents.cs" />
+    <Compile Include="Interop\ComTypes\ICallInterceptor.cs" />
+    <Compile Include="Interop\ComTypes\IClassFactory.cs" />
+    <Compile Include="Interop\ComTypes\IGlobalInterfaceTable.cs" />
+    <Compile Include="Interop\ComTypes\IMessageFilter.cs" />
+    <Compile Include="Interop\INTERFACEINFO.cs" />
+    <Compile Include="Interop\COMRECT.cs" />
+    <Compile Include="Interop\ComTypes\IEnumOLEVERB.cs" />
+    <Compile Include="Interop\ComTypes\IOleClientSite.cs" />
+    <Compile Include="Interop\ComTypes\IServiceProvider.cs" />
+    <Compile Include="Interop\ComTypes\IUnknown.cs" />
+    <Compile Include="Interop\LOAD_LIBRARY_FLAGS.cs" />
+    <Compile Include="AssemblySystem.cs" />
+    <Compile Include="Assembly.cs" />
+    <Compile Include="Interop\ComTypes\IOleContainer.cs" />
+    <Compile Include="Interop\LOGPALETTE.cs" />
+    <Compile Include="Interop\ComTypes\IOleObject.cs" />
+    <Compile Include="Interop\SIZEL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interop\REGCLS.cs" />
+    <Compile Include="Interop\RESOURCE_TYPES.cs" />
+    <Compile Include="Interop\ROTFLAGS.cs" />
+    <Compile Include="RotRegFreeComInvoker.cs" />
+    <Compile Include="UserRegAsm.cs" />
+    <Compile Include="RunningObjectTable.cs" />
+    <Compile Include="Interop\NativeMethods.cs" />
+    <Compile Include="Threading\StaComCrossThreadInvoker.cs" />
+    <Compile Include="Interop\WELL_KNOWN_IIDS.cs" />
+    <Compile Include="Interop\WindowStyles.cs" />
+    <Compile Include="Interop\WindowStylesEx.cs" />
+    <Compile Include="Interop\WNDCLASS.cs" />
+    <Compile Include="Interop\WndProc.cs" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="NRegFreeCom.dll.manifest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup> --> 
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NRegFreeCom.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

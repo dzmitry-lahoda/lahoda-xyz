@@ -1,0 +1,4 @@
+LIBRARY NativeLibrary
+EXPORTS
+  fnNativeLibrary
+  ReadRegistry
