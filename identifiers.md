@@ -21,11 +21,6 @@ Address: 7 Westferry Circus, Canary Wharf, London E14 4HD
 
 [+351914069170](tel:+351914069170)
 
-[+380639580301](tel:+380639580301)
-
-[+48501195651](tel:+48501195651)
-
-
 ## chats
 
 [Telegram dzmitry_lahoda](https://t.me/dzmitry_lahoda)
@@ -43,6 +38,7 @@ solana 5RwjjfPnSjnuUNoNpyB5jsJwHkz5ZzWWT399HoPAMeTy
 NISS 12089808875
 NIF 310653835
 
+<<<<<<< HEAD
 #### Services
 
 #### EEM (Electricity)
@@ -53,6 +49,8 @@ NIF 310653835
 
 USREOU 44615284
 
+=======
+>>>>>>> 7e2af49 (clean up big)
 ### Belarus
 
 Belarus Passport number: MP3239213

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91088DCB-6622-44A8-B5B9-10ED1C977B93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NRegFreeCom</RootNamespace>
+    <AssemblyName>NRegFreeCom</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\NET35</IntermediateOutputPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\..\build\NET35\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET35</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>PdbOnly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\build\NET35\Release\</OutputPath>
+    <DefineConstants>TRACE;NET35</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>NRegFreeCom.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <BaseIntermediateOutputPath>obj\NET35</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <BaseIntermediateOutputPath>obj\NET35</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivationContext.cs" />
+    <Compile Include="Assembly.cs" />
+    <Compile Include="AssemblySystem.cs" />
+    <Compile Include="Microsoft\Win32\RegistryView.cs" />
+    <Compile Include="ComClassInfo.cs" />
+    <Compile Include="ComClrInfoBase.cs" />
+    <Compile Include="ComClrInfoFactory.cs" />
+    <Compile Include="ComDispatchUtility.cs" />
+    <Compile Include="ComExceptionChecker.cs" />
+    <Compile Include="ComInterfaceInfo.cs" />
+    <Compile Include="ComMarshall.cs" />
+    <Compile Include="IAssembly.cs" />
+    <Compile Include="IAssemblyInfo.cs" />
+    <Compile Include="IAssemblyNameInfo.cs" />
+    <Compile Include="IAssemblySystem.cs" />
+    <Compile Include="Interop\ACTCTX.cs" />
+    <Compile Include="Interop\ClassStyles.cs" />
+    <Compile Include="Interop\CLSCTX.cs" />
+    <Compile Include="Interop\CoInit.cs" />
+    <Compile Include="Interop\COMRECT.cs" />
+    <Compile Include="Interop\ComTypes\IBytesRequestResponse.cs" />
+    <Compile Include="Interop\ComTypes\ICallFrameEvents.cs" />
+    <Compile Include="Interop\ComTypes\ICallInterceptor.cs" />
+    <Compile Include="Interop\ComTypes\IClassFactory.cs" />
+    <Compile Include="Interop\ComTypes\IClassFactory_AutoMarshal.cs" />
+    <Compile Include="Interop\ComTypes\IDispatch.cs" />
+    <Compile Include="Interop\ComTypes\IEnumOLEVERB.cs" />
+    <Compile Include="Interop\ComTypes\IGlobalInterfaceTable.cs" />
+    <Compile Include="Interop\ComTypes\IMessageFilter.cs" />
+    <Compile Include="Interop\ComTypes\IOleClientSite.cs" />
+    <Compile Include="Interop\ComTypes\IOleContainer.cs" />
+    <Compile Include="Interop\ComTypes\IOleObject.cs" />
+    <Compile Include="Interop\ComTypes\IServiceProvider.cs" />
+    <Compile Include="Interop\ComTypes\IUnknown.cs" />
+    <Compile Include="Interop\Constants.cs" />
+    <Compile Include="Interop\DEF.cs" />
+    <Compile Include="Interop\DEF_Objbase.cs" />
+    <Compile Include="Interop\DIRECTORY_FLAGS.cs" />
+    <Compile Include="Interop\ENUMRESNAMEPROC.cs" />
+    <Compile Include="Interop\FDW_REASONS.cs" />
+    <Compile Include="Interop\HRESULTS.cs" />
+    <Compile Include="Interop\INTERFACEINFO.cs" />
+    <Compile Include="Interop\LOAD_LIBRARY_FLAGS.cs" />
+    <Compile Include="Interop\LOGPALETTE.cs" />
+    <Compile Include="Interop\MSG.cs" />
+    <Compile Include="Interop\NativeMethods.cs" />
+    <Compile Include="Interop\OLEVERB.cs" />
+    <Compile Include="Interop\POINT.cs" />
+    <Compile Include="Interop\REGCLS.cs" />
+    <Compile Include="Interop\RESOURCE_TYPES.cs" />
+    <Compile Include="Interop\ROTFLAGS.cs" />
+    <Compile Include="Interop\SafeLibraryHandle.cs" />
+    <Compile Include="Interop\SIZEL.cs" />
+    <Compile Include="Interop\SYSTEM_ERROR_CODES.cs" />
+    <Compile Include="Interop\WELL_KNOWN_IIDS.cs" />
+    <Compile Include="Interop\WindowStyles.cs" />
+    <Compile Include="Interop\WindowStylesEx.cs" />
+    <Compile Include="Interop\WM.cs" />
+    <Compile Include="Interop\WNDCLASS.cs" />
+    <Compile Include="Interop\WndProc.cs" />
+    <Compile Include="IRegasm.cs" />
+    <Compile Include="ITypeLibAttributes.cs" />
+    <Compile Include="MachineRegasm.cs" />
+    <Compile Include="PathAppender.cs" />
+    <Compile Include="PeHeaderReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\PackagingInfo.cs" />
+    <Compile Include="ReferenceCountedObject.cs" />
+    <Compile Include="Regasm.cs" />
+    <Compile Include="RegFileParsingException.cs" />
+    <Compile Include="RegFileReader.cs" />
+    <Compile Include="RegistryKeyExtensions.cs" />
+    <Compile Include="RegValueObject.cs" />
+    <Compile Include="RotRegFreeComInvoker.cs" />
+    <Compile Include="RunningObjectTable.cs" />
+    <Compile Include="Threading\Dispatcher.cs" />
+    <Compile Include="Threading\IDispatcher.cs" />
+    <Compile Include="Threading\StaComCrossThreadInvoker.cs" />
+    <Compile Include="Threading\WindowsWaitHandleExtensions.cs" />
+    <Compile Include="Tracing.cs" />
+    <Compile Include="UserRegasm.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NRegFreeCom.dll.manifest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="NRegFreeCom.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
