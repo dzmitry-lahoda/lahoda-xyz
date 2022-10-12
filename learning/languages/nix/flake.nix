@@ -8,12 +8,12 @@
       stdenv.mkDerivation {
         name = "hello";
         src = "${self}/learning/languages/nix";
-        buildPhase = ''          
+        buildPhase = ''
           gcc --output hello $src/hello.c
         '';
         installPhase = ''
-          mkdir --parents $out/bin
-          install --target-directory $out/bin hello
+          mkdir --parents $out/bin          
+          cp hello $out/bin 
         '';
       };
   };
