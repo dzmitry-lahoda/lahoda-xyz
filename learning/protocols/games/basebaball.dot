@@ -1,0 +1,65 @@
+digraph G {
+    URL = "https://www.youtube.com/watch?v=0bKkGeROiPA";
+    baseball;
+    pitcher;
+    run;
+    home_run;
+    grand_slam;
+    
+    visitor;
+    offence [label = "Offence('bat')";];
+    defence;
+    catcher;
+    swing
+    hit
+    ball
+    umpire
+    "strike zone"
+    strike
+    swing
+    "fair ball" 
+    "foul ball"
+
+    strike -> "fair ball" 
+    ball -> "strike zone" [label = "does not in"]
+    ball -> pitcher [label = "does not swings"]
+    ball -> "strike zone" [label = "in"]
+    
+    batter -> ball [label="hits"]
+    ball -> foul_territory [label ="strike"]
+    batter -> swing 
+    swing -> miss
+    miss -> strike 
+    tagging
+    home_run -> ball [label="if is over the fence"]
+    batter -> runner [label = "becomes if hit the ball";];
+    catcher -> ball [label = "catches is not hit";];
+    catch -> out [label = "leads to";];
+    tagging -> out [label="leads to"]
+    tagging -> runner [label="touch with ball"]
+    pitcher -> ball [label = "throws";];
+    offence -> run [label = "scores";];
+    run -> point [label = "is";];
+    run -> base [label = "requires 4 to score";];
+    runner -> base [label = "hits";];
+
+    runner -> base [label="startes at base"]
+
+    subgraph cluste_counters {
+        out
+        inn
+        switch
+        inn -> outs [label="three outs end"]
+        out -> switch [label ="3 lead to team"]
+    }
+    subgraph cluster_field {
+        infield;
+        "foul territory"
+        home;
+        base;
+        first_base -> second_base;
+        second_base -> third_field;
+        outfield;
+
+    }
+}
