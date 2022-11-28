@@ -53,6 +53,10 @@ divisionPrime (p : xs) = p : divisionPrime [ x | x <- xs, mod x p > 0]
 mp3 = mp 3
 gdc42_13 = gdc 42 36 
 
+shiftC x n = chr (mod (((ord x) - ord 'a') + n) 26 + ord 'a')
+
+caesar encrypted = [ [shift x n | x <- encrypted]  | n <- [0 .. 26]]
+
 shiftN n a = (chr (((((ord a) - (ord 'a')) + n) `mod` 26) + ord 'a'))
 shiftNBack n a = (chr (((((ord a) - (ord 'a')) - n) `mod` 26) + ord 'a'))
 shiftN19 = shiftN 19   
@@ -61,11 +65,19 @@ exampleshiftN = shiftN19 'a' == 'b'
 exampleshiftNBack19 = shiftNBack19 'b' == 'a'
 boolXor a b = a /= b
 
+percent 0 = 1000
+percent n = 1.05 * percent (n - 1)
 
+percentExample = percent 10 == 2000.0 
+
+generator = [3^n `mod` 42 | n <- [1..] ]
+
+doPrint = print "Hello!"
 
 main = do
  putStr "Hello \n"
- print gdc42_13 
+ print gdc42_13
+ print (percent 20) 
  print mp3
  print ((xor (xor (42 :: Int) 13) 13) == 42)
  print ('a')
