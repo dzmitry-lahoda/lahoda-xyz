@@ -54,7 +54,7 @@ Plantuml, Graphviz, Markdown
 - off/cross chain solutions
 - virtual machines
 - p2p chats
-- Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/)
+- Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/), Cosmos
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -75,7 +75,7 @@ Plantuml, Graphviz, Markdown
 - Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users).
 - Distributed logging and alerting, monitoring dashboards
 
-### 2019.11.11 - 2020.02. eCommerce Point of Sale. [Jet](https://en.wikipedia.org/wiki/Jet.com). Backend Software Engineer
+### 2019.11.11 - 2020.02. eCommerce Point of Sale. Wallmart. Backend Software Engineer
 
 - [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation
 - Wrote distributed testing tools, debugged and patched scalability issue in graph database driver
