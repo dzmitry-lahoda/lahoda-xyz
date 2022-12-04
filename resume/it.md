@@ -122,10 +122,10 @@ Cloud-native microservice-based call and contact center.
 - Document and prototyped replacement of distributed lock-based flows into lock-free event-sourced flows for performance and consistency, disentangled cases where we could use eventual consistency and approximations, and were not
 - Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
   
-### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Fullstack Software Engineer
+### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Software Engineer
 
 - Maintained client-server application framework, which has technical part dated back to 2003 and domain model from 1990s
-- Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping), custom markup based [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
+- Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
 - Fixed issues in fault tolerant background task executions and notifications
 
 ### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher
@@ -143,7 +143,7 @@ Coded custom [IPC](16).
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher
 
-- [Prototyped](https://gitlab.com/dzmitry-lahoda/learning-machine-learning/tree/master/mir) visualization to organizes music collection onto 2 dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox).
+- Prototyped visualization to organizes music collection onto 2 dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox).
 - Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classifies via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
 
 ### 2008.07, 2009.07, internship. Time Lapse Microscopy Capture Tool, [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
@@ -199,7 +199,7 @@ IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 - [Graduated university with Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/education/bsu_by).
 
-### 2008.04, 2008.11, part time. Software engineering courses at [ScienceSoft .NET Framework course](http://www.scnsoft.com/) and [Itransition Industrial software development course](http://www.itransition.by/)
+### 2008, part time. [Itransition Industrial software development](http://www.itransition.by/)
 
 ### 1994-2005. Gymnasium №1, Vileyka, Minsk region, Belarus
 
