@@ -1,19 +1,16 @@
 # Dzmitry Lahoda
 
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics in many domains.
+Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics in several human domains.
 
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry enjoys type systems and automated proves of any kind.
-
-He learns applied mathematics in his free time.
-
+His current interests are mathematics, infrastucture, and protocols.
 Dzmitry has C1/Advanced English.
 
-He enjoys real-time collaboration via messaging in chats and objective dicussions.
+He puts objective consensus over top of subjetive politics.
 
-Resides in Portugal and will not relocate.
+Resides in Portugal.
 
 ## Profiles
 
@@ -29,21 +26,19 @@ Applied knowledge of storages(graph, relational, key values, blobs, documents, h
 
 Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation).
 
-Applied knowledge of many engineering, design, construction, architecture, and processes patterns.
-
-Automated quality assurance.
+Applied knowledge of many engineering, design, construction, architecture, quality related processeses and patterns.
 
 ### Coding
 
-Rust, .NET, Go, ...
+Rust.
 
 ### Environment
 
-Kubernetes, Git, Terraform, Nix. (soon Helix will be here)
+Git, Nix. (soon Helix will be here)
 
 ### Collaboration
 
-Plantuml, Graphviz, Markdown
+Markdown
 
 ## Products
 
@@ -54,7 +49,7 @@ Plantuml, Graphviz, Markdown
 - off/cross chain solutions
 - virtual machines
 - p2p chats
-- Solana, [Substrate](https://github.com/ComposableFi/composable), [Fluence](https://fluence.network/), Cosmos
+- Solana, [Substrate](https://github.com/ComposableFi/composable)(1+ year), [Fluence](https://fluence.network/), Cosmos
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -113,9 +108,8 @@ Cloud-native microservice-based call and contact center.
 
 [e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
-- Developed asynchronous actor-like data-intensive persisted engine and intelligent multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
-- Maintained multi-tenant distributed file system aimed for handling millions of documents
-- Developed orchestration with error handling of event-driven services, HTTP API, billing, audit, reporting, query provider to NoSql database, reusable infrastructure components, asynchronous data- and work-flows
+- Developed asynchronous actor-like data-intensive persisted engine and multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
+- Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows
 - Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
 - Used several data storages(relational, document, files, queue, cache).
 - Created malicious e-Discovery hardening data set
