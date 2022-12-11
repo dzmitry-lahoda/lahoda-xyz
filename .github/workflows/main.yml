@@ -1,0 +1,4 @@
+- name: check-git-ignore
+  # You may pin to the exact commit or the version.
+  # uses: fornwall/check-ignore@6e08a2da9f9b7154cc0cf02a9e9d3c8d479afb2a
+  uses: fornwall/check-ignore@0.3
