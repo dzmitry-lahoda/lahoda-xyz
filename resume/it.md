@@ -8,7 +8,7 @@ Did generalized machine learning algorithms in 2010.
 His current interests are mathematics, infrastucture, and protocols.
 Dzmitry has C1/Advanced English.
 
-He puts objective consensus over top of subjetive politics.
+He puts objective consensus over top of subjective politics.
 
 Resides in Portugal.
 
