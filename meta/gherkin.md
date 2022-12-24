@@ -46,5 +46,3 @@ a. Feature: User login // contains absolutely simple cases literal
 b. Feature: User login with optional // scenarios here can combine several steps into one out of  a. Users should refer to a. to learn dictionary.
 c. Feature: User login with error
 d. Feature: User login, error, then right // steps are compressed out of a. b. c., only NEW unique steps are written literally.
-
-
