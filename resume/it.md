@@ -5,12 +5,11 @@ Dzmitry coded integration solutions, client-servers, actor system, threading, cl
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-His current interests are mathematics, infrastucture, and protocols.
-Dzmitry has C1/Advanced English.
+Dzmitry's current interests are mathematics, infrastucture, and protocols.
 
 He puts objective consensus over top of subjective politics.
 
-Resides in Portugal.
+Dzmitry has C1/Advanced English. Resides in Portugal.
 
 ## Profiles
 
