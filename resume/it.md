@@ -151,10 +151,10 @@ Coded custom [IPC](16).
 
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/). Driver/Desktop Software Engineer
 
-Created industrial [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) application connected to a woodworking machine.
+Created industrial realtime application connected to a woodworking machine.
 
 - Software to manage sawing plans, sawing machine setup and real time monitoring of sawing process.
-- Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware [LPT](https://en.wikipedia.org/wiki/Parallel_port) port.
+- Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware.
 
 ### 2004.09-2005.03, part time. Graduates database
 
@@ -193,7 +193,7 @@ IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 - [Graduated university with Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/education/bsu_by).
 
-### 2008, part time. [Itransition Industrial software development](http://www.itransition.by/)
+### 2008, part time. Industrial software development, .NET development courses by outsoruce companies in Belarus
 
 ### 1994-2005. Gymnasium №1, Vileyka, Minsk region, Belarus
 
