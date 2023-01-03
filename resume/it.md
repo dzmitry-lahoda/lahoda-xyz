@@ -29,11 +29,11 @@ Applied knowledge of many engineering, design, construction, architecture, quali
 
 ### Coding
 
-Rust.
+Rust(3+years), Go(so not used recently for some time)
 
 ### Environment
 
-Git, Nix. (soon Helix will be here)
+Git, Nix, VS Code, Helix(editor)
 
 ### Collaboration
 
@@ -44,7 +44,7 @@ Markdown
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
 
 - Rust
-- DeFi, lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, DAO(governance, democracy), identities, security audits  
+- DeFi, lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities, security audits  
 - off/cross chain solutions
 - virtual machines
 - p2p chats
@@ -53,7 +53,7 @@ Markdown
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
 - Rust
-- Made several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
+- did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
 - Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
