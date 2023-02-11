@@ -1,19 +1,31 @@
 {
   description = "Description for the project";
 
-  inputs = { nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable"; };
+  inputs = {
+  nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11"; 
+  
+  home-manager =  {
+     url = "github:nix-community/home-manager/release-22.11";
+     inputs.nixpkgs.follows = "nixpkgs";
+     
+  };
+  };
 
-  outputs = { self, flake-parts, ... }:
+  outputs = { self, flake-parts, home-manager, nixpkgs }:
     flake-parts.lib.mkFlake { inherit self; } {
       systems = [ "x86_64-linux" "aarch64-darwin" ];
       perSystem = { config, self', inputs', pkgs, system, ... }: {
         packages.default = pkgs.hello;
 
         devShells.default = pkgs.mkShell {
-          nativeBuildInputs = [ pkgs.act];
+          nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager];
         };
-
       };
-      flake = { };
+      flake = let pkgs = nixpkgs.legacyPackages.x86_64-linux; in {
+        homeConfigurations.dz = home-manager.lib.homeManagerConfiguration {
+            inherit pkgs;
+            modules = [./home.nix ];             
+        };
+ };
     };
 }

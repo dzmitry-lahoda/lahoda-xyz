@@ -1,14 +1,12 @@
-{ config, pkgs, ... } : {
+{ config, pkgs, ... }: {
   programs = {
-    bash = {
-      enable = true; 
-    };
-    brave.enable = true;    
+    bash = { enable = true; };
+    brave.enable = true;
     chromium.enable = true;
     git = {
-       enable = true;
-        userName = "dzmitry-lahoda";
-        userEmail = "dzmiry@lahoda.pro";
+      enable = true;
+      userName = "dzmitry-lahoda";
+      userEmail = "dzmiry@lahoda.pro";
     };
     vscode = {
       enable = true;
@@ -16,70 +14,64 @@
         matklad.rust-analyzer
         yzhang.markdown-all-in-one
         ms-azuretools.vscode-docker
-ms-vscode-remote.remote-ssh        
-jnoortheen.nix-ide
-github.copilot
+        ms-vscode-remote.remote-ssh
+        jnoortheen.nix-ide
+        github.copilot
 
-mads-hartmann.bash-ide-vscode
+        mads-hartmann.bash-ide-vscode
 
-donjayamanne.githistory
+        donjayamanne.githistory
 
-mhutchie.git-graph
+        mhutchie.git-graph
 
+        # nomicfoundation.hardhat-solidity
 
-# nomicfoundation.hardhat-solidity
+        streetsidesoftware.code-spell-checker
 
+        serayuzgur.crates
 
-streetsidesoftware.code-spell-checker
+        # yo1dog.cursor-align
 
-serayuzgur.crates
+        editorconfig.editorconfig
 
+        ms-vscode.hexeditor
 
-# yo1dog.cursor-align
+        # dtsvet.vscode-wasm
 
-editorconfig.editorconfig
+        # alexcvzz.vscode-sqlite
 
-ms-vscode.hexeditor
-
-# dtsvet.vscode-wasm
-
-
-# alexcvzz.vscode-sqlite
-
-
-                        ];
+      ];
     };
   };
   nix = {
     package = pkgs.nix;
-    settings = {
-       sandbox = false;
-    }; 
+    settings = { sandbox = false; };
   };
   nixpkgs = {
-    config = {
-      allowUnfree = true;
-    };
-    
+    config = { allowUnfree = true; };
+    brave.enable = true;
+    chromium.enable = true;
   };
-    services = {
-      gpg-agent = {
-        enable = true;
-        enableSshSupport = true;
-      };   
+
+  services = {
+    gpg-agent = {
+      enable = true;
+      enableSshSupport = true;
     };
+    udev.enable = true;
+  };
   home = {
-      stateVersion = "22.11";
-     username = "dz";
-     homeDirectory = "/home/dz"; 
+    stateVersion = "22.11";
+    username = "dz";
+    homeDirectory = "/home/dz";
 
     packages = [
-       pkgs.bottom
-       pkgs.helix
-       pkgs.cargo 
-       pkgs.rustfmt
+      pkgs.bottom
+      pkgs.helix
+      pkgs.cargo
+      pkgs.rustfmt
       pkgs.rust-script
-      pkgs.rustc 
+      pkgs.rustc
     ];
   };
 }
