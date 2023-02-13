@@ -4,7 +4,7 @@ This diagram shows our compile time and runtime dependencies to guide the upgrad
 
 We have to follow Substrate/Cumulus/Polkadot version and relevant ORML closely.
 
-Runtime WASM version of Picasso is bumped automatically. Compile time version of Composable to be defined in release process document.
+Runtime WASM version of Picasso is bumped automatically. Compile time version of TheParachain to be defined in release process document.
 
 
 ## Guidances
@@ -21,6 +21,8 @@ Check versions:
 And if using Rust remote clients
 - Subxt
 - Jsonspree 
+
+And if using `sc-simnode` for testing.
 
 In case of dependency on Smolldot, check its version too.
 
@@ -40,10 +42,11 @@ frame "GitHub" as github {
     folder "Substrate v0.9.*" as substrate
     folder "Cumulus v0.9.*" as cumulus
     folder "Polkadot v0.9.*" as polkadot
-    folder "ORML v0.x.y" as orml 
-    folder "Composable v.a.b" as composable 
+    folder "ORML v0.9.*" as orml 
+    folder "TheParachain v.a.b" as TheParachain 
     folder "Subxt v.a.b" as subxt 
     folder "Jsonspree v.a.b" as jsonspree 
+    folder "Simnode v.a.b" as simnode 
 }
 
 cloud "Shared security (and versioning)" {
@@ -74,12 +77,12 @@ polkadot --^ substrate
 orml --^ substrate
 orml --^ cumulus
 orml --^ polkadot
-composable --^ substrate
-composable --^ cumulus
-composable --^ polkadot
-composable --^ orml
+TheParachain --^ substrate
+TheParachain --^ cumulus
+TheParachain --^ polkadot
+TheParachain --^ orml
 
-picasso --:|> composable: Build from
+picasso --:|> TheParachain: Build from
 kusama --:|> polkadot: Build from
 
 
