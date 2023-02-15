@@ -63,7 +63,23 @@
         userName = "dzmitry-lahoda";
         userEmail = "dzmiry@lahoda.pro";
     };
+    vscode = {
+      enable = true;
+      extensions = with pkgs.vscode-extensions; [
+        matklad.rust-analyzer
+      ];
+    };
   };
+  nix = {
+    package = pkgs.nix;
+    settings = {
+       sandbox = false;
+    }; 
+  };
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+    };
     udev.enable = true;
   };
   home = {
