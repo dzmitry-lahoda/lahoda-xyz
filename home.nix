@@ -1,7 +1,9 @@
 { config, pkgs, ... }: {
   programs = {
-    bash = { enable = true; };
-    brave.enable = true;
+    bash = {
+      enable = true; 
+    };
+    brave.enable = true;    
     chromium.enable = true;
     git = {
       enable = true;
@@ -67,7 +69,40 @@
       enable = true;
       extensions = with pkgs.vscode-extensions; [
         matklad.rust-analyzer
-      ];
+        yzhang.markdown-all-in-one
+        ms-azuretools.vscode-docker
+ms-vscode-remote.remote-ssh        
+jnoortheen.nix-ide
+github.copilot
+
+mads-hartmann.bash-ide-vscode
+
+donjayamanne.githistory
+
+mhutchie.git-graph
+
+
+# nomicfoundation.hardhat-solidity
+
+
+streetsidesoftware.code-spell-checker
+
+serayuzgur.crates
+
+
+# yo1dog.cursor-align
+
+editorconfig.editorconfig
+
+ms-vscode.hexeditor
+
+# dtsvet.vscode-wasm
+
+
+# alexcvzz.vscode-sqlite
+
+
+                        ];
     };
   };
   nix = {
