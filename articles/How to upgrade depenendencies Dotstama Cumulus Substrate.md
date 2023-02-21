@@ -17,12 +17,16 @@ Check versions:
 - Polkadot
 - Cumulus
 - ORML
+- Centauri (uses ORML and Simnode)
+ 
 
 And if using Rust remote clients
 - Subxt
 - Jsonspree 
 
-And if using `sc-simnode` for testing.
+And if using for testing:
+- `sc-simnode`(polytope-labs).
+- - xcm-simulator (ACala)
 
 In case of dependency on Smolldot, check its version too.
 

@@ -1,0 +1,10 @@
+
+digraph {
+    Consensus
+    Consensus -> ConsensusState [label="generates"];
+    ConsensusState ->  Height [label="has"];
+    ConsensusState ->  CommitmentRoot [label="has"];
+    ConsensusState ->  Timestamp [label="has"];
+    ConsensusState ->  ClientState [label="initialized from"];
+    ClientState ->  ConsensusState [label="has"];
+}
