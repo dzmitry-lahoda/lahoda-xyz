@@ -57,7 +57,13 @@
     gpg-agent = {
       enable = true;
       enableSshSupport = true;
+};
+    git = {
+       enable = true;
+        userName = "dzmitry-lahoda";
+        userEmail = "dzmiry@lahoda.pro";
     };
+  };
     udev.enable = true;
   };
   home = {
