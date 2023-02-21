@@ -28,10 +28,6 @@
 - Accomplishments
 - Career goals.
 
-## Details
-
-I always do something when studying  and always learning while do something, both aspects add much to my experience. I strive to deliver something as part of my education(being it concept map or automation tests or solved exercises out of book or other information product as result of some live experiment) . Hence education is very similar to development and development similar to education.  
-
 ### Project template
 
 *Role:* what I was doing usually

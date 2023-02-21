@@ -6,26 +6,8 @@ Master nodes knows where data(metadata) is and gets data from several Data Nodes
 -----
 
 Using ES to audit changes of data stored in DB has its complexities and design desicion influcnecint performance of system as all and using ES data for reporting. 
-
-Terminology:
----
-DB - relational ACID SQL database.
-
-ES - ElasticSearch.
-
-Domain
----
-Let pretend I store documents with some properties which can be updated.
-
-Given created new row in DB  with next data in `documents` table:
-```
-id = 1, size = "1", length = "2"
-```
-
 Naive behavior:
 ---
-
-
 
 Then ES grabs this data from DB and writes
 ```
@@ -200,4 +182,3 @@ How would you query ElasticSearch when it is used as NoSQL data storage?
 5. Custom LINQ for problem. Logs?
 
 6. Links to LINQ proposals.
-
