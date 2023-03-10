@@ -5,6 +5,7 @@
     };
     brave.enable = true;
     chromium.enable = true;
+
     git = {
       enable = true;
       userName = "dzmitry-lahoda";
@@ -41,7 +42,7 @@
         # dtsvet.vscode-wasm
 
         # alexcvzz.vscode-sqlite
-
+        foam.foam-vscode
       ];
     };
   };
@@ -51,11 +52,13 @@
   };
   nixpkgs = {
     config = {
-      allowUnfree = true;
+      #allowUnfree = true;
+      extra-substituters = true;
       allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
         "vscode"
         "vscode-extension-github-copilot"
         "vscode-extension-ms-vscode-remote-remote-ssh"
+        "slack"
       ];
     };
 
@@ -73,8 +76,7 @@
     stateVersion = "22.11";
     username = "dz";
     homeDirectory = "/home/dz";
-    #foam.foam-vscode
-    packages = [
+    packages = with pkgs; [
       pkgs.bottom
       pkgs.helix
       pkgs.cargo
@@ -83,6 +85,11 @@
       pkgs.rustc
       pkgs.nixpkgs-fmt
       pkgs.tdesktop
+      pkgs.home-manager
+      tg
+      telegram-cli
+      slack
+      lazygit
     ];
   };
 }

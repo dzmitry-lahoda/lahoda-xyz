@@ -13,10 +13,8 @@
 
   outputs = { self, flake-parts, home-manager, nixpkgs }:
     flake-parts.lib.mkFlake { inherit self; } {
-      systems = [ "x86_64-linux" "aarch64-darwin" ];
-      perSystem = { config, self', inputs', pkgs, system, ... }: {
-        packages.default = pkgs.hello;
-
+      systems = [ "x86_64-linux"];
+      perSystem = { config, self', inputs', pkgs, system, ... }: { 
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager];
         };
