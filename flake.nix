@@ -20,6 +20,8 @@
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager];
         };
+        # apps
+        #  home-manager switch --flake .
       };
       flake = let pkgs = nixpkgs.legacyPackages.x86_64-linux; in {
         homeConfigurations.dz = home-manager.lib.homeManagerConfiguration {

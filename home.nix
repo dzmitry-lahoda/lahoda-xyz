@@ -1,9 +1,9 @@
 { config, pkgs, ... }: {
   programs = {
     bash = {
-      enable = true; 
+      enable = true;
     };
-    brave.enable = true;    
+    brave.enable = true;
     chromium.enable = true;
     git = {
       enable = true;
@@ -50,78 +50,30 @@
     settings = { sandbox = false; };
   };
   nixpkgs = {
-    config = { allowUnfree = true; };
-    brave.enable = true;
-    chromium.enable = true;
+    config = {
+      allowUnfree = true;
+      allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
+        "vscode"
+        "vscode-extension-github-copilot"
+        "vscode-extension-ms-vscode-remote-remote-ssh"
+      ];
+    };
+
   };
 
   services = {
     gpg-agent = {
       enable = true;
       enableSshSupport = true;
-};
-    git = {
-       enable = true;
-        userName = "dzmitry-lahoda";
-        userEmail = "dzmiry@lahoda.pro";
     };
-    vscode = {
-      enable = true;
-      extensions = with pkgs.vscode-extensions; [
-        matklad.rust-analyzer
-        yzhang.markdown-all-in-one
-        ms-azuretools.vscode-docker
-ms-vscode-remote.remote-ssh        
-jnoortheen.nix-ide
-github.copilot
-
-mads-hartmann.bash-ide-vscode
-
-donjayamanne.githistory
-
-mhutchie.git-graph
 
 
-# nomicfoundation.hardhat-solidity
-
-
-streetsidesoftware.code-spell-checker
-
-serayuzgur.crates
-
-
-# yo1dog.cursor-align
-
-editorconfig.editorconfig
-
-ms-vscode.hexeditor
-
-# dtsvet.vscode-wasm
-
-
-# alexcvzz.vscode-sqlite
-
-
-                        ];
-    };
-  };
-  nix = {
-    package = pkgs.nix;
-    settings = {
-       sandbox = false;
-    }; 
-  };
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-    };
-    udev.enable = true;
   };
   home = {
     stateVersion = "22.11";
     username = "dz";
     homeDirectory = "/home/dz";
-
+    #foam.foam-vscode
     packages = [
       pkgs.bottom
       pkgs.helix
@@ -129,6 +81,8 @@ ms-vscode.hexeditor
       pkgs.rustfmt
       pkgs.rust-script
       pkgs.rustc
+      pkgs.nixpkgs-fmt
+      pkgs.tdesktop
     ];
   };
 }
