@@ -1,11 +1,15 @@
-{ config, pkgs, ... }: {
+{ config, pkgs, ... }: 
+{
   programs = {
     bash = {
       enable = true;
     };
+    obs-studio.enable = true;
+    # does not integrate to ui auto
+    # but works with hardware keys :) 
     brave.enable = true;
-    chromium.enable = true;
 
+    chromium.enable = true;
     git = {
       enable = true;
       userName = "dzmitry-lahoda";
@@ -14,6 +18,9 @@
     vscode = {
       enable = true;
       extensions = with pkgs.vscode-extensions; [
+
+        #wmaurer.change-case
+
         matklad.rust-analyzer
         yzhang.markdown-all-in-one
         ms-azuretools.vscode-docker
@@ -27,6 +34,9 @@
 
         mhutchie.git-graph
 
+        #janisdd.vscode-edit-csv
+
+        mechatroner.rainbow-csv
         # nomicfoundation.hardhat-solidity
 
         streetsidesoftware.code-spell-checker
@@ -48,11 +58,34 @@
   };
   nix = {
     package = pkgs.nix;
-    settings = { sandbox = false; };
+    settings = {
+      sandbox = false;
+      substitute = true;
+
+      substituters = [
+        "https://nix-community.cachix.org/"
+        "https://cache.nixos.org/"
+        "https://composable-community.cachix.org/"
+        "https://devenv.cachix.org/"
+      ];
+
+
+      extra-trusted-substituters = [
+        "https://nix-community.cachix.org/"
+        "https://cache.nixos.org/"
+        "https://composable-community.cachix.org/"
+        "https://devenv.cachix.org/"
+      ];
+
+
+      # extra-trusted-public-keys = [
+      #   "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+      #   "composable-community.cachix.org-1:GG4xJNpXJ+J97I8EyJ4qI5tRTAJ4i7h+NK2Z32I8sK8="
+      # ];
+    };
   };
   nixpkgs = {
     config = {
-      #allowUnfree = true;
       extra-substituters = true;
       allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
         "vscode"
@@ -64,32 +97,53 @@
 
   };
 
+  # not in home
+  #virtualisation.docker.enable = true;
   services = {
     gpg-agent = {
       enable = true;
       enableSshSupport = true;
     };
-
-
+    syncthing = {
+      enable = true;
+    };
+    # this requiest boot and kernel, so cannot do like that - need custom service
+    #kubo = {
+    # enable = true;
+    # user = "dz";
+    # group = "dz";
+    # autoMount = true;
+    # localDiscovery = true;
+    #};
   };
   home = {
     stateVersion = "22.11";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
-      pkgs.bottom
-      pkgs.helix
-      pkgs.cargo
-      pkgs.rustfmt
-      pkgs.rust-script
-      pkgs.rustc
-      pkgs.nixpkgs-fmt
-      pkgs.tdesktop
-      pkgs.home-manager
+      #anki https://github.com/NixOS/nixpkgs/pull/221229
+      translate-shell
+      ledger-live-desktop
+      bottom
+      helix
+
+      nixpkgs-fmt
+      tdesktop
+      home-manager
       tg
       telegram-cli
       slack
       lazygit
+      kubo
+      rnix-lsp
+      # these 2 are broken if installed into home like this 
+      # podman   
+      shadow
+      attr
+      rust-script
+      nodejs
+      yarn      
+      (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
     ];
   };
 }
