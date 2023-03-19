@@ -12,9 +12,10 @@
       url = "github:oxalica/rust-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nixgl.url = "github:guibou/nixGL";
   };
 
-  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay }:
+  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem = { config, self', inputs', pkgs, system, ... }: {
@@ -27,7 +28,10 @@
       flake =
         let
           system = "x86_64-linux";
-          overlays = [ (import rust-overlay) ];
+          overlays = [
+            (import rust-overlay)
+            nixgl.overlay
+          ];
           pkgs = import nixpkgs {
             inherit system overlays;
           };

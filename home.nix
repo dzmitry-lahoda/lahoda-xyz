@@ -1,4 +1,19 @@
-{ config, pkgs, ... }: 
+{ config, pkgs, ... }:
+
+let
+  anki-wrapper = pkgs.writeShellApplication {
+    name = "anki";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
+    '';
+  };
+  ledger-wrapper = pkgs.writeShellApplication {
+    name = "ledger";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} 
+    '';
+  };
+in
 {
   programs = {
     bash = {
@@ -14,6 +29,10 @@
       enable = true;
       userName = "dzmitry-lahoda";
       userEmail = "dzmiry@lahoda.pro";
+      extraConfig = {
+        user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
+        core.editor = "${pkgs.helix}/bin/hx";
+      };
     };
     vscode = {
       enable = true;
@@ -92,6 +111,7 @@
         "vscode-extension-github-copilot"
         "vscode-extension-ms-vscode-remote-remote-ssh"
         "slack"
+        "nvidia"
       ];
     };
 
@@ -121,12 +141,11 @@
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
-      #anki https://github.com/NixOS/nixpkgs/pull/221229
+      anki-wrapper
       translate-shell
-      ledger-live-desktop
+      ledger-wrapper
       bottom
       helix
-
       nixpkgs-fmt
       tdesktop
       home-manager
@@ -142,8 +161,9 @@
       attr
       rust-script
       nodejs
-      yarn      
+      yarn
       (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
+      nixgl.nixGLIntel
     ];
   };
 }
