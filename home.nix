@@ -23,12 +23,13 @@ in
     # does not integrate to ui auto
     # but works with hardware keys :) 
     brave.enable = true; # TODO: gl fix
+    myname = "dzmitry";
 
     chromium.enable = true;
     git = {
       enable = true;
-      userName = "dzmitry-lahoda";
-      userEmail = "dzmitry@lahoda.pro";
+      userName = "${myname}-lahoda";
+      userEmail = "${myname}@lahoda.pro";
       extraConfig = {
         user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
         commit.gpgsign = true;
