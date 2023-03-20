@@ -28,7 +28,7 @@ in
     git = {
       enable = true;
       userName = "dzmitry-lahoda";
-      userEmail = "dzmiry@lahoda.pro";
+      userEmail = "dzmitry@lahoda.pro";
       extraConfig = {
         user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
         commit.gpgsign = true;
