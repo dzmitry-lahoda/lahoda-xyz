@@ -31,6 +31,7 @@ in
       userEmail = "dzmiry@lahoda.pro";
       extraConfig = {
         user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
+        commit.gpgsign = true;
         core.editor = "${pkgs.helix}/bin/hx";
       };
     };
