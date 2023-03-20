@@ -22,7 +22,7 @@ in
     obs-studio.enable = true;
     # does not integrate to ui auto
     # but works with hardware keys :) 
-    brave.enable = true;
+    brave.enable = true; # TODO: gl fix
 
     chromium.enable = true;
     git = {
