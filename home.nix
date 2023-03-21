@@ -13,17 +13,26 @@ let
       ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} 
     '';
   };
+  slack-wrapper = pkgs.writeShellApplication {
+    name = "slack";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
+    '';
+  };
+
 in
 {
-  programs = {
+  programs = let myname = "dzmitry"; in {
     bash = {
       enable = true;
     };
     obs-studio.enable = true;
     # does not integrate to ui auto
     # but works with hardware keys :) 
-    brave.enable = true; # TODO: gl fix
-    myname = "dzmitry";
+    brave = {
+      enable = true;
+    }; # TODO: gl fix
+
 
     chromium.enable = true;
     git = {
@@ -153,7 +162,7 @@ in
       home-manager
       tg
       telegram-cli
-      slack
+      slack-wrapper
       lazygit
       kubo
       rnix-lsp
