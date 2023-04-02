@@ -10,7 +10,7 @@ let
   ledger-wrapper = pkgs.writeShellApplication {
     name = "ledger";
     text = ''
-      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} 
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
     '';
   };
   slack-wrapper = pkgs.writeShellApplication {
@@ -22,77 +22,83 @@ let
 
 in
 {
-  programs = let myname = "dzmitry"; in {
-    bash = {
-      enable = true;
-    };
-    obs-studio.enable = true;
-    # does not integrate to ui auto
-    # but works with hardware keys :) 
-    brave = {
-      enable = true;
-    }; # TODO: gl fix
+  programs = let myname = "dzmitry"; in
+    {
+      bash = {
+        enable = true;
+      };
+      obs-studio.enable = true;
+      # does not integrate to ui auto
+      # but works with hardware keys :) 
+      brave = {
+        enable = true;
+      }; # TODO: gl fix
 
 
-    chromium.enable = true;
-    git = {
-      enable = true;
-      userName = "${myname}-lahoda";
-      userEmail = "${myname}@lahoda.pro";
-      extraConfig = {
-        user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
-        commit.gpgsign = true;
-        core.editor = "${pkgs.helix}/bin/hx";
+      chromium.enable = true;
+      git = {
+        enable = true;
+        userName = "${myname}-lahoda";
+        userEmail = "${myname}@lahoda.pro";
+        extraConfig = {
+          user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
+          commit.gpgsign = true;
+          core.editor = "${pkgs.helix}/bin/hx";
+        };
+      };
+      vscode = {
+        enable = true;
+        extensions = with pkgs.vscode-extensions; [
+
+          #wmaurer.change-case
+
+          matklad.rust-analyzer
+          yzhang.markdown-all-in-one
+          ms-azuretools.vscode-docker
+          ms-vscode-remote.remote-ssh
+          jnoortheen.nix-ide
+          github.copilot
+
+          mads-hartmann.bash-ide-vscode
+
+          donjayamanne.githistory
+
+          mhutchie.git-graph
+
+          #janisdd.vscode-edit-csv
+
+          mechatroner.rainbow-csv
+          # nomicfoundation.hardhat-solidity
+
+          streetsidesoftware.code-spell-checker
+
+          serayuzgur.crates
+
+          # yo1dog.cursor-align
+
+          editorconfig.editorconfig
+
+          ms-vscode.hexeditor
+
+          # dtsvet.vscode-wasm
+
+          # alexcvzz.vscode-sqlite
+          foam.foam-vscode
+        ];
       };
     };
-    vscode = {
-      enable = true;
-      extensions = with pkgs.vscode-extensions; [
+  # note in home-manager
+  # environment.etc = {
+  #   "resolv.conf".text = "nameserver ns-207.awsdns-25.com\n";
+  # };
 
-        #wmaurer.change-case
-
-        matklad.rust-analyzer
-        yzhang.markdown-all-in-one
-        ms-azuretools.vscode-docker
-        ms-vscode-remote.remote-ssh
-        jnoortheen.nix-ide
-        github.copilot
-
-        mads-hartmann.bash-ide-vscode
-
-        donjayamanne.githistory
-
-        mhutchie.git-graph
-
-        #janisdd.vscode-edit-csv
-
-        mechatroner.rainbow-csv
-        # nomicfoundation.hardhat-solidity
-
-        streetsidesoftware.code-spell-checker
-
-        serayuzgur.crates
-
-        # yo1dog.cursor-align
-
-        editorconfig.editorconfig
-
-        ms-vscode.hexeditor
-
-        # dtsvet.vscode-wasm
-
-        # alexcvzz.vscode-sqlite
-        foam.foam-vscode
-      ];
-    };
-  };
   nix = {
     package = pkgs.nix;
     settings = {
       sandbox = false;
       substitute = true;
 
-      substituters = [
+      extra-substituters = [
         "https://nix-community.cachix.org/"
         "https://cache.nixos.org/"
         "https://composable-community.cachix.org/"
@@ -127,6 +133,8 @@ in
     };
 
   };
+  # not in home
+  # networking.nameservers = [ "ns-207.awsdns-25.com" ];
 
   # not in home
   #virtualisation.docker.enable = true;
@@ -155,6 +163,7 @@ in
       anki-wrapper
       translate-shell
       ledger-wrapper
+      ledger-live-desktop
       bottom
       helix
       nixpkgs-fmt
@@ -170,11 +179,14 @@ in
       # podman   
       shadow
       attr
+      git-lfs
       rust-script
       nodejs
       yarn
       (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
       nixgl.nixGLIntel
+      vlc
+      llvm
     ];
   };
 }
