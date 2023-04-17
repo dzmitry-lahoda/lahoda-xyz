@@ -1,10 +1,45 @@
-
 digraph {
-    Consensus
-    Consensus -> ConsensusState [label="generates"];
-    ConsensusState ->  Height [label="has"];
-    ConsensusState ->  CommitmentRoot [label="has"];
-    ConsensusState ->  Timestamp [label="has"];
-    ConsensusState ->  ClientState [label="initialized from"];
-    ClientState ->  ConsensusState [label="has"];
+    Consensus -> ConsensusState [label = "generates";];
+    ConsensusState -> Height [label = "has";];
+    Height -> PartialOrder
+    Height -> Zero
+    ConsensusState -> CommitmentRoot [label = "has";];
+    ConsensusState -> Timestamp [label = "has";];
+    ConsensusState -> ClientState [label = "initialized from";];
+    ConsensusState -> Height [label = "has";];
+    ConsensusState -> Pos [label="may contain"]
+    Pos -> Signatures 
+    Pos -> ValidatorSetMetadata
+    Consensus -> SourceChain [label="located at"]
+    ClientState -> ConsensusState [label = "has";];
+    CommitmentRoot -> "non/-inclusion prove of value at particular path at particular Height" [label = "allows";];
+    ClientMessage -> StateUpdate [label = "can be";];
+    ClientMessage -> Misbehaviour [label = "can be";];
+    ValidityPredicate -> ClientMessage [label = "validates";];
+    ValidityPredicate -> ConsensusState [label = "updates";];
+    ValidityPredicate -> Consensus [label = "faster than";];
+    ValidityPredicates -> StateUpdate [label="accepts or rejects"]
+    "ConsensusState[Height]" -> "ConsensusState[Height+1]";
+    Counterparty -> "ConsensusState[Height]" [label = "can introspect";];
+    ClientState -> "∃ Verify(height/path/value)";
+    MisbehaviourPredicate -> Consensus [label = "checks rules of";];
+    MisbehaviourPredicate -> ClientState [label = "freeze";];
+    Misbehaviour -> Proof [label="is"]
+    MisbehaviourPredicate -> Misbehaviour [label="uses"]
+    Misbehaviour -> Equivocation [label="can be"]
+    LightClient -> ConsensusState [label="verifies"]
+    LightClient -> SubState [label="verify"]
+    ClientType -> ValidityPredicate
+    ClientType -> Misbehaviour
+    ClientType -> LightClient
+    ClientType -> InitializationLogic
+    ClientType -> Height
+    ClientType -> ConsensusState
+    ClientType -> ClientState
+    ClientState -> VerifiedRoots [label="tracks"]
+    ClientState -> PastMismihaviorus [label="tracks"]
+    ClientMessage -> Finalized [label="is"]
+    CommitmentProof -> CommitmentRoot [label ="is assosiated"]
+    CommitmentProof -> Height [label ="is assosiated"]
+    CommitmentProof -> Path [label ="has"]
 }
