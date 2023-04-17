@@ -9,5 +9,5 @@ nix show-config
 
 And run for builds
 ```shell
-nix build .#<PACKAGE> --show-trace --fallback --debug --print-build-logs
+nix build .#PACKAGE_NAME --show-trace --fallback --debug --print-build-logs
 ```
