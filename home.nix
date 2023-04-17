@@ -22,12 +22,30 @@ let
 
 in
 {
+  xdg = {
+    enable = true;
+  };
   programs = let myname = "dzmitry"; in
     {
       bash = {
         enable = true;
+        enableCompletion = true;
+        #enableLsColors = true;
+        #blesh.enable = true;
+        #enableAutosuggestions = true;
+        #enableSyntaxHighlighting = true;
+        # oh-my-bash = {
+        #   enable = true;
+        #   plugins = [
+        #     "command-not-found"
+        #     "history"
+        #     "history-substring-search"
+        #   ];
+        #   custom = "$HOME/.config/bash/custom";
+        # };
       };
       obs-studio.enable = true;
+
       # does not integrate to ui auto
       # but works with hardware keys :) 
       brave = {
@@ -114,10 +132,12 @@ in
       ];
 
 
-      # extra-trusted-public-keys = [
-      #   "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
-      #   "composable-community.cachix.org-1:GG4xJNpXJ+J97I8EyJ4qI5tRTAJ4i7h+NK2Z32I8sK8="
-      # ];
+      extra-trusted-public-keys = [
+        "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+        "composable-community.cachix.org-1:GG4xJNpXJ+J97I8EyJ4qI5tRTAJ4i7h+NK2Z32I8sK8="
+        "helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs="
+        "mitchellh-nixos-config.cachix.org-1:bjEbXJyLrL1HZZHBbO4QALnI5faYZppzkU4D2s0G8RQ="
+      ];
     };
   };
   nixpkgs = {
@@ -146,6 +166,7 @@ in
     syncthing = {
       enable = true;
     };
+
     # this requiest boot and kernel, so cannot do like that - need custom service
     #kubo = {
     # enable = true;
@@ -162,10 +183,12 @@ in
     packages = with pkgs; [
       anki-wrapper
       translate-shell
-      ledger-wrapper
-      ledger-live-desktop
+      # ledger-wrapper
+      # ledger-live-desktop
       bottom
       helix
+      hwinfo
+      qbittorrent
       nixpkgs-fmt
       tdesktop
       home-manager
@@ -187,6 +210,10 @@ in
       nixgl.nixGLIntel
       vlc
       llvm
+      sd
+      sad
+      gh
+      xsv
     ];
   };
 }
