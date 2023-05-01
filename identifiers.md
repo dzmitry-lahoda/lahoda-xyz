@@ -55,9 +55,3 @@ Allianz 20662835100000 / 01
 ### LLC UA
 
 USREOU 44615284
-
-### Belarus
-
-Belarus Passport number: MP3239213
-
-UPN(unique payer number): 692171113
