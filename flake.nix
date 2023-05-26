@@ -2,7 +2,7 @@
   description = "lahoda.xyz";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/2ae0a16d592b4a121bf7631355f311f65db5542e";
 
     home-manager = {
       url = "github:nix-community/home-manager/release-22.11";

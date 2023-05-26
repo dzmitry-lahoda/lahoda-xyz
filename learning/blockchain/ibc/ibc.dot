@@ -41,5 +41,9 @@ digraph {
     ClientMessage -> Finalized [label="is"]
     CommitmentProof -> CommitmentRoot [label ="is assosiated"]
     CommitmentProof -> Height [label ="is assosiated"]
-    CommitmentProof -> Path [label ="has"]
+    CommitmentProof -> CommitmentPath [label ="has"]
+    CommitmentPrefix
+    LightClient -> CommitmentPath [label = "Verify membership"]
+    LightClient -> CommitmentPath [label = "Verify non-membership"]
+    
 }

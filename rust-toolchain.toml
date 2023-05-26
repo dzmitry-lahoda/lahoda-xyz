@@ -1,9 +1,9 @@
 [toolchain]
-channel = "nightly-2023-03-18"
+channel = "nightly-2023-04-01"
 components = [
   "clippy",
   "llvm-tools-preview",
-  "rust-analyzer",
+  "rust-analysis",
   "rustfmt",
   "rust-src",
   "cargo",

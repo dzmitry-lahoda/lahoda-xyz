@@ -22,11 +22,13 @@ let
 
 in
 {
+
   xdg = {
     enable = true;
   };
   programs = let myname = "dzmitry"; in
     {
+      go.enable = true;
       bash = {
         enable = true;
         enableCompletion = true;
@@ -102,6 +104,8 @@ in
 
           # alexcvzz.vscode-sqlite
           foam.foam-vscode
+
+          haskell.haskell
         ];
       };
     };
@@ -150,6 +154,9 @@ in
         "slack"
         "nvidia"
       ];
+      permittedInsecurePackages = [
+        "nodejs-16.20.0"
+      ];
     };
 
   };
@@ -158,6 +165,19 @@ in
 
   # not in home
   #virtualisation.docker.enable = true;
+  systemd = {
+    user = {
+      services = {
+        github-runner = {
+          Service = {
+            ExecStart = "${pkgs.github-runner}";
+            WorkingDirectory = "~/";
+            Restart = "Always";
+          };
+        };
+      };
+    };
+  };
   services = {
     gpg-agent = {
       enable = true;
@@ -166,6 +186,25 @@ in
     syncthing = {
       enable = true;
     };
+
+
+    # nginx.virtualHosts = {
+    #   "_" = {
+    #     addSSL = true;
+    #     enableACME = true;
+    #     root = "/var/www/default";
+    #     locations."/" = {
+    #       root = pkgs.runCommand "testdir" { } ''
+    #         mkdir "$out"
+    #         echo "love is all you need" > "$out/index.html"
+    #       '';
+    #     };
+    #     locations."/substrate/client" = {
+    #       proxyPass = "ws://34.88.1.226:9944";
+    #       proxyWebsockets = true;
+    #     };
+    #   };
+    # };
 
     # this requiest boot and kernel, so cannot do like that - need custom service
     #kubo = {
@@ -177,10 +216,26 @@ in
     #};
   };
   home = {
+    sessionVariables = {
+      LD_LIBRARY_PATH = pkgs.lib.strings.makeLibraryPath [
+        pkgs.stdenv.cc.cc.lib
+        pkgs.llvmPackages.libclang.lib
+        #pkgs.openssl.dev        
+      ];
+      # PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
+      LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
+      PROTOC = "${pkgs.protobuf}/bin/protoc";
+      ROCKSDB_LIB_DIR = "${pkgs.rocksdb}/lib";
+    };
     stateVersion = "22.11";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
+      pkg-config
+      openssl
+      #openssl.dev
+      #libiconv
+      #pkgconfig
       anki-wrapper
       translate-shell
       # ledger-wrapper
@@ -201,6 +256,8 @@ in
       # these 2 are broken if installed into home like this 
       # podman   
       shadow
+      rclone
+      rclone-browser
       attr
       git-lfs
       rust-script
@@ -214,6 +271,10 @@ in
       sad
       gh
       xsv
+      nginx
+      github-runner
+      haskell.compiler.ghcHEAD
+      docker-compose
     ];
   };
 }
