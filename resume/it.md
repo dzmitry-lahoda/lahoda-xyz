@@ -5,7 +5,7 @@ Dzmitry coded integration solutions, client-servers, actor system, threading, cl
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry's current interests are mathematics, infrastucture, and protocols.
+Dzmitry's current interests are compilers, cryptography, mathematics, low level infrastucture, and protocols.
 
 He puts objective consensus over top of subjective politics.
 
