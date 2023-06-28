@@ -2,7 +2,7 @@
 
 Allow to index and search files as https://www.voidtools.com/ (works in service as admin mode only) instantly.
 
-Written in Rust for safety and low resources consumtion.
+Written in Rust for safety and low resources consumption.
 
 I will allow to bookmark files using # by creating folder with links with files renamed to include #
 https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html

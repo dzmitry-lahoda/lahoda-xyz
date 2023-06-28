@@ -19,7 +19,12 @@ let
       ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
     '';
   };
-
+  brave-wrapper = pkgs.writeShellApplication {
+    name = "brave";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
+    '';
+  };
 in
 {
 
@@ -48,11 +53,9 @@ in
       };
       obs-studio.enable = true;
 
-      # does not integrate to ui auto
-      # but works with hardware keys :) 
       brave = {
         enable = true;
-      }; # TODO: gl fix
+      };
 
 
       chromium.enable = true;
@@ -74,7 +77,7 @@ in
 
           matklad.rust-analyzer
           yzhang.markdown-all-in-one
-          ms-azuretools.vscode-docker
+          #ms-azuretools.vscode-docker
           ms-vscode-remote.remote-ssh
           jnoortheen.nix-ide
           github.copilot
@@ -104,7 +107,7 @@ in
 
           # alexcvzz.vscode-sqlite
           foam.foam-vscode
-
+          golang.go
           haskell.haskell
         ];
       };
@@ -117,16 +120,9 @@ in
   nix = {
     package = pkgs.nix;
     settings = {
-      sandbox = false;
+      sandbox = "relaxed";
       substitute = true;
-
-      extra-substituters = [
-        "https://nix-community.cachix.org/"
-        "https://cache.nixos.org/"
-        "https://composable-community.cachix.org/"
-        "https://devenv.cachix.org/"
-      ];
-
+      trusted-users = ["dz" "root" "dzmitry-lahoda"];
 
       extra-trusted-substituters = [
         "https://nix-community.cachix.org/"
@@ -134,7 +130,6 @@ in
         "https://composable-community.cachix.org/"
         "https://devenv.cachix.org/"
       ];
-
 
       extra-trusted-public-keys = [
         "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
@@ -146,6 +141,7 @@ in
   };
   nixpkgs = {
     config = {
+      allowUnfree = true; 
       extra-substituters = true;
       allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
         "vscode"
@@ -226,13 +222,16 @@ in
       LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
       PROTOC = "${pkgs.protobuf}/bin/protoc";
       ROCKSDB_LIB_DIR = "${pkgs.rocksdb}/lib";
+      NIXPKGS_ALLOW_UNFREE=1;
     };
-    stateVersion = "22.11";
+    stateVersion = "23.05";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
       pkg-config
+      glib.dev
       openssl
+      gopls
       #openssl.dev
       #libiconv
       #pkgconfig
@@ -248,6 +247,7 @@ in
       tdesktop
       home-manager
       tg
+      dasel
       telegram-cli
       slack-wrapper
       lazygit

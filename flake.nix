@@ -2,34 +2,35 @@
   description = "lahoda.xyz";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/2ae0a16d592b4a121bf7631355f311f65db5542e";
+    nixpkgs-latest = {
+      url = "github:NixOS/nixpkgs/nixos-unstable";
+    };
+    nixpkgs.url = "github:NixOS/nixpkgs/23.05";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-22.11";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/home-manager/release-23.05";
     };
     rust-overlay = {
-      url = "github:oxalica/rust-overlay";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:oxalica/rust-overlay/stable";
     };
     nixgl = {
-      url = "github:guibou/nixGL";
-      #inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:guibou/nixGL/main";
     };
+    nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
     helix = {
-      url = "github:helix-editor/helix";
-      #inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:helix-editor/helix/23.05";
     };
   };
 
-  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix }:
+  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-latest, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem = { config, self', inputs', pkgs, system, ... }: {
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager ];
         };
-        # apps
+
+       # apps
         #  home-manager switch --flake .
       };
       flake =
@@ -44,6 +45,8 @@
             config = {
               packageOverrides = pkgs : {
                helix = helix.packages.${system}.helix;
+               vscode = nixpkgs-latest.legacyPackages.${system}.vscode;
+               brave = nixpkgs-latest.legacyPackages.${system}.brave;
               };
             };
           };
