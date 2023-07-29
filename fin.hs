@@ -1,10 +1,13 @@
 #!/usr/bin/env nix-shell
 #!nix-shell --pure -i runghc -p "haskellPackages.ghcWithPackages (pkgs: [ pkgs.turtle ])"
 
--- Buy
-data Bid a = Bid { maximum_amount :: a } deriving (Show)
--- Sell/Ask
-data Offer a = Offer { man_amount :: a } deriving (Show)
+-- Buy with maximal `price`
+data Bid a = Bid { price :: a } deriving (Show)
+-- Sell/Ask with minimal `price`
+data Offer a = Offer { price :: a } deriving (Show)
+
+is_match o b = o.price <= b.price 
 
 main = do
+  
   putStrLn "Hello world from a distributable Haskell script!"

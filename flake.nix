@@ -30,9 +30,9 @@
           nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager ];
         };
 
-       # apps
-        #  home-manager switch --flake .
+        # export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
       };
+
       flake =
         let
           system = "x86_64-linux";

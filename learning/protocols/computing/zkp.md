@@ -1,6 +1,16 @@
+-------
+tag: Zero Knowleg Proves
+-------
+
+## Definitions
 
 Prover
+
 Verifier
+
+Short Proof
+
+
 
 
 Completeness - if Prover honest then eventually it convices verifier 

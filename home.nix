@@ -1,64 +1,64 @@
 { config, pkgs, ... }:
 
 let
-  anki-wrapper = pkgs.writeShellApplication {
-    name = "anki";
-    text = ''
-      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
-    '';
-  };
-  ledger-wrapper = pkgs.writeShellApplication {
-    name = "ledger";
-    text = ''
-      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
-    '';
-  };
-  slack-wrapper = pkgs.writeShellApplication {
-    name = "slack";
-    text = ''
-      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
-    '';
-  };
-  brave-wrapper = pkgs.writeShellApplication {
-    name = "brave";
-    text = ''
-      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
-    '';
-  };
+  #anki-wrapper = pkgs.writeShellApplication {
+  #  name = "anki";
+  #  text = ''
+  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
+  #  '';
+  #};
+  #ledger-wrapper = pkgs.writeShellApplication {
+  #  name = "ledger";
+  #  text = ''
+  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
+  #  '';
+  #};
+  #slack-wrapper = pkgs.writeShellApplication {
+  #  name = "slack";
+  #  text = ''
+  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
+  #  '';
+  #};
+  #brave-wrapper = pkgs.writeShellApplication {
+  #  name = "brave";
+  #  text = ''
+  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
+  #  '';
+  #};
 in
 {
 
-  xdg = {
-    enable = true;
-  };
-  programs = let myname = "dzmitry"; in
+  #xdg = {
+  #  enable = true;
+  #};
+  programs = let myname = "dz"; in
     {
       go.enable = true;
-      bash = {
-        enable = true;
-        enableCompletion = true;
-        #enableLsColors = true;
-        #blesh.enable = true;
-        #enableAutosuggestions = true;
-        #enableSyntaxHighlighting = true;
-        # oh-my-bash = {
-        #   enable = true;
-        #   plugins = [
-        #     "command-not-found"
-        #     "history"
-        #     "history-substring-search"
-        #   ];
-        #   custom = "$HOME/.config/bash/custom";
-        # };
-      };
-      obs-studio.enable = true;
+      #bash = {
+      #enable = true;
+      #enableCompletion = true;
+      #enableLsColors = true;
+      #blesh.enable = true;
+      #enableAutosuggestions = true;
+      #enableSyntaxHighlighting = true;
+      # oh-my-bash = {
+      #   enable = true;
+      #   plugins = [
+      #     "command-not-found"
+      #     "history"
+      #     "history-substring-search"
+      #   ];
+      #   custom = "$HOME/.config/bash/custom";
+      # };
+      #};
+      #obs-studio.enable = true;
 
-      brave = {
-        enable = true;
-      };
+      #brave = {
+      #  enable = true;
+      #};
 
 
-      chromium.enable = true;
+      #chromium.enable = true;
       git = {
         enable = true;
         userName = "${myname}-lahoda";
@@ -69,48 +69,48 @@ in
           core.editor = "${pkgs.helix}/bin/hx";
         };
       };
-      vscode = {
-        enable = true;
-        extensions = with pkgs.vscode-extensions; [
+      # vscode = {
+      #   enable = true;
+      #   extensions = with pkgs.vscode-extensions; [
 
-          #wmaurer.change-case
+      #     #wmaurer.change-case
 
-          matklad.rust-analyzer
-          yzhang.markdown-all-in-one
-          #ms-azuretools.vscode-docker
-          ms-vscode-remote.remote-ssh
-          jnoortheen.nix-ide
-          github.copilot
+      #     matklad.rust-analyzer
+      #     yzhang.markdown-all-in-one
+      #     #ms-azuretools.vscode-docker
+      #     ms-vscode-remote.remote-ssh
+      #     jnoortheen.nix-ide
+      #     github.copilot
 
-          mads-hartmann.bash-ide-vscode
+      #     mads-hartmann.bash-ide-vscode
 
-          donjayamanne.githistory
+      #     donjayamanne.githistory
 
-          mhutchie.git-graph
+      #     mhutchie.git-graph
 
-          #janisdd.vscode-edit-csv
+      #     #janisdd.vscode-edit-csv
 
-          mechatroner.rainbow-csv
-          # nomicfoundation.hardhat-solidity
+      #     mechatroner.rainbow-csv
+      #     # nomicfoundation.hardhat-solidity
 
-          streetsidesoftware.code-spell-checker
+      #     streetsidesoftware.code-spell-checker
 
-          serayuzgur.crates
+      #     serayuzgur.crates
 
-          # yo1dog.cursor-align
+      #     # yo1dog.cursor-align
 
-          editorconfig.editorconfig
+      #     editorconfig.editorconfig
 
-          ms-vscode.hexeditor
+      #     ms-vscode.hexeditor
 
-          # dtsvet.vscode-wasm
+      #     # dtsvet.vscode-wasm
 
-          # alexcvzz.vscode-sqlite
-          foam.foam-vscode
-          golang.go
-          haskell.haskell
-        ];
-      };
+      #     # alexcvzz.vscode-sqlite
+      #     foam.foam-vscode
+      #     golang.go
+      #     haskell.haskell
+      #   ];
+      # };
     };
   # note in home-manager
   # environment.etc = {
@@ -121,8 +121,24 @@ in
     package = pkgs.nix;
     settings = {
       sandbox = "relaxed";
+      experimental-features = [ "flakes" "nix-command" ];
+      narinfo-cache-negative-ttl = 0;
+      system-features = [ "kvm" ];
+      max-jobs = 1;
+      cores = 24;
+      auto-optimise-store = true;
+      # max-substitution-jobs = 32;
+      allow-import-from-derivation = true;
+      gc-reserved-space = 18388608;
+      http-connections = 32;
+      http2 = true;
+      min-free = 100000000000;
+      max-free = 1000000000000;
+      # keep-outputs = true;
+      # keep-derivations = true;
+
       substitute = true;
-      trusted-users = ["dz" "root" "dzmitry-lahoda"];
+      trusted-users = [ "dz" "root" "dzmitry-lahoda" "dzmitry" ];
 
       extra-trusted-substituters = [
         "https://nix-community.cachix.org/"
@@ -141,7 +157,7 @@ in
   };
   nixpkgs = {
     config = {
-      allowUnfree = true; 
+      allowUnfree = true;
       extra-substituters = true;
       allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
         "vscode"
@@ -150,9 +166,9 @@ in
         "slack"
         "nvidia"
       ];
-      permittedInsecurePackages = [
-        "nodejs-16.20.0"
-      ];
+      #permittedInsecurePackages = [
+      #  "nodejs-16.20.0"
+      #];
     };
 
   };
@@ -161,19 +177,19 @@ in
 
   # not in home
   #virtualisation.docker.enable = true;
-  systemd = {
-    user = {
-      services = {
-        github-runner = {
-          Service = {
-            ExecStart = "${pkgs.github-runner}";
-            WorkingDirectory = "~/";
-            Restart = "Always";
-          };
-        };
-      };
-    };
-  };
+  #systemd = {
+  #  user = {
+  #    services = {
+  #      github-runner = {
+  #        Service = {
+  #          ExecStart = "${pkgs.github-runner}";
+  #          WorkingDirectory = "~/";
+  #          Restart = "Always";
+  #        };
+  #     };
+  #    };
+  #  };
+  #};
   services = {
     gpg-agent = {
       enable = true;
@@ -193,7 +209,7 @@ in
     #       root = pkgs.runCommand "testdir" { } ''
     #         mkdir "$out"
     #         echo "love is all you need" > "$out/index.html"
-    #       '';
+    # :      '';
     #     };
     #     locations."/substrate/client" = {
     #       proxyPass = "ws://34.88.1.226:9944";
@@ -213,68 +229,63 @@ in
   };
   home = {
     sessionVariables = {
-      LD_LIBRARY_PATH = pkgs.lib.strings.makeLibraryPath [
-        pkgs.stdenv.cc.cc.lib
-        pkgs.llvmPackages.libclang.lib
-        #pkgs.openssl.dev        
-      ];
+      #LD_LIBRARY_PATH = pkgs.lib.strings.makeLibraryPath [
+      #  pkgs.stdenv.cc.cc.lib
+      #  pkgs.llvmPackages.libclang.lib
+      #pkgs.openssl.dev        
+      #];
       # PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
-      LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
+      #LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
       PROTOC = "${pkgs.protobuf}/bin/protoc";
       ROCKSDB_LIB_DIR = "${pkgs.rocksdb}/lib";
-      NIXPKGS_ALLOW_UNFREE=1;
+      NIXPKGS_ALLOW_UNFREE = 1;
     };
     stateVersion = "23.05";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
-      pkg-config
-      glib.dev
-      openssl
-      gopls
-      #openssl.dev
-      #libiconv
-      #pkgconfig
-      anki-wrapper
-      translate-shell
-      # ledger-wrapper
+      (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
       # ledger-live-desktop
+      # ledger-wrapper
+      #glib.dev
+      #libiconv
+      #openssl.dev
+      #pkgconfig
+      attr
       bottom
-      helix
-      hwinfo
-      qbittorrent
-      nixpkgs-fmt
-      tdesktop
-      home-manager
-      tg
       dasel
-      telegram-cli
-      slack-wrapper
-      lazygit
+      dasel
+      gh
+      git-lfs
+      gopls
+      grpcurl
+      haskell.compiler.ghcHEAD
+      helix
+      home-manager
+      hwinfo
+      jq
       kubo
-      rnix-lsp
-      # these 2 are broken if installed into home like this 
-      # podman   
-      shadow
+      lazygit
+      llvm
+      nginx
+      nixgl.nixGLIntel      
+      nixpkgs-fmt
+      nodejs
+      openssl
+      pkg-config
+      protobuf
       rclone
       rclone-browser
-      attr
-      git-lfs
+      rnix-lsp
       rust-script
-      nodejs
-      yarn
-      (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
-      nixgl.nixGLIntel
-      vlc
-      llvm
-      sd
       sad
-      gh
+      sd
+      shadow
+      telegram-cli
+      translate-shell
+      websocat
       xsv
-      nginx
-      github-runner
-      haskell.compiler.ghcHEAD
-      docker-compose
+      yarn
     ];
   };
 }
