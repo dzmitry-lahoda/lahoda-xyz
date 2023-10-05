@@ -1,23 +1,30 @@
-# Dzmitry Lahoda
+# About
 
-Dzmitry coded integration solutions, client-servers, actor system, threading, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, blockchains, basic applied statistics in several human domains.
+Dzmitry is a seasoned software developer with 20 years of experience, specializing in blockchain and cryptocurrency.
+With 95% of his assets in crypto and a net-zero trading portfolio, he is deeply committed to the crypto ecosystem. 
+Currently, he's contributing to the Composable project, focusing on practical applications for cross-chain interoperability. 
+For Dzmitry, code is not just a tool, but a language for shaping the future.
+
+Before crypto he coded integration, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
 
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry's current interests are compilers, cryptography, mathematics, low level infrastucture, and protocols.
+Dzmitry's current interests are compilers, cryptography, mathematics, foundational infrastructure, protocols.
 
 He puts objective consensus over top of subjective politics.
 
-Dzmitry has C1/Advanced English. Resides in Portugal.
+Currently Dzmitry resides in Portugal, makes his life easy with AI and minimalism.
 
 ## Profiles
 
-[GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [Alternativeto.net Software Encyclopedist](https://alternativeto.net/user/dzmitrylahoda/) [Triplebyte Generalist Certificate](https://triplebyte.com/tb/dzmitry-lahoda-pijxwdl/certificate/track/generalist) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
+[GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
 ## Toolbox
 
 ### Technical knowledge and experience
+
+Mostly application level knowledge, with some dips into execution runtime, relevant math and data structures. 
 
 Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed).
 
@@ -25,44 +32,43 @@ Applied knowledge of storages(graph, relational, key values, blobs, documents, h
 
 Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation).
 
-Applied knowledge of many engineering, design, construction, architecture, quality related processeses and patterns.
+Applied knowledge of many engineering, design, construction, architecture, quality related processes and patterns.
 
 ### Coding
 
-Rust(3+years), Go(so not used recently for some time)
+Mostly Rust last years. Coding Solidity, Go, Python.
 
+Used Object Pascal, Matlab, C#/F# in previous life.
 ### Environment
 
-Git, Nix, VS Code, Helix(editor)
-
-### Collaboration
-
-Markdown
+Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 
 ## Products
 
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
 
-- Rust
-- DeFi, lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities, security audits  
-- off/cross chain solutions
-- virtual machines
-- p2p chats
-- Solana, [Substrate](https://github.com/ComposableFi/composable)(1+ year), [Fluence](https://fluence.network/), Cosmos
+Coding, audit, research, monitoring and deployment.
+
+For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
+mostly on cross/inter chain execution and message passing.
+
+- On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
+- Infrastructure: local devnets, forks, relayers
+- Virtual machines: Wasm, Solana
+- P2P: chats
+- Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
-- Rust
-- did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
+- Did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
 - Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
 
-- Rust
-- login, questionnaires, documents signing, marketing flows on CQRS/ES
-- low level PDF rendering
+- Login, questionnaires, documents signing, marketing flows on CQRS/ES
+- Low level PDF rendering
 
-### 2020.03 - 2022.06, [Crey Games](playcrey.com). Backend Software Engineer and DevOps. GameDev
+### 2020.03 - 2022.06, Metaverse game builder startup(defunct). Backend Software Engineer and DevOps. GameDev.
 
 - Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
@@ -76,12 +82,11 @@ Markdown
 - Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
 - Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
 
-### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps
+### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps.
 
 Cloud-native microservice-based call and contact center.
-
-- Made call handling microservice scalable by eliminating in-memory state.
-- Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
+Made call handling microservice scalable by eliminating in-memory state.
+Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
   
 ### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
 
@@ -103,9 +108,9 @@ Cloud-native microservice-based call and contact center.
 - Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
 - Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
   
-### 06.2015 - 08.2017. [Thomson Reuters Legal eDiscovery server engine](https://legal.thomsonreuters.com/en/products/ediscovery-point). Legal. Backend Software Engineer
+### 06.2015 - 08.2017. [Thomson Reuters Legal Electronic discovery engine(defunct) SaaS]. Legal. Backend Software Engineer
 
-[e-Discovery](https://en.wikipedia.org/wiki/Electronic_discovery) is end-to-end [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
+Solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
 
 - Developed asynchronous actor-like data-intensive persisted engine and multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
 - Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows
@@ -113,7 +118,7 @@ Cloud-native microservice-based call and contact center.
 - Used several data storages(relational, document, files, queue, cache).
 - Created malicious e-Discovery hardening data set
 - Document and prototyped replacement of distributed lock-based flows into lock-free event-sourced flows for performance and consistency, disentangled cases where we could use eventual consistency and approximations, and were not
-- Thought up, elaborated and managed prototyping of document relationships visualization presented to the customer
+- Prototyped and demoed document relationships visualization.
   
 ### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Software Engineer
 
@@ -140,25 +145,23 @@ Coded custom [IPC](16).
 - Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classifies via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
 
 ### 2008.07, 2009.07, internship. Time Lapse Microscopy Capture Tool, [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
-.
-- Developed Windows application for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) during summer school.
-- Featured continual shooting of photos via a camera attached to the microscope, measuring photo quality, tuning camera settings, plotting entropy calculation, logging results
+
+App for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy) via a camera attached to the microscope. 
+With continual shooting, photo quality measurement using entropy, tuning camera settings.
 
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by). Intern
 
-- Coded some server-side part to get data to and from database
+Coded some server-side part to get data to and from database
 
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/). Driver/Desktop Software Engineer
 
-Created industrial realtime application connected to a woodworking machine.
-
-- Software to manage sawing plans, sawing machine setup and real time monitoring of sawing process.
-- Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware.
+Created industrial realtime application connected to a woodworking machine to manage sawing plans, sawing machine setup and do real time execution of sawing process.
+Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware.
 
 ### 2004.09-2005.03, part time. Graduates database
 
-- Created installable Windows application to input and report on graduate data.
-- Got 2nd place on regional competition of school student’s software
+Created app to input and report on graduate data.
+Got 2nd place on regional competition of school student’s software
 
 ## Experiences
 
@@ -190,14 +193,14 @@ IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 ### 2005.09-2010.06. Belarus State University, [Faculty of Radiophysics and Computer Technologies](http://rfe.by/en)
 
-- [Graduated university with Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/education/bsu_by).
+Got Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
 ### 2008, part time. Industrial software development, .NET development courses by outsoruce companies in Belarus
 
 ### 1994-2005. Gymnasium №1, Vileyka, Minsk region, Belarus
 
-- Specialization in physics and mathematics via [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) for self-education
-- Participated in state wide olympiad in Physics in last grade
+Specialized in physics and mathematics in [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) environment.
+Participated in state olympiad in Physics.
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure
 [10]: https://en.wikipedia.org/wiki/Entity_component_system
