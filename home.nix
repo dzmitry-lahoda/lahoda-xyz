@@ -124,10 +124,9 @@ in
       experimental-features = [ "flakes" "nix-command" ];
       narinfo-cache-negative-ttl = 0;
       system-features = [ "kvm" ];
-      max-jobs = 1;
+      max-jobs = 2;
       cores = 24;
       auto-optimise-store = true;
-      # max-substitution-jobs = 32;
       allow-import-from-derivation = true;
       gc-reserved-space = 18388608;
       http-connections = 32;
@@ -140,16 +139,22 @@ in
       substitute = true;
       trusted-users = [ "dz" "root" "dzmitry-lahoda" "dzmitry" ];
 
-      extra-trusted-substituters = [
+      substituters = [
         "https://nix-community.cachix.org/"
         "https://cache.nixos.org/"
-        "https://composable-community.cachix.org/"
+        "https://composable.cachix.org/"
         "https://devenv.cachix.org/"
+        "https://nixpkgs-update.cachix.org"
+        "https://cosmos.cachix.org"
       ];
 
-      extra-trusted-public-keys = [
+      trusted-public-keys = [
+        "composable.cachix.org-1:J2TVJKH4U8xqYdN/0SpauoAxLuDYeheJtv22Vn3Hav8="
+        "cosmos.cachix.org-1:T5U9yg6u2kM48qAOXHO/ayhO8IWFnv0LOhNcq0yKuR8="
+        "devenv.cachix.org-1:w1cLUi8dv3hnoSPGAuibQv+f9TZLr6cv/Hm9XgU50cw="
+        "nixpkgs-update.cachix.org-1:6y6Z2JdoL3APdu6/+Iy8eZX2ajf09e4EE9SnxSML1W8="
+        "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
         "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
-        "composable-community.cachix.org-1:GG4xJNpXJ+J97I8EyJ4qI5tRTAJ4i7h+NK2Z32I8sK8="
         "helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs="
         "mitchellh-nixos-config.cachix.org-1:bjEbXJyLrL1HZZHBbO4QALnI5faYZppzkU4D2s0G8RQ="
       ];
@@ -249,8 +254,26 @@ in
       # ledger-wrapper
       #glib.dev
       #libiconv
-      #openssl.dev
-      #pkgconfig
+      openssl.dev
+      pkgconfig
+      hyperfine
+      direnv
+      bat
+      sd
+      #yt-dlp
+      nix-tree
+      # dust
+      starship
+      ripgrep
+      exa
+      # rmesg
+      zoxide
+      delta
+      #tp-note
+      bandwhich
+      fd
+      procs
+      alejandra
       attr
       bottom
       dasel
@@ -259,6 +282,7 @@ in
       git-lfs
       gopls
       grpcurl
+      cachix
       haskell.compiler.ghcHEAD
       helix
       home-manager
@@ -268,7 +292,7 @@ in
       lazygit
       llvm
       nginx
-      nixgl.nixGLIntel      
+      nixgl.nixGLIntel
       nixpkgs-fmt
       nodejs
       openssl
@@ -281,11 +305,11 @@ in
       sad
       sd
       shadow
-      telegram-cli
       translate-shell
       websocat
       xsv
       yarn
+      rocksdb
     ];
   };
 }

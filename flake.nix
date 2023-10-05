@@ -2,7 +2,7 @@
   description = "lahoda.xyz";
 
   inputs = {
-    nixpkgs-latest = {
+    nixpkgs-unstable = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
     };
     nixpkgs.url = "github:NixOS/nixpkgs/23.05";
@@ -22,7 +22,7 @@
     };
   };
 
-  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-latest, ... }:
+  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-unstable, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem = { config, self', inputs', pkgs, system, ... }: {
@@ -45,8 +45,8 @@
             config = {
               packageOverrides = pkgs : {
                helix = helix.packages.${system}.helix;
-               vscode = nixpkgs-latest.legacyPackages.${system}.vscode;
-               brave = nixpkgs-latest.legacyPackages.${system}.brave;
+               vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
+               brave = nixpkgs-unstable.legacyPackages.${system}.brave;
               };
             };
           };

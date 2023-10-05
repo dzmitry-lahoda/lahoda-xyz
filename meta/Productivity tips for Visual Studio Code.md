@@ -1,5 +1,6 @@
 
 
+
 # Commands to all find commands and jump among views
 
 Show all shortcuts map `CTRL + K CTRL +S`
@@ -27,3 +28,21 @@ Format `SHIFT+ALT+F`
 Delete selected lines SHIFT + DEL
 
 Copy line down SHIFT + ALT + DOWN
+
+## Navigation
+
+### Global
+
+`F4` - jump to next found
+
+`CTRL+ALT+<DIGIT>` - focus editor
+
+### Editor
+
+`CTRL+SHIFT+<ARROW>`
+
+
+### View
+
+`CTRL+PGUP` - focus next editor 
+`CTRL+DOWN` - focus previous editor 
