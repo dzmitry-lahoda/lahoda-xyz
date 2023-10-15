@@ -24,21 +24,22 @@ Currently Dzmitry resides in Portugal, makes his life easy with AI and minimalis
 
 ### Technical knowledge and experience
 
-Mostly application level knowledge, with some dips into execution runtime, relevant math and data structures. 
+Mostly application level knowledge, with some dips into execution runtime, relevant math and data structures, specifically cryptography and mechanisms.
 
 Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed).
 
 Applied knowledge of storages(graph, relational, key values, blobs, documents, hierarchical).
 
-Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation).
+Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, query).
 
 Applied knowledge of many engineering, design, construction, architecture, quality related processes and patterns.
 
 ### Coding
 
-Mostly Rust last years. Coding Solidity, Go, Python.
+Mostly Rust last years. Coding Solidity, Go, Python, Haskell.
 
-Used Object Pascal, Matlab, C#/F# in previous life.
+Used Object Pascal, Matlab, C#/F# a lot before.
+
 ### Environment
 
 Git, Nix, VS Code, Helix(editor), AI models, Markdown.
@@ -99,15 +100,16 @@ Planned and deployed logging storage for 3TB logs storage with 40GB logs per day
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Desktop Software Engineer. Engineering
 
-[Windows desktop application](https://www.youtube.com/watch?v=Iuqq1RdgY0A&list=PLdK8AlEjocsVVJfXTdzvzHBNrR31DNS8n) to show and analyze measurement data from car sensors.
+Maintained and developed Desktop app to show and analyze measurement signals from car sensors.
+Mostly fixing bugs in synchronization engine, migrating from single threaded single cursor database to multi cursor with semimutable view, add detailed signal explorer.
 
-- Improved code practices and performance, reduced technical debt
-- Made synchronous blocking mutable state components into asynchronous reactive non-blocking immutable.
-- Did for 1 month as side effect of doing other feature what the whole team was doing for half year.
-- Shared practices with the team about testing, process, collaboration, documentation.
-- Report reviews of components for performance, usability, stability, concurrency, and scalability, reported in various forms
-- Fixed bugs of in-memory data synchronization within engineering instruments and in the custom plugin system
-  
+Made synchronous blocking mutable state with many synchronization bugs components into asynchronous reactive non-blocking immutable without bugs at same time as developing feature.
+That feature was developed for a month on top of non existing yet functional of data storage, I simulated API. 
+We got API only last week before release and I was able to easy integrated.
+
+At same time there was team, who trying stabilizing  component for 6 months before me. 
+So I was 6x developer.
+
 ### 06.2015 - 08.2017. [Thomson Reuters Legal Electronic discovery engine(defunct) SaaS]. Legal. Backend Software Engineer
 
 Solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
