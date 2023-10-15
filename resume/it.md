@@ -36,7 +36,7 @@ Applied knowledge of many engineering, design, construction, architecture, quali
 
 ### Coding
 
-Mostly `Rust`` last years. I do `Solidity, Go, Python, Haskell` to.
+Mostly `Rust` last years. I do `Solidity, Go, Python, Haskell` too.
 
 Used Object Pascal, Matlab, C#/F# a lot before.
 
@@ -78,10 +78,10 @@ Built templated low level PDF rendering engine.
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. Wallmart. Backend Software Engineer
 
-- [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act) regulation
-- Wrote distributed testing tools, debugged and patched scalability issue in graph database driver
-- Did substantial work in delivering several microservices (optout, access and delete flows) covered by monitoring and alerts
-- Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
+Implemented California Consumer Privacy Act regulation conformance(optout, access and PII delete flows).
+Delivered new and modified existing microservices, with covering monitoring and alerts
+Wrote distributed testing tools, debugged and patched scalability issue in graph database driver.
+Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
 
 ### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps.
 
@@ -91,12 +91,13 @@ Planned and deployed logging storage for 3TB logs storage with 40GB logs per day
   
 ### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
 
-* Game from Proof of Concept into Release.
-- Matchmaking, battles, meta configuration
-- Actor, WebSockets, [ECS][10], UDP, channels
-- Realtime synchronization protocol and compression; convenient and fast serialization
-- Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users
-- Automated distributed deployment
+Joined team after stage of Proof of Concept to get it into Release.
+Mostly did game logic, networking middleware, backend, SRE/DevOps.
+Did matchmaking and meta configuration based on distributed actor system and WebSockets.
+Moved game logic to be coded as Entity Component System run over threading channels. 
+Did realtime synchronization protocol with compression; convenient and fast serialization over UDP.
+Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users.
+Deployed all to production.
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Desktop Software Engineer. Engineering
 
