@@ -36,7 +36,7 @@ Applied knowledge of many engineering, design, construction, architecture, quali
 
 ### Coding
 
-Mostly Rust last years. Coding Solidity, Go, Python, Haskell.
+Mostly `Rust`` last years. I do `Solidity, Go, Python, Haskell` to.
 
 Used Object Pascal, Matlab, C#/F# a lot before.
 
@@ -54,20 +54,20 @@ For more than 1 year working in [Composable](https://github.com/ComposableFi/com
 mostly on cross/inter chain execution and message passing.
 
 - On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
-- Infrastructure: local devnets, forks, relayers
-- Virtual machines: Wasm, Solana
+- Infrastructure: local devnets, forks, relayers, indexers, tools
+- Virtual machines: WASM, eBPF
 - P2P: chats
-- Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos
+- Conracts and prrograms for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, Ethereum.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
-- Did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes
-- Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
+Did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes.
+Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
 
-- Login, questionnaires, documents signing, marketing flows on CQRS/ES
-- Low level PDF rendering
+Did Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
+Built templated low level PDF rendering engine.
 
 ### 2020.03 - 2022.06, Metaverse game builder startup(defunct). Backend Software Engineer and DevOps. GameDev.
 
