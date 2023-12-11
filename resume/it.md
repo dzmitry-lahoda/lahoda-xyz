@@ -46,11 +46,12 @@ Coding, audit, research, monitoring, building and deployment.
 For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
 mostly on cross-chain interoperability.
 
+- Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
 - On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
 - Infrastructure: local devnets, forks, relayers, indexers, tools
 - Virtual machines: WASM, eBPF
 - P2P: chats
-- Conracts and prrograms for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, Ethereum.
+- Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, CosmWasm.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
