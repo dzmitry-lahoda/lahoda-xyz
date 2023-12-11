@@ -1,20 +1,15 @@
 # About
 
-Dzmitry is a seasoned software developer with 20 years of experience, specializing in blockchain and cryptocurrency.
-With 95% of his assets in crypto and a net-zero trading portfolio, he is deeply committed to the crypto ecosystem. 
-Currently, he's contributing to the Composable project, focusing on practical applications for cross-chain interoperability. 
-For Dzmitry, code is not just a tool, but a language for shaping the future.
+Dzmitry is a seasoned software developer with 20 years of experience, specializing in blockchain, underlying infrastucture and protocols.
 
-Before crypto he coded integration, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
+Before crypto he coded integrations, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
 
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry's current interests are compilers, cryptography, mathematics, foundational infrastructure, protocols.
+Dzmitry currently trying to be better at mathematics, cryptography, and compilers. 
 
-He puts objective consensus over top of subjective politics.
-
-Currently Dzmitry resides in Portugal, makes his life easy with AI and minimalism.
+Currently he resides in Portugal.
 
 ## Profiles
 
@@ -24,15 +19,13 @@ Currently Dzmitry resides in Portugal, makes his life easy with AI and minimalis
 
 ### Technical knowledge and experience
 
-Mostly application level knowledge, with some dips into execution runtime, relevant math and data structures, specifically cryptography and mechanisms.
-
-Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed).
+Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed, isolation, cryptography).
 
 Applied knowledge of storages(graph, relational, key values, blobs, documents, hierarchical).
 
 Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, query).
 
-Applied knowledge of many engineering, design, construction, architecture, quality related processes and patterns.
+Applied knowledge of many engineering, infrastucture, design, construction, architecture, quality related processes and patterns, mechanism designs.
 
 ### Coding
 
@@ -48,10 +41,10 @@ Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
 
-Coding, audit, research, monitoring and deployment.
+Coding, audit, research, monitoring, building and deployment.
 
 For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
-mostly on cross/inter chain execution and message passing.
+mostly on cross-chain interoperability.
 
 - On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
 - Infrastructure: local devnets, forks, relayers, indexers, tools
