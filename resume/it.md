@@ -37,7 +37,7 @@ Used Object Pascal, Matlab, C#/F# a lot before.
 
 Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 
-## Products
+## Work
 
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
 
