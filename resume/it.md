@@ -9,7 +9,7 @@ Did generalized machine learning algorithms in 2010.
 
 Dzmitry currently trying to be better at mathematics, cryptography, and compilers. 
 
-Currently he resides in Portugal.
+Currently he uses Portugal tax number.
 
 ## Profiles
 
