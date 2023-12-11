@@ -46,10 +46,10 @@ Coding, audit, research, monitoring, building and deployment.
 For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
 mostly on cross-chain interoperability.
 
+- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
 - Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
 - On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
 - Infrastructure: local devnets, forks, relayers, indexers, tools
-- Virtual machines: WASM, eBPF
 - P2P: chats
 - Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, CosmWasm.
 
