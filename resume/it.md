@@ -85,25 +85,17 @@ Planned and deployed logging storage for 3TB logs storage with 40GB logs per day
   
 ### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
 
-Joined team after stage of Proof of Concept to get it into Release.
-Mostly did game logic, networking middleware, backend, SRE/DevOps.
-Did matchmaking and meta configuration based on distributed actor system and WebSockets.
-Moved game logic to be coded as Entity Component System run over threading channels. 
+Moved game from Proof of Concept to get it into Release.
+Did networking and game machanics middleware via Entity Component System, backend, SRE/DevOps.
+Did matchmaking and meta configuration based on actor and message queues.
 Did realtime synchronization protocol with compression; convenient and fast serialization over UDP.
 Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users.
-Deployed all to production.
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Desktop Software Engineer. Engineering
 
-Maintained and developed Desktop app to show and analyze measurement signals from car sensors.
-Mostly fixing bugs in synchronization engine, migrating from single threaded single cursor database to multi cursor with semimutable view, add detailed signal explorer.
-
-Made synchronous blocking mutable state with many synchronization bugs components into asynchronous reactive non-blocking immutable without bugs at same time as developing feature.
-That feature was developed for a month on top of non existing yet functional of data storage, I simulated API. 
-We got API only last week before release and I was able to easy integrated.
-
-At same time there was team, who trying stabilizing  component for 6 months before me. 
-So I was 6x developer.
+Developed desktop app to show and analyze measurement signals from car sensors.
+Fixed bugs realtime data synchronization engine, migrating from single threaded to multithread database usage,  
+migrated syncronous blocking buggy code to bug free reactive, real time data tables and views.
 
 ### 06.2015 - 08.2017. [Thomson Reuters Legal Electronic discovery engine(defunct) SaaS]. Legal. Backend Software Engineer
 
