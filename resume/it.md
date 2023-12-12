@@ -9,7 +9,7 @@ Did generalized machine learning algorithms in 2010.
 
 Dzmitry currently trying to be better at mathematics, cryptography, and compilers. 
 
-Currently he uses Portugal tax number.
+Legally resides in Portugal.
 
 ## Profiles
 
@@ -19,18 +19,15 @@ Currently he uses Portugal tax number.
 
 ### Technical knowledge and experience
 
-Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed, isolation, cryptography).
-
-Applied knowledge of storages(graph, relational, key values, blobs, documents, hierarchical).
-
-Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, query).
-
-Applied knowledge of many engineering, infrastucture, design, construction, architecture, quality related processes and patterns, mechanism designs.
+Mostly applied knowledge:
+- compute(embedded, cloud, blockchain, p2p, virtualization, distributed, isolation, cryptography).
+- storages(graph, relational, key values, blobs, documents, hierarchical).
+- languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, query).
+- engineering, infrastucture, design, construction, architecture, quality related processes and patterns, mechanism designs.
 
 ### Coding
 
 Mostly `Rust` last years. I do `Solidity, Go, Python, Haskell` too.
-
 Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
@@ -39,11 +36,17 @@ Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 
 ## Work
 
+### Summary low-level works
+
+
+
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
+
+**Rust**
 
 Coding, audit, research, monitoring, building and deployment.
 
-For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
+Since August 2022 working in [Composable](https://github.com/ComposableFi/composable),
 mostly on cross-chain interoperability.
 
 - Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
@@ -55,13 +58,15 @@ mostly on cross-chain interoperability.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
+**Rust**.
 Did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes.
 Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
 
-### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
+### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works 
 
-Did Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
-Built templated low level PDF rendering engine.
+**Rust**.
+Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
+Templated low level PDF rendering engine.
 
 ### 2020.03 - 2022.06, Metaverse game builder startup(defunct). Backend Software Engineer and DevOps. GameDev.
 
