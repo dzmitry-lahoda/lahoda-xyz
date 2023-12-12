@@ -39,11 +39,15 @@ Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 ### Summary low-level works
 
 My first low level work was writing driver sawing machine, had to communicate bits with error checking and strobes.
-Next I did interprocess(single machine RPC) from scratch and native/sandboxed code integration(C#/C++) for suite of desktop applications.
-When I joined Azure, I did bit level compression serde and UDP packet sized communicaiton for realtime shooter game.
+Than did some photo microscope shooting and image analysis app.
+After I did sound analysis using FFT/PCM/PCA.
+Next I did interprocess(single machine RPC) from scratch and native/sandboxed code integration(C#/C++) for suite of desktop applications, and debug memory leaks/crashes using console.
+In enterprise data engines used WireShark to analyze traffic to find out reasons for queue failures and mitigation. 
+Also did in C# arbitrary generic number base converters faster than built in C++ FFI invoked one in hardwre signals handling in automotive. 
+When I joined Azure, I did bit level compression serde and UDP packet sized communication for realtime shooter game.
 So than in Rust, had to dig in low level PDF things (as there was no industiral PDF in Rust), than did some Rust based prototype with ECS/WebSockets for autoscaled game server engine.
 When joined crypto workforce, enjoued bit tinkering in Solana([zero copy](https://github.com/solana-labs/solana/issues/13391#issuecomment-813038433) and account encoding), and tool to modify on chain trie in Polkadot as SUDO operation on data storage in absence of proper transactions to do so.
-Also code in Solidy manual decoder/encoder of ProtoBuf for performance reasons.
+Also code in Solidity manual decoder/encoder of ProtoBuf for performance reasons.
 
 ### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
 
