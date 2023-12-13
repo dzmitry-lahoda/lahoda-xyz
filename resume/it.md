@@ -49,21 +49,34 @@ So than in Rust, had to dig in low level PDF things (as there was no industiral 
 When joined crypto workforce, enjoued bit tinkering in Solana([zero copy](https://github.com/solana-labs/solana/issues/13391#issuecomment-813038433) and account encoding), and tool to modify on chain trie in Polkadot as SUDO operation on data storage in absence of proper transactions to do so.
 Also code in Solidity manual decoder/encoder of ProtoBuf for performance reasons.
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
+
+### 2022.03-now. [Composable](https://github.com/ComposableFi/composable)
+
+Cross-chain interoperability.
 
 **Rust**
 
-Coding, audit, research, monitoring, building and deployment.
+Infrastucture works:
+- Implementing IBC protocol for cross chain function calls on Polkadot/Cosmos/Ethereum
+- Maintaining network of heterogenous nodes and trustless relayers of varius block chains for cross chain development and testing
+- Implementing multi gas fee payment modules and cross chain function calls customisations  
+- Maintaining and enhancing CosmWasm(ported from Cosmos) VM hosted on Polkadot 
+- Maintianing CI/CD for all everything
 
-Since August 2022 working in [Composable](https://github.com/ComposableFi/composable),
-mostly on cross-chain interoperability.
+Applicaiton works:
+- Imlemented/ported DeFi primitivies for swap/lending/locked staking/gov on Polkadot with cross chain integration
+- Implementing multi contracts wich allow to interprete same AST code on all chains (Cosmos/Polkadot/Ethereum)
 
-- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
-- Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
-- On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
-- Infrastructure: local devnets, forks, relayers, indexers, tools
-- P2P: chats
-- Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, CosmWasm.
+### 2021.03-22.09. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
+
+**Rust**
+
+Infrastrucutre works:
+- Desing and deploy topology and routing scripts for P2P chat.  
+- Designed and deployed Solana indexer
+
+Application works:
+- Coded/ported AMM, NFT, crowd funding, IDO, staking/rewards, identities on Solana
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
