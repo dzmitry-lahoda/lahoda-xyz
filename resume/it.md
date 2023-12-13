@@ -54,7 +54,7 @@ Infrastucture works:
 - Maintaining and enhancing CosmWasm(ported from Cosmos) VM hosted on Polkadot 
 - Maintianing CI/CD for all everything (native vs wasm compilation resolution, Wasm size optimization)
 
-Applicaiton works:
+Application works:
 - Imlemented/ported DeFi primitivies for swap/lending/locked staking/gov on Polkadot with cross chain integration
 - Implementing multi contracts wich allow to interprete same AST code on all chains (Cosmos/Polkadot/Ethereum)
 
@@ -62,7 +62,7 @@ Applicaiton works:
 
 **Rust**
 
-Infrastrucutre works:
+Infrastucture works:
 - Desing and deploy topology and routing scripts for P2P chat.  
 - Designed and deployed Solana indexer
 
