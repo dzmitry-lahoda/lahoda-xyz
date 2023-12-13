@@ -38,16 +38,7 @@ Git, Nix, VS Code, Helix(editor), AI models, Markdown.
 
 ### Summary low-level works
 
-My first low level work was writing driver sawing machine, had to communicate bits with error checking and strobes.
-Than did some photo microscope shooting and image analysis app.
-After I did sound analysis using FFT/PCM/PCA.
-Next I did interprocess(single machine RPC) from scratch and native/sandboxed code integration(C#/C++) for suite of desktop applications, and debug memory leaks/crashes using console.
-In enterprise data engines used WireShark to analyze traffic to find out reasons for queue failures and mitigation. 
-Also did in C# arbitrary generic number base converters faster than built in C++ FFI invoked one in hardwre signals handling in automotive. 
-When I joined Azure, I did bit level compression serde and UDP packet sized communication for realtime shooter game.
-So than in Rust, had to dig in low level PDF things (as there was no industiral PDF in Rust), than did some Rust based prototype with ECS/WebSockets for autoscaled game server engine.
-When joined crypto workforce, enjoued bit tinkering in Solana([zero copy](https://github.com/solana-labs/solana/issues/13391#issuecomment-813038433) and account encoding), and tool to modify on chain trie in Polkadot as SUDO operation on data storage in absence of proper transactions to do so.
-Also code in Solidity manual decoder/encoder of ProtoBuf for performance reasons.
+My first low-level work was writing a driver for a sawing machine, which required communicating bits with error checking and strobes. Then I did some microscope photo shooting and image analysis app development. After that, I did sound analysis using FFT/PCM/PCA. Next, I worked on interprocess (single machine RPC) from scratch and native/sandboxed code integration (C#/C++) for a suite of desktop applications, and debugged memory leaks/crashes using a console. In enterprise data engines, I used Wireshark to analyze traffic to find out reasons for queue failures and mitigation. I also did in C# arbitrary generic number base converters faster than the built-in C++ FFI invoked one in hardware signals handling in automotive. When I joined Azuregames subsidiary, I worked on bit-level compression serde and UDP packet-sized communication for a real-time shooter game. Then, in Rust, I had to dig into low-level PDF things (as there was no industrial PDF in Rust), then did some Rust-based prototype with ECS/WebSockets for an autoscaled game server engine. When I joined the crypto workforce, I enjoyed bit tinkering in Solana (([zero copy](https://github.com/solana-labs/solana/issues/13391#issuecomment-813038433)), and a tool to modify on-chain trie in Polkadot as a SUDO operation on data storage in the absence of proper transactions to do so. I also coded in Solidity a manual decoder/encoder of ProtoBuf for performance reasons.
 
 
 ### 2022.03-now. [Composable](https://github.com/ComposableFi/composable)
@@ -61,7 +52,7 @@ Infrastucture works:
 - Maintaining network of heterogenous nodes and trustless relayers of varius block chains for cross chain development and testing
 - Implementing multi gas fee payment modules and cross chain function calls customisations  
 - Maintaining and enhancing CosmWasm(ported from Cosmos) VM hosted on Polkadot 
-- Maintianing CI/CD for all everything
+- Maintianing CI/CD for all everything (native vs wasm compilation resolution, Wasm size optimization)
 
 Applicaiton works:
 - Imlemented/ported DeFi primitivies for swap/lending/locked staking/gov on Polkadot with cross chain integration
