@@ -1,1 +1,3 @@
 result
+# specifically no lock for experiments
+flake.lock
