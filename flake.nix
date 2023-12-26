@@ -5,20 +5,24 @@
     nixpkgs-unstable = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
     };
-    nixpkgs.url = "github:NixOS/nixpkgs/23.05";
+    
+    nixpkgs.url = "github:NixOS/nixpkgs/23.11";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-23.05";
+      url = "github:nix-community/home-manager/release-23.11";
     };
     rust-overlay = {
       url = "github:oxalica/rust-overlay/stable";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     nixgl = {
       url = "github:guibou/nixGL/main";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
     helix = {
-      url = "github:helix-editor/helix/23.05";
+      url = "github:helix-editor/helix/23.10";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 

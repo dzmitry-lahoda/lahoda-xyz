@@ -255,7 +255,7 @@ in
       #glib.dev
       #libiconv
       openssl.dev
-      pkgconfig
+      pkg-config
       hyperfine
       direnv
       bat
@@ -265,7 +265,7 @@ in
       # dust
       starship
       ripgrep
-      exa
+      eza
       # rmesg
       zoxide
       delta
@@ -310,6 +310,7 @@ in
       xsv
       yarn
       rocksdb
+      fsearch
     ];
   };
 }
