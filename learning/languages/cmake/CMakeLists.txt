@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.19)
+project(test VERSION 1.0)
+add_executable(test main.cxx)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+configure_file(testConfig.h.in testConfig.h)
+target_include_directories(test PUBLIC "${PROJECT_BINARY_DIR}")
