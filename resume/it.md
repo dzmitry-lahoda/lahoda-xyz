@@ -81,7 +81,7 @@ Prototyped and test 1000+ user channel based scalable server for world consistin
 Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
 Templated low level PDF rendering engine.
 
-### 2020.03 - 2022.06, Metaverse game builder startup(defunct). Backend Software Engineer and DevOps. GameDev.
+### 2020.03 - 2022.06, [Metaverse game builder startup(Crey games)](https://vbstudio.hu/en/blog/20230710-The-End-of-CREY-Games). Backend Software Engineer and DevOps. GameDev.
 
 - Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
