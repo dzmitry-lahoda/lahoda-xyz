@@ -9,7 +9,7 @@ Did generalized machine learning algorithms in 2010.
 
 Dzmitry currently trying to be better at mathematics, cryptography, and compilers. 
 
-Currently he uses Portugal tax number.
+Paying taxes in Portugal.
 
 ## Profiles
 
@@ -35,11 +35,14 @@ Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
 
-Git, Nix, VS Code, Helix(editor), AI models, Markdown.
+Git, Nix on Linux, VS Code, Helix(editor), AI models, Markdown, KCL (Kubernetes Config Language), Terraform, Brave Browser.
 
 ## Work
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works
+Last 2 years working with Composable Foundation. 
+For the last half year, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
+
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
 
 Coding, audit, research, monitoring, building and deployment.
 
@@ -51,7 +54,7 @@ mostly on cross-chain interoperability.
 - On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
 - Infrastructure: local devnets, forks, relayers, indexers, tools
 - P2P: chats
-- Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos, CosmWasm.
+- Contracts and programs for: Solana, Polkadot SDK, Ethereum, [Fluence](https://fluence.network/), Cosmos SDK, CosmWasm.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -63,7 +66,7 @@ Prototyped and test 1000+ user channel based scalable server for world consistin
 Did Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
 Built templated low level PDF rendering engine.
 
-### 2020.03 - 2022.06, Metaverse game builder startup(defunct). Backend Software Engineer and DevOps. GameDev.
+### 2020.03 - 2022.06, Metaverse game builder startup(Crey Games). Backend Software Engineer and DevOps. GameDev.
 
 - Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers
 - Referral, game event objectives, online presence and other flows into microservice architecture
@@ -170,10 +173,6 @@ Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which
 ### 2020.06-now
 
 Many math courses on <https://brilliant.org/profile/dzmitry-rrotsd/about/>
-
-### 2019.12-2020.04 English, British Council
-
-IELTS 7.0. CEFR Level C1, ID  A3-BY002-S-4101019
 
 ### 2010.04-2014.02, part time
 
