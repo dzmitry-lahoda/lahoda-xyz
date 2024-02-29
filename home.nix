@@ -259,6 +259,7 @@ in
       hyperfine
       direnv
       bat
+      cmake
       sd
       #yt-dlp
       nix-tree

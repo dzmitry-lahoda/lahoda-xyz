@@ -43,4 +43,7 @@
     "playcrey",
     "Solana"
   ],
+  "files.associations": {
+    "iostream": "cpp"
+  },
 }
