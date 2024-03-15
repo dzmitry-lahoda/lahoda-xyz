@@ -234,18 +234,9 @@ in
   };
   home = {
     sessionVariables = {
-      #LD_LIBRARY_PATH = pkgs.lib.strings.makeLibraryPath [
-      #  pkgs.stdenv.cc.cc.lib
-      #  pkgs.llvmPackages.libclang.lib
-      #pkgs.openssl.dev        
-      #];
-      # PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
-      #LIBCLANG_PATH = "${pkgs.llvmPackages.libclang.lib}/lib";
-      PROTOC = "${pkgs.protobuf}/bin/protoc";
-      ROCKSDB_LIB_DIR = "${pkgs.rocksdb}/lib";
       NIXPKGS_ALLOW_UNFREE = 1;
     };
-    stateVersion = "23.05";
+    stateVersion = "23.11";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
@@ -259,6 +250,7 @@ in
       hyperfine
       direnv
       bat
+      nix
       cmake
       sd
       #yt-dlp

@@ -5,7 +5,7 @@
     nixpkgs-unstable = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
     };
-    
+
     nixpkgs.url = "github:NixOS/nixpkgs/23.11";
 
     home-manager = {
@@ -34,7 +34,14 @@
           nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager ];
         };
 
-        # export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
+        packages = {
+          update = pkgs.writeShellApplication {
+            name = "update";
+            text = ''
+              export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
+            '';
+          };
+        };
       };
 
       flake =
@@ -47,10 +54,11 @@
           pkgs = import nixpkgs {
             inherit system overlays;
             config = {
-              packageOverrides = pkgs : {
-               helix = helix.packages.${system}.helix;
-               vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
-               brave = nixpkgs-unstable.legacyPackages.${system}.brave;
+              packageOverrides = pkgs: {
+                helix = helix.packages.${system}.helix;
+                vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
+                brave = nixpkgs-unstable.legacyPackages.${system}.brave;
+                nix = nixpkgs-unstable.legacyPackages.${system}.nix;
               };
             };
           };

@@ -1,5 +1,5 @@
 [toolchain]
-channel = "1.72.0"
+channel = "1.76.0"
 components = [
   "clippy",
   "llvm-tools",
@@ -8,4 +8,6 @@ components = [
   "rust-src",
   "cargo",
 ]
-targets = ["wasm32-unknown-unknown"]
+targets = [
+  "wasm32-unknown-unknown",
+  ]
