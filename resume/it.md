@@ -1,4 +1,4 @@
-# About
+# Summary
 
 Dzmitry is a seasoned software developer with 20 years of experience, specializing in blockchain, underlying infrastucture and protocols.
 
@@ -39,15 +39,12 @@ Git, Nix on Linux, VS Code, Helix(editor), AI models, Markdown, KCL (Kubernetes 
 
 ## Work
 
-Last 2 years working with Composable Foundation. 
-For the last half year, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
-
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap, Composable Foundations)
 
 Coding, audit, research, monitoring, building and deployment.
 
-For more than 1 year working in [Composable](https://github.com/ComposableFi/composable),
-mostly on cross-chain interoperability.
+For more than 1.5 years working with [Composable Foundation](https://github.com/ComposableFi/composable),
+mostly on cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
 
 - Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
 - Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
@@ -59,7 +56,7 @@ mostly on cross-chain interoperability.
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
 Did several ECS based features into 2D metaverse engine like character shadow, sit down, movements fixes.
-Prototyped and test 1000+ user channel based scalable server for world consisting of chunks, with WASM client.
+Prototyped and test 1000+ user event driven scalable server for world consisting of dynamic allocation of its parts, with WASM client.
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
 
@@ -129,7 +126,7 @@ Solution for the USA legal market aimed to decrease the volume of information wi
 Windows software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
 Solved many issues typical for fat complex multi process data enabled applications connected to cloud existed for years and coded from scratch
 Designed and delivered technical integration various products for financial professionals into cohesive integrated solution.
-Coded custom [IPC](16).
+Coded custom fast [IPC](16).
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher
 
@@ -159,13 +156,14 @@ Got 2nd place on regional competition of school student’s software
 
 ### 2018-2020, Hackatons
 
-Participated in 5 hackatons(4 in Belarus, 1 in Georgia). Won in 3, two  of which were legal hackatons.
+Participated in 5 hackatons(4 in Belarus, 1 in Georgia). 
+Won in 3, two  of which were legal hackatons.
 
 ### 2012-now, Security, privacy and serverless
 
-- Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective, learned how pricy these tools are.
-- Used deGoogled phone for one year and saw how ineffective a person is without a corporation.
-- Using distributed networks to store and read data, and understood what is future of computing.
+- Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective
+- Used deplatformed phone for one year
+- Using distributed networks to store and read data
 - Built couple of serverless sites
 
 ## Education
@@ -181,7 +179,7 @@ Many math courses on <https://brilliant.org/profile/dzmitry-rrotsd/about/>
 
 ### 2005.09-2010.06. Belarus State University, [Faculty of Radiophysics and Computer Technologies](http://rfe.by/en)
 
-Got Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
+Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
 ### 2008, part time. Industrial software development, .NET development courses by outsoruce companies in Belarus
 
