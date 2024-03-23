@@ -307,3 +307,11 @@ in
     ];
   };
 }
+
+
+[Desktop Entry]
+Name=ledger
+Exec=/usr/bin/ledger %u
+NoDisplay=true
+Type=Application
+MimeType=x-scheme-handler/ledgerlive;
