@@ -19,27 +19,28 @@ Paying taxes in Portugal.
 
 ### Technical knowledge and experience
 
-Applied knowledge of compute(embedded, cloud, blockchain, p2p, virtualization, distributed, isolation, cryptography).
-
-Applied knowledge of storages(graph, relational, key values, blobs, documents, hierarchical).
-
-Applied knowledge of languages and type systems (object oriented, functional, lazy, dynamic, static, strict, structural, nominal, non turing complete, DSL, modelling, documentation, query).
-
-Applied knowledge of many engineering, infrastucture, design, construction, architecture, quality related processes and patterns, mechanism designs.
+Applied knowledge of:
+heteregenous compucations; storages; computer languages and type systems;
+many engineering, infrastucture, design, construction, architecture, quality related processes and patterns;
+mechanism designs, algorithms.
 
 ### Coding
 
-Mostly `Rust` last years. I do `Solidity, Go, Python, Haskell` too.
+Mostly `Rust` last years. I do `Solidity, Go, Python, Haskell, TS` as needed too, not so much.
 
 Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
 
-Git, Nix on Linux, VS Code, Helix(editor), AI models, Markdown, KCL (Kubernetes Config Language), Terraform, Brave Browser.
+Active user if Git, Linux, Nix, VS Code, AI models, Markdown(with $$, mermaid, plantuml sections), Terraform, Brave Browser.
+
+Training in Helix(editor) and KCL (Kubernetes Config Language).
+
+Long time ago was Windows and Visual Studio.
 
 ## Work
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap, Composable Foundations)
+### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap, Composable Foundation)
 
 Coding, audit, research, monitoring, building and deployment.
 
@@ -48,10 +49,10 @@ mostly on cross-chain interoperability, creating intent-based super app and cros
 
 - Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
 - Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
-- On chain: DeFi. lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities
+- On chain: lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities, perpetuals, LOB, CoW
 - Infrastructure: local devnets, forks, relayers, indexers, tools
 - P2P: chats
-- Contracts and programs for: Solana, Polkadot SDK, Ethereum, [Fluence](https://fluence.network/), Cosmos SDK, CosmWasm.
+- Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos SDK, CosmWasm.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -149,8 +150,7 @@ Custom configuration file format parser, system event loop, text window system w
 
 ### 2004.09-2005.03, part time. Graduates database
 
-Created app to input and report on graduate data.
-Got 2nd place on regional competition of school student’s software
+Created app to input and report on graduate data, 2nd place on regional competition of school student’s software
 
 ## Experiences
 
@@ -183,9 +183,9 @@ Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
 ### 2008, part time. Industrial software development, .NET development courses by outsoruce companies in Belarus
 
-### 1994-2005. Gymnasium №1, Vileyka, Minsk region, Belarus
+### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
-Specialized in physics and mathematics in [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) environment.
+Specialized in physics and mathematics, within [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) environment.
 Participated in state olympiad in Physics.
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure
