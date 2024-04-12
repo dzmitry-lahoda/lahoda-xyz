@@ -32,11 +32,11 @@ Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
 
-Active user if Git, Linux, Nix, VS Code, AI models, Markdown(with $$, mermaid, plantuml sections), Terraform, Brave Browser.
+Git, Linux, Nix, VS Code, AI models, Markdown(with $$, mermaid, plantuml), Terraform, Brave Browser.
 
 Training in Helix(editor) and KCL (Kubernetes Config Language).
 
-Long time ago was Windows and Visual Studio.
+Long time ago was Windows/Visual Studio, and ZX Spectrum :) 
 
 ## Work
 
@@ -64,23 +64,22 @@ Prototyped and test 1000+ user event driven scalable server for world consisting
 Did Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
 Built templated low level PDF rendering engine.
 
-### 2020.03 - 2022.06, Metaverse game builder startup(Crey Games). Backend Software Engineer and DevOps. GameDev.
+### 2020.03 - 2022.06, Metaverse game builder startup([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Backend Software Engineer and DevOps. GameDev.
 
-- Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers
-- Referral, game event objectives, online presence and other flows into microservice architecture
-- Prototype of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users).
-- Distributed logging and alerting, monitoring dashboards
+Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers.
+Did referral, game event objectives, online presence and other flows into microservice architecture
+Prototyped of graph database modeling and scale testing of game economics world (ownership and visibility of various assets and stuff, with roles and users).
+Introduced distributed logging and alerting, monitoring dashboards
 
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. Wallmart. Backend Software Engineer
 
-Implemented California Consumer Privacy Act regulation conformance(optout, access and PII delete flows).
-Delivered new and modified existing microservices, with covering monitoring and alerts
+Implemented California Consumer Privacy Act conformance(optout, access and PII delete flows)
+via new and modificaition of existing microservices, covered with monitoring and alerts.
 Wrote distributed testing tools, debugged and patched scalability issue in graph database driver.
-Proposed and successfully prototyped read-delete-test+read data deletion playbook with dry run.
+Coded read-delete-test+read PII delete playbook with dry run.
 
-### 2019.08 - 2019.10. Call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps.
+### 2019.08 - 2019.10. Cloud-native microservice-based call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps.
 
-Cloud-native microservice-based call and contact center.
 Made call handling microservice scalable by eliminating in-memory state.
 Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
   
@@ -159,7 +158,7 @@ Created app to input and report on graduate data, 2nd place on regional competit
 Participated in 5 hackatons(4 in Belarus, 1 in Georgia). 
 Won in 3, two  of which were legal hackatons.
 
-### 2012-now, Security, privacy and serverless
+### 2012-now, Security, privacy and decentralization
 
 - Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective
 - Used deplatformed phone for one year
