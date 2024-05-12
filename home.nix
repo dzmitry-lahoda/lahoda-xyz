@@ -142,21 +142,14 @@ in
       substituters = [
         "https://nix-community.cachix.org/"
         "https://cache.nixos.org/"
-        "https://composable.cachix.org/"
-        "https://devenv.cachix.org/"
-        "https://nixpkgs-update.cachix.org"
-        "https://cosmos.cachix.org"
+        "https://nixpkgs-update.cachix.org"        
       ];
 
       trusted-public-keys = [
-        "composable.cachix.org-1:J2TVJKH4U8xqYdN/0SpauoAxLuDYeheJtv22Vn3Hav8="
-        "cosmos.cachix.org-1:T5U9yg6u2kM48qAOXHO/ayhO8IWFnv0LOhNcq0yKuR8="
-        "devenv.cachix.org-1:w1cLUi8dv3hnoSPGAuibQv+f9TZLr6cv/Hm9XgU50cw="
         "nixpkgs-update.cachix.org-1:6y6Z2JdoL3APdu6/+Iy8eZX2ajf09e4EE9SnxSML1W8="
         "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
         "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
         "helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs="
-        "mitchellh-nixos-config.cachix.org-1:bjEbXJyLrL1HZZHBbO4QALnI5faYZppzkU4D2s0G8RQ="
       ];
     };
   };
@@ -293,6 +286,7 @@ in
       protobuf
       rclone
       rclone-browser
+      cargo-limit
       rnix-lsp
       rust-script
       sad

@@ -167,18 +167,3 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/doc-values.html
 [1]: https://www.elastic.co/guide/en/elasticsearch/reference/master/query-dsl-exists-query.html
 [2]: https://www.elastic.co/blog/better-query-execution-coming-elasticsearch-2-0
 
-
-How would you query ElasticSearch when it is used as NoSQL data storage?
-
-
-1. JSON
-
-2. NEST
-
-3. Our case of audit.
-
-4. LINQ to NEST. Screenshots of before after.
-
-5. Custom LINQ for problem. Logs?
-
-6. Links to LINQ proposals.

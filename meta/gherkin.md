@@ -46,3 +46,19 @@ a. Feature: User login // contains absolutely simple cases literal
 b. Feature: User login with optional // scenarios here can combine several steps into one out of  a. Users should refer to a. to learn dictionary.
 c. Feature: User login with error
 d. Feature: User login, error, then right // steps are compressed out of a. b. c., only NEW unique steps are written literally.
+
+
+Test graph, more complex feature to depend on more simpler.
+
+
+Test negation of input first, than tests all other flows only with valid values.
+
+**Example**
+
+`T1` states `T2` only if `T0` is right.
+
+So `T0` test ensures all inputs it halts.
+
+Given `T0` halts, we do not put  such inputs into `T1` test.
+
+`T2` must be side effect free.
