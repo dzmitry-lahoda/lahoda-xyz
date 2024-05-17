@@ -1,0 +1,9 @@
+[package]
+name = "gat-cow-ob"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+slab = "0.4.9"
+btree-slab = "0.6.1"
