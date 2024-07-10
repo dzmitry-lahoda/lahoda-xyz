@@ -269,6 +269,7 @@ in
       gopls
       grpcurl
       cachix
+      watchexec
       haskell.compiler.ghcHEAD
       helix
       home-manager
@@ -287,7 +288,7 @@ in
       rclone
       rclone-browser
       cargo-limit
-      rnix-lsp
+      nixd
       rust-script
       sad
       sd
@@ -303,9 +304,9 @@ in
 }
 
 
-[Desktop Entry]
-Name=ledger
-Exec=/usr/bin/ledger %u
-NoDisplay=true
-Type=Application
-MimeType=x-scheme-handler/ledgerlive;
+# [Desktop Entry]
+# Name=ledger
+# Exec=/usr/bin/ledger %u
+# NoDisplay=true
+# Type=Application
+# MimeType=x-scheme-handler/ledgerlive;
