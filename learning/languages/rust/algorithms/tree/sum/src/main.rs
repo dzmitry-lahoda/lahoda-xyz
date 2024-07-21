@@ -9,21 +9,20 @@ struct LeveledPayloadAugmentation<L> {
     level: L,
 }
 
-struct AvlNode<K, P, A> {
-    children: [Option<Box<AvlNode<K, P,  A>>>; 2],
-    key: K,
-    augmentation: A,
-    payload: P,
+struct AvlNode<const C: usize, Config: TreeConfig> {
+    children: [Option<Box<AvlNode<C, Config>>>; C],
+    key: Config::Key,
+    augmentation: Config::Augmentation,
+    payload: Config::Payload,
 }
 
 trait TreeConfig {
-    type Tree;
     type Key;
     type Payload;
     type Augmentation;
 }
 
-impl<K, P, A,> AvlNode<K, P, A> {
+impl<Config: TreeConfig> AvlNode<2, Config> {
     // fn new_leaf(key: K, payload: i32) -> Self {
     //     Self {
     //         left: None,
@@ -86,11 +85,14 @@ impl<K, P, A,> AvlNode<K, P, A> {
     //             Some(old_payload)
     //         }
     //     }
-        // None
-    }
+    // None
+    // }
 }
 
-impl<K: core::cmp::PartialOrd, P, A> AvlNode<K, P, A> {
+impl<Config: TreeConfig> AvlNode<2, Config>
+where
+    Config::Key: std::cmp::PartialOrd,
+{
     /// has search property
     fn is_search(&self) -> bool {
         match (&self.children[0], &self.children[1]) {
@@ -104,13 +106,22 @@ impl<K: core::cmp::PartialOrd, P, A> AvlNode<K, P, A> {
     }
 }
 
-struct Tree<K, P, A> {
-    root: AvlNode<K,P, A>,
-    _marker: std::marker::PhantomData<(K, P, A)>,
+struct Tree<const C: usize, Config: TreeConfig> {
+    root: AvlNode<C, Config>,
+    _marker: std::marker::PhantomData<Config>,
+}
+
+struct IntegerAvlKeyonly;
+
+impl TreeConfig for IntegerAvlKeyonly {
+    // type Tree = Tree<Self>;
+    type Key = i32;
+    type Payload = ();
+    type Augmentation = ();
 }
 
 fn main() {
-    let tree = AvlNode::<_, _, ()> {
+    let tree = AvlNode::<2, IntegerAvlKeyonly> {
         children: [
             Some(Box::new(AvlNode {
                 children: [None, None],
