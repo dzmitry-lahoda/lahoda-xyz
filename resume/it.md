@@ -1,8 +1,8 @@
 # Summary
 
-Dzmitry is a seasoned software developer with 20 years of experience, specializing in blockchain, underlying infrastucture and protocols.
+Dzmitry specializing in blockchain, underlying infrastucture and protocols.
 
-Before crypto he coded integrations, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
+Before crypto he coded enterprise integrations, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
 
 Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
 Did generalized machine learning algorithms in 2010.
@@ -13,7 +13,10 @@ Paying taxes in Portugal.
 
 ## Profiles
 
-[GitHub](https://github.com/dzmitry-lahoda) [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) [Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
+[GitHub](https://github.com/dzmitry-lahoda) 
+[LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) 
+[HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) 
+[Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
 ## Toolbox
 
@@ -32,27 +35,39 @@ Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
 
-Git, Linux, Nix, VS Code, AI models, Markdown(with $$, mermaid, plantuml), Terraform, Brave Browser.
+Git, Linux, Nix, VS Code, AI models, Markdown(with Tex/Mermaid/Plantuml), Terraform, Brave Browser.
 
-Training in Helix(editor) and KCL (Kubernetes Config Language).
+Training in Helix(editor).
 
-Long time ago was Windows/Visual Studio, and ZX Spectrum :) 
+Long time ago was Dos/Windows/Visual Studio, and ZX Spectrum :) 
 
 ## Work
 
-### 2021.03-now. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap, Composable Foundation)
+### 2024.03.04-n Layer Now
+
+Did perpetuals funding index impementation, liquidator design and implementation.
+Improved panic and bug safety by intoroducing several typestate patterns.
+Used sans-io for client side.
+Wrote schema based databasse diff utiltity for usage in tests and debugging.
+Mainaining central limit ordebook.
+
+### 2022.07-2024.03 Composable Foundation
+
+- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
+- Cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
+- Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
+- Coded and audited lending, AMM, staking/rewards, vote escrowed,  CoW, govenernace.
+- Polkadot/CosmWasm/Solana/Cosmos/Ethereum
+- Infrastructure: local devnets, forks, relayers, indexers, tools
+
+### 2021.03-2022.06. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
 
 Coding, audit, research, monitoring, building and deployment.
 
-For more than 1.5 years working with [Composable Foundation](https://github.com/ComposableFi/composable),
-mostly on cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
-
-- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
-- Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
-- On chain: lending, AMM, NFT, crowd funding, IDO, staking/rewards, vote escrowed, governance, DAO, identities, perpetuals, LOB, CoW
-- Infrastructure: local devnets, forks, relayers, indexers, tools
+- On chain: AMM, NFT, crowd funding, IDO, governance, DAO, identities
+- Infrastructure: indexers, tools
 - P2P: chats
-- Contracts and programs for: Solana, Polkadot, Ethereum, [Fluence](https://fluence.network/), Cosmos SDK, CosmWasm.
+- Contracts and programs for: Solana,  Ethereum, [Fluence](https://fluence.network/).
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -117,9 +132,8 @@ Solution for the USA legal market aimed to decrease the volume of information wi
 
 ### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher
 
-- Used reverse engineering to find several holes in site security from client code to DB
-- Proposed alternative implementation of services
-- Scripted to automate security issues
+Used reverse engineering to find several holes in site security from client code to DB.
+Proposed alternative implementation of services. Scripted to automate security issues
 
 ### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial. Desktop Software Engineer
 
@@ -144,7 +158,7 @@ Coded some server-side part to get data to and from database
 
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/). Driver/Desktop Software Engineer
 
-Created industrial realtime application connected to a woodworking machine to manage sawing plans, sawing machine setup and do real time execution of sawing process.
+Created industrial realtime application connected to a woodworking machine to manage sawing machine plan, configuration and real-time execution of sawing process.
 Custom configuration file format parser, system event loop, text window system with edit boxes/menus/labels/help, bit level communication protocol with hardware.
 
 ### 2004.09-2005.03, part time. Graduates database
@@ -160,16 +174,11 @@ Won in 3, two  of which were legal hackatons.
 
 ### 2012-now, Security, privacy and decentralization
 
-- Used security, anonymization, encryption, and open source to see the world from hacker and privacy-focused perspective
-- Used deplatformed phone for one year
-- Using distributed networks to store and read data
-- Built couple of serverless sites
+Used distributed networks to store and read data, deplatformed phone, security, anonymization, encryption, and open source 
+to see the world from hacker and privacy-focused perspective.
+Built couple of serverless sites.
 
 ## Education
-
-### 2020.06-now
-
-Many math courses on <https://brilliant.org/profile/dzmitry-rrotsd/about/>
 
 ### 2010.04-2014.02, part time
 
