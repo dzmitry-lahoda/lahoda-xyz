@@ -51,6 +51,8 @@ impl<Config: TreeConfig> AvlNode<2, Config> {
         todo!()
     }
 
+
+
     // fn insert(&mut self, key: K, payload: P) -> Option<P> {
     //     // insert into binary tree
     //     match self.key.cmp(&key) {
@@ -91,8 +93,29 @@ impl<Config: TreeConfig> AvlNode<2, Config> {
 
 impl<Config: TreeConfig> AvlNode<2, Config>
 where
-    Config::Key: std::cmp::PartialOrd,
+    Config::Key: std::cmp::Ord,
 {
+
+
+    fn insert(&mut self, key: Config::Key, payload: Config::Payload) -> (Option<(Config::Payload)>, Config::Augmentation) {
+        use std::cmp::Ordering::*;
+        match self.key.cmp(key) {
+            Less => if let Some(node) = self.children[1] {
+                node.insert(key, payload)
+            } else {
+                self.children[1] = Some(Box::new(AvlNode {
+                    children: [None, None],
+                    key,                
+                    augmentation: (),
+                    payload,
+                }));
+                None
+            },
+            Equal => todo!(),
+            Greater => todo!(),
+        }
+    }
+
     /// has search property
     fn is_search(&self) -> bool {
         match (&self.children[0], &self.children[1]) {
