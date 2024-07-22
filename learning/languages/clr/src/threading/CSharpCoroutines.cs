@@ -10,7 +10,6 @@ namespace ConsoleApplication8
 {
     class Program2
     {
-
         private class NumberGenerator
         {
             public int NumbersGenerated { get; set; }

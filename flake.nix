@@ -12,7 +12,7 @@
       url = "github:nix-community/home-manager/release-24.05";
     };
     rust-overlay = {
-      url = "github:oxalica/rust-overlay/stable";
+      url = "github:oxalica/rust-overlay/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixgl = {
@@ -29,20 +29,40 @@
   outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-unstable, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
-      perSystem = { config, self', inputs', pkgs, system, ... }: {
-        devShells.default = pkgs.mkShell {
-          nativeBuildInputs = [ pkgs.act pkgs.helix pkgs.home-manager ];
-        };
+      perSystem = { config, self', inputs', pkgs, system, ... }:
 
-        packages = {
-          update = pkgs.writeShellApplication {
-            name = "update";
-            text = ''
-              export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
-            '';
+        let
+          overlays = [
+            (import rust-overlay)
+            nixgl.overlay
+            (final: prev:
+              {
+                rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              }
+            )
+          ];
+          pkgs = import nixpkgs {
+            inherit system overlays;
+          };
+        in
+        {
+          devShells.default = pkgs.mkShell {
+            packages = [
+              pkgs.helix
+              pkgs.home-manager
+              pkgs.rust-toolchain
+              ];
+          };
+
+          packages = {
+            update = pkgs.writeShellApplication {
+              name = "update";
+              text = ''
+                export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
+              '';
+            };
           };
         };
-      };
 
       flake =
         let
@@ -50,6 +70,11 @@
           overlays = [
             (import rust-overlay)
             nixgl.overlay
+            (final: prev:
+              {
+                rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              }
+            )
           ];
           pkgs = import nixpkgs {
             inherit system overlays;
@@ -59,6 +84,7 @@
                 vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
                 brave = nixpkgs-unstable.legacyPackages.${system}.brave;
                 nix = nixpkgs-unstable.legacyPackages.${system}.nix;
+                rust-toolchain = nixpkgs-unstable.legacyPackages.${system}.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
               };
             };
           };
@@ -66,7 +92,9 @@
         {
           homeConfigurations.dz = home-manager.lib.homeManagerConfiguration {
             inherit pkgs;
-            modules = [ ./home.nix ];
+            modules = [
+              ./home.nix
+            ];
           };
         };
     };

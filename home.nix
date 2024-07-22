@@ -233,11 +233,11 @@ in
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [
-      (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml) #cargo rustc rustfmt ..
       # ledger-live-desktop
       # ledger-wrapper
       #glib.dev
       #libiconv
+      rust-toolchain
       openssl.dev
       pkg-config
       hyperfine
