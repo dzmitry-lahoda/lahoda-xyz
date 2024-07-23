@@ -101,6 +101,23 @@ impl<Config: TreeConfig<Augmentation = ()>> AvlNode<2, Config>
 where
     <<Config as TreeConfig>::KeyPayload as KeyPayload>::Key: Ord + PartialOrd,
 {
+    pub fn remove(&mut self, key: Key<Config>) {
+        use std::cmp::Ordering::*;
+        match self.key.cmp(&key) {
+            Less => {
+                let entry = self.children.get_mut(1);
+                Self::remove_entry(entry, key);
+            }
+            Equal => {
+                // remove
+            }
+            Greater => {
+                let entry = self.children.get_mut(0);
+                Self::remove_entry(entry, key);
+            }
+        }
+    }
+
     pub fn insert(&mut self, key: Key<Config>, payload: Payload<Config>) {
         // -> Option<Config::Key> {
         use std::cmp::Ordering::*;
@@ -173,6 +190,7 @@ impl TreeConfig for IntegerAvlKeyonly {
 
 fn main() {
     let mut tree = AvlNode::<2, IntegerAvlKeyonly> {
+        key: 10i32,
         children: [
             Some(Box::new(AvlNode {
                 children: [None, None],
@@ -187,7 +205,6 @@ fn main() {
                 payload: (),
             })),
         ],
-        key: 10i32,
         augmentation: (),
         payload: (),
     };
@@ -196,4 +213,5 @@ fn main() {
     tree.insert(5, ());
     assert!(tree.is_search());
     println!("tree: {:#?}", tree);
+    tree.remove(10);
 }
