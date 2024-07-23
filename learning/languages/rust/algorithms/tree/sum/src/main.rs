@@ -20,20 +20,37 @@ pub struct AvlNode<const C: usize, Config: TreeConfig> {
     payload: <Config::KeyPayload as KeyPayload>::Payload,
 }
 
-impl<Config: TreeConfig<KeyPayload: Debug, Augmentation: Debug>> Debug for AvlNode<2, Config>
+impl<Config: TreeConfig<KeyPayload: KeyPayload<Payload = ()>, Augmentation = ()>> Debug for AvlNode<2, Config>
 where
     <<Config as TreeConfig>::KeyPayload as KeyPayload>::Key: Debug,
-    <<Config as TreeConfig>::KeyPayload as KeyPayload>::Payload: Debug,
 {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        f.debug_struct("AvlNode")
-            .field("children", &self.children)
-            .field("key", &self.key)
-            .field("augmentation", &self.augmentation)
-            .field("payload", &self.payload)
-            .finish()
+        let mut debug_struct = f.debug_struct("AvlNode");            
+        debug_struct.field("key", &self.key);
+        if let Some(left) = &self.children[0] {
+            debug_struct.field("left", left);
+        }
+        if let Some(right) = &self.children[1] {
+            debug_struct.field("right", right);
+        }
+        debug_struct.finish()
     }
 }
+
+// impl<Config: TreeConfig<KeyPayload: Debug, Augmentation: Debug>> Debug for AvlNode<2, Config>
+// where
+//     <<Config as TreeConfig>::KeyPayload as KeyPayload>::Key: Debug,
+//     <<Config as TreeConfig>::KeyPayload as KeyPayload>::Payload: Debug,
+// {
+//     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+//         f.debug_struct("AvlNode")
+//             .field("children", &self.children)
+//             .field("key", &self.key)
+//             .field("augmentation", &self.augmentation)
+//             .field("payload", &self.payload)
+//             .finish()
+//     }
+// }
 
 #[derive(Debug)]
 pub enum Modification<Config: TreeConfig> {
@@ -178,5 +195,5 @@ fn main() {
     assert_eq!(tree.height(), 1);
     tree.insert(5, ());
     assert!(tree.is_search());
-    // println!("tree: {:#?}", tree);
+    println!("tree: {:#?}", tree);
 }
