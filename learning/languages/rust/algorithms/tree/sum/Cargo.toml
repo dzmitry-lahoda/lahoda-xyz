@@ -1,6 +1,14 @@
 [package]
-name = "prefix-sum-tree"
+name = "augumented-trii"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[features]
+std = []
+debug = []
+serde = []
+schemars = []
+borsh = []
+borsh-schema = []
