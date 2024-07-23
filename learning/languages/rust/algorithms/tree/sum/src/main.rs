@@ -1,8 +1,10 @@
-enum Node<T> {
+use std::sync::Condvar;
+
+enum BinaryNode<T> {
     Leaf(T),
-    Left(T, Box<Node<T>>),
-    Right(T, Box<Node<T>>),
-    Both(T, Box<Node<T>>, Box<Node<T>>),
+    Left(T, Box<BinaryNode<T>>),
+    Right(T, Box<BinaryNode<T>>),
+    Both(T, Box<BinaryNode<T>>, Box<BinaryNode<T>>),
 }
 
 struct LeveledPayloadAugmentation<L> {
@@ -16,10 +18,26 @@ struct AvlNode<const C: usize, Config: TreeConfig> {
     payload: Config::Payload,
 }
 
-trait TreeConfig {
+trait KeyPayload {
     type Key;
     type Payload;
+}
+
+trait TreeConfig {
+    type KeyValue: KeyValue;
     type Augmentation;
+}
+
+pub enum Modification<Config: TreeConfig> {
+    Insert(Config::KeyPayload),
+    Update(Config::KeyPayload, Config::KeyPayload),
+    Delete(Config::KeyPayload),
+}
+
+trait AugmentationExtension<Config: TreeConfig> {
+    /// Is called when leaf without children inserted
+    fn leaf_inserted(&mut self, parent: Option<&Config::KeyValue>);
+    fn child_modified(&mut self, parent: Option<&Config::KeyValue>, child: Modification<Config::KeyValue>);
 }
 
 impl<Config: TreeConfig> AvlNode<2, Config> {
@@ -52,6 +70,14 @@ impl<Config: TreeConfig> AvlNode<2, Config> {
     }
 
 
+    fn insert_entry(entry: Option<&mut Option<Box<AvlNode<2, Config>>>>, key: Config::Key) -> Option<Config::Key> {
+        if let Some(Some(entry)) = entry {
+            Some(std::mem::replace(&mut entry.key, key))
+        } else {
+         
+            None
+        }
+    }
 
     // fn insert(&mut self, key: K, payload: P) -> Option<P> {
     //     // insert into binary tree
@@ -91,28 +117,40 @@ impl<Config: TreeConfig> AvlNode<2, Config> {
     // }
 }
 
-impl<Config: TreeConfig> AvlNode<2, Config>
+impl<Config: TreeConfig<Augmentation = ()>> AvlNode<2, Config>
 where
     Config::Key: std::cmp::Ord,
 {
 
 
-    fn insert(&mut self, key: Config::Key, payload: Config::Payload) -> (Option<(Config::Payload)>, Config::Augmentation) {
+    fn insert(&mut self, key: Config::Key, payload: Config::Payload) { // -> Option<Config::Key> {
         use std::cmp::Ordering::*;
-        match self.key.cmp(key) {
-            Less => if let Some(node) = self.children[1] {
-                node.insert(key, payload)
-            } else {
-                self.children[1] = Some(Box::new(AvlNode {
-                    children: [None, None],
-                    key,                
-                    augmentation: (),
-                    payload,
-                }));
-                None
+        match self.key.cmp(&key) {
+            Less => {
+                let entry = self.children.get_mut(1);
+                match entry {
+                    Some(Some(entry)) => entry.insert(key, payload),
+                    Some(entry) => {
+                        *entry = Some(Box::new(Self {
+                            children: [None, None],
+                            key,
+                            augmentation: (),
+                            payload,
+                        }));
+                    },
+                    _=> unreachable!()
+                }
+            }
+            Equal => {
+                Some(std::mem::replace(&mut self.payload, payload));
+                Some(std::mem::replace(&mut self.key, key));
+                // augment
             },
-            Equal => todo!(),
-            Greater => todo!(),
+            Greater => {
+                let entry = self.children.get_mut(0);
+                // Self::insert_entry(, key)
+                // augment
+            },
         }
     }
 
