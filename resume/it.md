@@ -45,11 +45,11 @@ Long time ago was Dos/Windows/Visual Studio, and ZX Spectrum :)
 
 ### 2024.03.04-n Layer Now
 
-Did perpetuals funding index impementation, liquidator design and implementation.
-Improved panic and bug safety by intoroducing several typestate patterns.
-Used sans-io for client side.
+Maintained code of central limit ordebook.
+Did perpetuals funding index, liquidator mechanic design and implementation(used sans-io).
+Improved panic and bug safety by introducing several typestate patterns.
 Wrote schema based databasse diff utiltity for usage in tests and debugging.
-Mainaining central limit ordebook.
+Designed and implemented manual offline and automatic live upgrades of optimistic ZK fraud proof rollup.
 
 ### 2022.07-2024.03 Composable Foundation
 
