@@ -45,7 +45,7 @@ Long time ago was Dos/Windows/Visual Studio, and ZX Spectrum :)
 
 ### 2024.03.04-n Layer Now
 
-Maintained code of central limit ordebook.
+Maintained code of central limit ordebook (LMAX design).
 Did perpetuals funding index, liquidator mechanic design and implementation(used sans-io).
 Improved panic and bug safety by introducing several typestate patterns.
 Wrote schema based databasse diff utiltity for usage in tests and debugging.
