@@ -1,73 +1,74 @@
 # Summary
 
-Dzmitry specializing in blockchain, underlying infrastucture and protocols.
+Dzmitry specializes in blockchain, underlying infrastructure, and protocols.
 
-Before crypto he coded enterprise integrations, client-servers, actor system, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, basic applied statistics in several domains.
+Before crypto, he coded enterprise integrations, client-servers, actor systems, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, and basic applied statistics in several domains.
 
-Computer user since 1993, write programs since 2004, industrial tooling and practices 2007, open-source since 2009, work in companies since 2010.
+Computer user since 1993, writes programs since 2004, industrial tooling and practices since 2007, open-source since 2009, works in companies since 2010.
 Did generalized machine learning algorithms in 2010.
 
-Dzmitry currently trying to be better at mathematics, cryptography, and compilers. 
+Dzmitry is currently trying to be better at mathematics, cryptography, and compilers.
 
 Paying taxes in Portugal.
 
 ## Profiles
 
-[GitHub](https://github.com/dzmitry-lahoda) 
-[LinkedIn](https://www.linkedin.com/in/dzmitrylahoda) 
-[HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772) 
-[Brilliant(many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
+[GitHub](https://github.com/dzmitry-lahoda)  
+[LinkedIn](https://www.linkedin.com/in/dzmitrylahoda)  
+[HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)  
+[Brilliant (many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
 ## Toolbox
 
 ### Technical knowledge and experience
 
-Applied knowledge of:
-heteregenous compucations; storages; computer languages and type systems;
-many engineering, infrastucture, design, construction, architecture, quality related processes and patterns;
+Applied knowledge of:  
+heterogeneous computations; storages; computer languages and type systems;  
+many engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
 mechanism designs, algorithms.
 
 ### Coding
 
-Mostly `Rust` last years. I do `Solidity, Go, Python, Haskell, TS` as needed too, not so much.
+Mostly `Rust` in the last years. I do `Solidity, Go, Python, Haskell, TS` as needed too, but not so much.
 
 Used Object Pascal, Matlab, C#/F# a lot before.
 
 ### Environment
 
-Git, Linux, Nix, VS Code, AI models, Markdown(with Tex/Mermaid/Plantuml), Terraform, Brave Browser.
+Git, Linux, Nix, VS Code, AI models, Markdown (with TeX/Mermaid/PlantUML), Terraform, Brave Browser.
 
-Training in Helix(editor).
+Training in Helix (editor).
 
-Long time ago was Dos/Windows/Visual Studio, and ZX Spectrum :) 
+A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum :)
 
 ## Work
 
-### 2024.03.04-n Layer Now
+### 2024.03.04 - now, Layer
 
-Maintained code of central limit ordebook (LMAX design).
-Did perpetuals funding index, liquidator mechanic design and implementation(used sans-io).
-Improved panic and bug safety by introducing several typestate patterns.
-Wrote schema based databasse diff utiltity for usage in tests and debugging.
-Designed and implemented manual offline and automatic live upgrades of optimistic ZK fraud proof rollup.
+Maintained code of central limit order book (LMAX design).  
+Did perpetuals funding index, liquidator mechanic design, and implementation (used sans-io).  
+Improved panic and bug safety by introducing several typestate patterns.  
+Wrote schema-based database diff utility for usage in tests and debugging.  
+Designed and implemented manual offline and automatic live upgrades of optimistic ZK fraud-proof rollup.
 
-### 2022.07-2024.03 Composable Foundation
+### 2022.07-2024.03, Composable Foundation
 
-- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot(Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer
+- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot (Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer.
 - Cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
-- Ethereum: Hosting local PoS devnet, wrote IBC cross chain call contract, wrote manual cross chain interpreter parser, reading a lot of code and specs for porting to other chains. 
-- Coded and audited lending, AMM, staking/rewards, vote escrowed,  CoW, govenernace.
-- Polkadot/CosmWasm/Solana/Cosmos/Ethereum
-- Infrastructure: local devnets, forks, relayers, indexers, tools
+- Ethereum: Hosting local PoS devnet, wrote IBC cross-chain call contract, wrote manual cross-chain interpreter parser, reading a lot of code and specs for porting to other chains.
+- Coded and audited lending, AMM, staking/rewards, vote escrowed, CoW, governance.
+- Polkadot/CosmWasm/Solana/Cosmos/Ethereum.
+- Infrastructure: local devnets, forks, relayers, indexers, tools.
 
-### 2021.03-2022.06. Web3.0, blockchain, p2p. Software Engineer. Contracts works and full time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
+### 2021.03-2022.06, Web3.0, blockchain, p2p. Software Engineer. Contracts works and full-time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
 
-Coding, audit, research, monitoring, building and deployment.
+Coding, audit, research, monitoring, building, and deployment.
 
-- On chain: AMM, NFT, crowd funding, IDO, governance, DAO, identities
-- Infrastructure: indexers, tools
-- P2P: chats
-- Contracts and programs for: Solana,  Ethereum, [Fluence](https://fluence.network/).
+- On-chain: AMM, NFT, crowdfunding, IDO, governance, DAO, identities.
+- Infrastructure: indexers, tools.
+- P2P: chats.
+- Contracts and programs for: Solana, Ethereum, [Fluence](https://fluence.network/).
+
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
