@@ -228,8 +228,9 @@ in
   home = {
     sessionVariables = {
       NIXPKGS_ALLOW_UNFREE = 1;
+      DZMITRY_LAHODA = 42;
     };
-    stateVersion = "23.11";
+    stateVersion = "24.05";
     username = "dz";
     homeDirectory = "/home/dz";
     packages = with pkgs; [

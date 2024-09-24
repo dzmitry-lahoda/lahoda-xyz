@@ -26,7 +26,7 @@
     };
   };
 
-  outputs = inputs@{ self, flake-parts, home-manager, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-unstable, ... }:
+  outputs = inputs@{ self, flake-parts, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-unstable, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem = { config, self', inputs', pkgs, system, ... }:
@@ -34,10 +34,11 @@
         let
           overlays = [
             (import rust-overlay)
-            nixgl.overlay
+            nixgl.overlay            
             (final: prev:
               {
                 rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+                #home-manager = home-manager.packages.${system}.home-manager;
               }
             )
           ];
@@ -57,8 +58,10 @@
           packages = {
             update = pkgs.writeShellApplication {
               name = "update";
+              runtimeInputs = with pkgs; [ home-manager ];
               text = ''
-                export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .
+                
+                export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .  --extra-experimental-features nix-command --extra-experimental-features flakes
               '';
             };
           };
@@ -90,7 +93,7 @@
           };
         in
         {
-          homeConfigurations.dz = home-manager.lib.homeManagerConfiguration {
+          homeConfigurations.dz = inputs.home-manager.lib.homeManagerConfiguration {
             inherit pkgs;
             modules = [
               ./home.nix
