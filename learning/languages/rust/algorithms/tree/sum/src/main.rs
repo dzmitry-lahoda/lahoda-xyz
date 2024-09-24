@@ -1,4 +1,5 @@
 use core::fmt::Debug;
+use std::any::Any;
 
 use augumented_trii::core::*;
 
@@ -20,16 +21,23 @@ pub struct AvlNode<const C: usize, Config: TreeConfig> {
     payload: <Config::KeyPayload as KeyPayload>::Payload,
 }
 
-impl<Config: TreeConfig<KeyPayload: KeyPayload<Payload = ()>, Augmentation = ()>> Debug for AvlNode<2, Config>
+impl<Config: TreeConfig<KeyPayload: KeyPayload<Payload : Debug + 'static> + Debug, Augmentation : Debug + 'static>> Debug for AvlNode<2, Config>
 where
     <<Config as TreeConfig>::KeyPayload as KeyPayload>::Key: Debug,
 {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let mut debug_struct = f.debug_struct("AvlNode");            
         debug_struct.field("key", &self.key);
+        if self.augmentation.type_id() != ().type_id()
+        {
+            debug_struct.field("augmentation", &self.augmentation);
+        }
+        if self.payload.type_id() != ().type_id() {
+            debug_struct.field("payload", &self.payload);
+        }
         if let Some(left) = &self.children[0] {
             debug_struct.field("left", left);
-        }
+        }        
         if let Some(right) = &self.children[1] {
             debug_struct.field("right", right);
         }
@@ -95,6 +103,11 @@ impl<Config: TreeConfig> AvlNode<2, Config> {
     fn is_balanced(&self, disbalance: u8) -> bool {
         todo!()
     }
+
+    /// Does not have children.
+    fn is_leaf(&self) -> bool {
+        self.children.iter().all(Option::is_none)
+    }
 }
 
 impl<Config: TreeConfig<Augmentation = ()>> AvlNode<2, Config>
@@ -103,19 +116,54 @@ where
 {
     pub fn remove(&mut self, key: Key<Config>) {
         use std::cmp::Ordering::*;
-        match self.key.cmp(&key) {
-            Less => {
-                let entry = self.children.get_mut(1);
-                Self::remove_entry(entry, key);
-            }
-            Equal => {
-                // remove
-            }
-            Greater => {
-                let entry = self.children.get_mut(0);
-                Self::remove_entry(entry, key);
+        
+        if let Some(entry) = self.children.get_mut(0).unwrap() {
+            if entry.key == key {
+                if entry.is_leaf() {
+                    *entry = None;
+                } else {
+                    
+                }
             }
         }
+
+        // for child in self.children.iter_mut() {
+        //     if let Some(child) = child {
+        //         if child.key == key {
+        //             if child.is_leaf() {
+        //                 *child = None;
+        //             } else {
+        //                 if
+        //             }
+        //         }
+        //     }
+        // }
+        // // for child in self.children {
+        // //     if let Some(Some(child)) = child {
+        // //         if child.key == key {
+        // //             // remove
+        // //         }
+        // //     }
+        // // }
+
+        // match self.key.cmp(&key) {
+        //     Less => {
+        //         let entry = self.children.get_mut(1);
+        //         if let Some(Some(entry)) = entry {
+        //             Self::remove(entry, key);
+        //             // augument
+        //         }
+        //     }
+        //     Equal => {
+        //         // remove
+        //     }
+        //     Greater => {
+        //         let entry = self.children.get_mut(0);
+        //         if let Some(Some(entry)) = entry {
+        //             Self::remove(entry, key);
+        //         }
+        //     }
+        // }
     }
 
     pub fn insert(&mut self, key: Key<Config>, payload: Payload<Config>) {

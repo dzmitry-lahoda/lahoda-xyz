@@ -21,7 +21,7 @@
     };
     nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
     helix = {
-      url = "github:helix-editor/helix/24.03";
+      url = "github:helix-editor/helix/24.07";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -47,10 +47,10 @@
         in
         {
           devShells.default = pkgs.mkShell {
-            packages = [
-              pkgs.helix
-              pkgs.home-manager
-              pkgs.rust-toolchain
+            packages = with pkgs;[
+              helix
+              home-manager
+              rust-toolchain
               ];
           };
 
