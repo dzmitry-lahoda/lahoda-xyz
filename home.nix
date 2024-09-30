@@ -1,37 +1,40 @@
 { config, pkgs, ... }:
 
 let
-  #anki-wrapper = pkgs.writeShellApplication {
-  #  name = "anki";
-  #  text = ''
-  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
-  #  '';
-  #};
-  #ledger-wrapper = pkgs.writeShellApplication {
-  #  name = "ledger";
-  #  text = ''
-  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
-  #  '';
-  #};
-  #slack-wrapper = pkgs.writeShellApplication {
-  #  name = "slack";
-  #  text = ''
-  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
-  #  '';
-  #};
-  #brave-wrapper = pkgs.writeShellApplication {
-  #  name = "brave";
-  #  text = ''
-  #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
-  #  '';
-  #};
 in
+#anki-wrapper = pkgs.writeShellApplication {
+#  name = "anki";
+#  text = ''
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
+#  '';
+#};
+#ledger-wrapper = pkgs.writeShellApplication {
+#  name = "ledger";
+#  text = ''
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
+#  '';
+#};
+#slack-wrapper = pkgs.writeShellApplication {
+#  name = "slack";
+#  text = ''
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
+#  '';
+#};
+#brave-wrapper = pkgs.writeShellApplication {
+#  name = "brave";
+#  text = ''
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
+#  '';
+#};
 {
 
   #xdg = {
   #  enable = true;
   #};
-  programs = let myname = "dz"; in
+  programs =
+    let
+      myname = "dz";
+    in
     {
       go.enable = true;
       #bash = {
@@ -56,7 +59,6 @@ in
       #brave = {
       #  enable = true;
       #};
-
 
       #chromium.enable = true;
       git = {
@@ -121,7 +123,10 @@ in
     package = pkgs.nix;
     settings = {
       sandbox = "relaxed";
-      experimental-features = [ "flakes" "nix-command" ];
+      experimental-features = [
+        "flakes"
+        "nix-command"
+      ];
       narinfo-cache-negative-ttl = 0;
       system-features = [ "kvm" ];
       max-jobs = 2;
@@ -137,12 +142,17 @@ in
       # keep-derivations = true;
 
       substitute = true;
-      trusted-users = [ "dz" "root" "dzmitry-lahoda" "dzmitry" ];
+      trusted-users = [
+        "dz"
+        "root"
+        "dzmitry-lahoda"
+        "dzmitry"
+      ];
 
       substituters = [
         "https://nix-community.cachix.org/"
         "https://cache.nixos.org/"
-        "https://nixpkgs-update.cachix.org"        
+        "https://nixpkgs-update.cachix.org"
       ];
 
       trusted-public-keys = [
@@ -157,18 +167,16 @@ in
     config = {
       allowUnfree = true;
       extra-substituters = true;
-      allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
-        "vscode"
-        "vscode-extension-github-copilot"
-        "vscode-extension-ms-vscode-remote-remote-ssh"
-        "slack"
-        "nvidia"
-      ];
-      #permittedInsecurePackages = [
-      #  "nodejs-16.20.0"
-      #];
+      allowUnfreePredicate =
+        pkg:
+        builtins.elem (pkgs.lib.getName pkg) [
+          "vscode"
+          "vscode-extension-github-copilot"
+          "vscode-extension-ms-vscode-remote-remote-ssh"
+          "slack"
+          "nvidia"
+        ];
     };
-
   };
   # not in home
   # networking.nameservers = [ "ns-207.awsdns-25.com" ];
@@ -196,7 +204,6 @@ in
     syncthing = {
       enable = true;
     };
-
 
     # nginx.virtualHosts = {
     #   "_" = {
@@ -247,6 +254,8 @@ in
       nix
       cmake
       sd
+      act
+      nixd
       #yt-dlp
       nix-tree
       # dust
@@ -287,9 +296,9 @@ in
       pkg-config
       protobuf
       rclone
+      sqlfluff
       rclone-browser
       cargo-limit
-      nixd
       rust-script
       sad
       sd
@@ -303,7 +312,6 @@ in
     ];
   };
 }
-
 
 # [Desktop Entry]
 # Name=ledger

@@ -26,43 +26,59 @@
     };
   };
 
-  outputs = inputs@{ self, flake-parts, nixpkgs, rust-overlay, nixgl, helix, nixpkgs-unstable, ... }:
+  outputs =
+    inputs@{
+      self,
+      flake-parts,
+      nixpkgs,
+      rust-overlay,
+      nixgl,
+      helix,
+      nixpkgs-unstable,
+      ...
+    }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
-      perSystem = { config, self', inputs', pkgs, system, ... }:
+      perSystem =
+        {
+          config,
+          self',
+          inputs',
+          pkgs,
+          system,
+          ...
+        }:
 
         let
           overlays = [
             (import rust-overlay)
-            nixgl.overlay            
-            (final: prev:
-              {
-                rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
-                #home-manager = home-manager.packages.${system}.home-manager;
-              }
-            )
+            nixgl.overlay
+            (final: prev: {
+              rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              #home-manager = home-manager.packages.${system}.home-manager;
+            })
           ];
-          pkgs = import nixpkgs {
-            inherit system overlays;
-          };
+          pkgs = import nixpkgs { inherit system overlays; };
         in
         {
+          _module.args.pkgs = import nixpkgs {
+            inherit system;
+            config.allowUnfree = true;
+          };
           devShells.default = pkgs.mkShell {
-            packages = with pkgs;[
+            packages = with pkgs; [
               helix
               home-manager
               rust-toolchain
-              ];
+            ];
           };
+          formatter = pkgs.nixfmt-rfc-style;
 
           packages = {
             update = pkgs.writeShellApplication {
               name = "update";
               runtimeInputs = with pkgs; [ home-manager ];
-              text = ''
-                
-                export NIXPKGS_ALLOW_UNFREE=1 && home-manager switch --flake .  --extra-experimental-features nix-command --extra-experimental-features flakes
-              '';
+              text = builtins.readFile ./nix/activate.sh;
             };
           };
         };
@@ -73,11 +89,7 @@
           overlays = [
             (import rust-overlay)
             nixgl.overlay
-            (final: prev:
-              {
-                rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
-              }
-            )
+            (final: prev: { rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml; })
           ];
           pkgs = import nixpkgs {
             inherit system overlays;
@@ -87,7 +99,9 @@
                 vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
                 brave = nixpkgs-unstable.legacyPackages.${system}.brave;
                 nix = nixpkgs-unstable.legacyPackages.${system}.nix;
-                rust-toolchain = nixpkgs-unstable.legacyPackages.${system}.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+                rust-toolchain =
+                  nixpkgs-unstable.legacyPackages.${system}.rust-bin.fromRustupToolchainFile
+                    ./rust-toolchain.toml;
               };
             };
           };
@@ -95,9 +109,7 @@
         {
           homeConfigurations.dz = inputs.home-manager.lib.homeManagerConfiguration {
             inherit pkgs;
-            modules = [
-              ./home.nix
-            ];
+            modules = [ ./home.nix ];
           };
         };
     };
