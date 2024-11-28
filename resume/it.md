@@ -43,13 +43,15 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum :)
 
 ## Work
 
-### 2024.03.04 - now, Layer
+### 2024.03.04 - now, LayerN
 
-Maintained code of central limit order book (LMAX design).  
-Did perpetuals funding index, liquidator mechanic design, and implementation (used sans-io).  
-Improved panic and bug safety by introducing several typestate patterns.  
-Wrote schema-based database diff utility for usage in tests and debugging.  
-Designed and implemented manual offline and automatic live upgrades of optimistic ZK fraud-proof rollup.
+- Maintained and enhanced the codebase of a **central limit order book** using the LMAX architecture.  
+- Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics**(with a **sans-io based bot**).  
+- Reduced bugs and maintenance overhead by introducing several **typestate patterns**.  
+- Developed a **schema-based rollup storage diff utility** for use in testing and debugging.  
+- Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.  
+- Authoring generalized **settlement contracts** for the Solana blockchain.
+- Nix all the things!
 
 ### 2022.07-2024.03, Composable Foundation
 
