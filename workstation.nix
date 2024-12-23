@@ -1,0 +1,6 @@
+{
+  thunderbird = {
+    enable = true;
+    profiles ={};
+  };
+}

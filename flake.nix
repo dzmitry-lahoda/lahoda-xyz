@@ -1,15 +1,9 @@
 {
   description = "lahoda.xyz";
-
   inputs = {
-    nixpkgs-unstable = {
-      url = "github:NixOS/nixpkgs/nixos-unstable";
-    };
-
-    nixpkgs.url = "github:NixOS/nixpkgs/24.05";
-
+    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
     home-manager = {
-      url = "github:nix-community/home-manager/release-24.05";
+      url = "github:nix-community/home-manager/release-24.11";
     };
     rust-overlay = {
       url = "github:oxalica/rust-overlay/master";
@@ -34,7 +28,6 @@
       rust-overlay,
       nixgl,
       helix,
-      nixpkgs-unstable,
       ...
     }:
     flake-parts.lib.mkFlake { inherit inputs; } {
@@ -96,11 +89,11 @@
             config = {
               packageOverrides = pkgs: {
                 helix = helix.packages.${system}.helix;
-                vscode = nixpkgs-unstable.legacyPackages.${system}.vscode;
-                brave = nixpkgs-unstable.legacyPackages.${system}.brave;
-                nix = nixpkgs-unstable.legacyPackages.${system}.nix;
+                vscode = nixpkgs.legacyPackages.${system}.vscode;
+                brave = nixpkgs.legacyPackages.${system}.brave;
+                nix = nixpkgs.legacyPackages.${system}.nix;
                 rust-toolchain =
-                  nixpkgs-unstable.legacyPackages.${system}.rust-bin.fromRustupToolchainFile
+                  nixpkgs.legacyPackages.${system}.rust-bin.fromRustupToolchainFile
                     ./rust-toolchain.toml;
               };
             };

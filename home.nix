@@ -37,6 +37,7 @@ in
     in
     {
       go.enable = true;
+
       #bash = {
       #enable = true;
       #enableCompletion = true;
@@ -83,6 +84,7 @@ in
       #     ms-vscode-remote.remote-ssh
       #     jnoortheen.nix-ide
       #     github.copilot
+      #     vscode-extensions.reditorsupport.r
 
       #     mads-hartmann.bash-ide-vscode
 
@@ -113,7 +115,9 @@ in
       #     haskell.haskell
       #   ];
       # };
-    };
+    }
+    // (import ./workstation.nix)
+    ;
   # note in home-manager
   # environment.etc = {
   #   "resolv.conf".text = "nameserver ns-207.awsdns-25.com\n";
@@ -175,6 +179,7 @@ in
           "vscode-extension-ms-vscode-remote-remote-ssh"
           "slack"
           "nvidia"
+          "vscode-extensions.reditorsupport.r"
         ];
     };
   };
@@ -245,6 +250,7 @@ in
       # ledger-wrapper
       #glib.dev
       #libiconv
+      r
       rust-toolchain
       openssl.dev
       pkg-config
