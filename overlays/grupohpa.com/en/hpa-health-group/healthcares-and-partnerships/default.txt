@@ -2,52 +2,50 @@
 
 anything not contained within the tags will be discarded
 
+METADATA
+Advance Care: https://www.advancecare.pt/pt-pt/para-si
+END METADATA 
+
 ELEMENTS
-pre-t self
-after-t self
-self now
-future self
-ideal self
-perpetrator
-boyfriend
-cat
-mom
-dad
-female friend
-professor
+Convenção RAM/IASaúde
+Advance Care 
+Allianz
+CGD
+Future Healthcare
+Multicare
+RNA Medical
+SAMS Quadros
+SAMS/SIB
+~ADM~
+~ADSE~
+~GNR~
+~Medis~
+~PSP~
 END ELEMENTS
 
 CONSTRUCTS
-low selfesteem:high selfesteem
-strained:less strained
-firm:acceptable
-extro:introvert
-unexpressed:open
-supportive:hateful
-in harmony:uncomfortable
-helpless:purposeful
-not planned:planned
-trust worthy:untrustworthy
-powerful:powerless
-secure:insecure
+no:plasic/reconstructive surgery
+no:immunnohemotherapy
+no:general surgery
+no:neurosurgery
+no:oncology
+no:urology
+no:can subscribe on Madeira
+good google:bad google
 END CONSTRUCTS
 
 RATINGS
-6 1 2 5 7 4 6 7 5 6 2 4
-7 1 2 6 6 2 6 3 3 7 6 4
-6 2 2 5 6 4 4 4 2 6 5 2
-1 7 6 3 3 2 2 5 4 6 2 4
-6 1 3 4 5 4 1 2 2 3 2 4
-2 7 3 2 1 4 4 2 4 2 2 5
-1 7 6 3 2 4 1 4 5 1 1 4
-6 1 5 6 7 4 5 3 5 6 4 6
-1 1 1 6 7 4 3 4 7 2 6 7
-4 6 4 3 2 7 3 1 1 1 2 4
-2 7 4 2 1 4 3 3 4 7 5 2
-2 7 4 3 1 4 4 1 4 5 2 4
+5 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 5 5 5 5 5 5 5 5 0 0 0 0 0
+5 5 5 5 5 5 5 5 5 5 5 5 5 5
+5 5 5 5 5 5 5 5 5 5 5 5 5 5
+5 5 5 5 5 5 5 5 5 5 5 5 5 5
+5 5 5 5 5 5 5 5 5 5 5 5 5 5
+0 0 5 0 0 0 0 0 0 - - - - -
+0 1 4 - 3 3 2 - - - - - - -
 END RATINGS
 
 RANGE
-1 7
+0 5
 END RANGE
 ---------------- end of file ----------------
