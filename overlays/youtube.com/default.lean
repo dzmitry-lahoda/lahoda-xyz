@@ -1,0 +1,7 @@
+-- - check if overlay has CID of file
+--   - YES, done
+--   - NO,
+--     - download file and descrition into video id prefixed folder
+--     - add ipfs
+--     - pin ipfs
+--     - add overlay file CID
