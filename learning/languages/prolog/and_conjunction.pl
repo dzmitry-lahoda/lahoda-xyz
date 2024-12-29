@@ -7,6 +7,7 @@
 likes(water).
 likes(juice).
 
+# likex both X and Y, X V Y
 likes_both_mix(X,Y) :- likes(X) , likes(Y). 
 
 

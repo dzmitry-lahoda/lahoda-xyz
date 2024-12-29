@@ -250,7 +250,8 @@ in
       # ledger-wrapper
       #glib.dev
       #libiconv
-      r
+      (rWrapper.override{ packages = with rPackages; [ devtools OpenRepGrid rgl ]; })    
+      radianWrapper
       rust-toolchain
       openssl.dev
       pkg-config
@@ -262,11 +263,12 @@ in
       sd
       act
       nixd
-      #yt-dlp
+      yt-dlp
       nix-tree
       # dust
       starship
       ripgrep
+      ryujinx
       eza
       # rmesg
       zoxide
@@ -279,12 +281,13 @@ in
       attr
       bottom
       dasel
-      dasel
       gh
       git-lfs
       gopls
       grpcurl
       cachix
+      jujutsu
+      pijul
       watchexec
       haskell.compiler.ghcHEAD
       helix
@@ -296,7 +299,7 @@ in
       llvm
       nginx
       nixgl.nixGLIntel
-      nixpkgs-fmt
+      nixfmt-rfc-style
       nodejs
       openssl
       pkg-config
