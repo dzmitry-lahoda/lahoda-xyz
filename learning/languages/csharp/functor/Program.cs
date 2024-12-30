@@ -1,10 +1,3 @@
-// See https://aka.ms/new-console-template for more information
-
-
-
-Console.WriteLine("42");
-
-
 interface IFunctor<T0> {
 	IFunctor<T1> Map<T1>(Func<T0,T1> mapping);
 }

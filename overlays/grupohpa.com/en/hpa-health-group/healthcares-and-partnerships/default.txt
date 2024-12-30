@@ -1,9 +1,11 @@
 ------------ 3-13.txt file ---------------
 
-anything not contained within the tags will be discarded
-
 METADATA
-Advance Care: https://www.advancecare.pt/pt-pt/para-si
+Advance Care: https://www.advancecare.pt/pt-pt/para-si - rejected
+Allianz https://www.allianz.pt/seguro-saude.html - rejected
+CGD https://www.cgd.pt/Particulares/Seguros/Pages/Seguros.aspx - rejected
+Future Healthcare https://future-health.care/pt-pt/
+Multicare https://www.multicare.pt/PT/particulares/Paginas/default.aspx
 END METADATA 
 
 ELEMENTS
@@ -31,7 +33,11 @@ no:neurosurgery
 no:oncology
 no:urology
 no:can subscribe on Madeira
-good google:bad google
+rude or silent online:can talk online
+bad google:good google
+bad trustpilot:good trust pilot
+bad portaldaquixa:good
+bad site:good
 END CONSTRUCTS
 
 RATINGS
@@ -41,8 +47,11 @@ RATINGS
 5 5 5 5 5 5 5 5 5 5 5 5 5 5
 5 5 5 5 5 5 5 5 5 5 5 5 5 5
 5 5 5 5 5 5 5 5 5 5 5 5 5 5
-0 0 5 0 0 0 0 0 0 - - - - -
-0 1 4 - 3 3 2 - - - - - - -
+N N 0 - - - - - - - - - - -
+N 1 3 - 3 3 2 N 4 - - - - -
+N 1 1 - N 2 N N - - - - - -
+- 4 3 3 3 0 4 - - - - - - -
+- 3 2 2 2 2 - - - - - - - -
 END RATINGS
 
 RANGE
