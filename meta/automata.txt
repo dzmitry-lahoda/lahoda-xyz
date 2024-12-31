@@ -1,6 +1,6 @@
 
 
-Q: What’s the number of non-empty languages that contain only strings of 0's and 1's of length n?
+Q: Whatï¿½s the number of non-empty languages that contain only strings of 0's and 1's of length n?
 A:
 if n = 1
 1

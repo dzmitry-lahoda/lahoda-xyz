@@ -180,6 +180,7 @@ in
           "slack"
           "nvidia"
           "vscode-extensions.reditorsupport.r"
+          "vscode-extensions.davidlday.languagetool-linter"
         ];
     };
   };
@@ -256,6 +257,7 @@ in
       openssl.dev
       pkg-config
       hyperfine
+      languagetool
       direnv
       bat
       nix
