@@ -1,7 +1,7 @@
-// is like fibonatti but for 3 elements
-// i have ladder of n steps,
-// i can take 1, 2 or 3 steps at a time
-// how many ways can i climb the ladder
+//! is like fibonatti but for 3 elements
+//! i have ladder of n steps,
+//! i can take 1, 2 or 3 steps at a time
+//! how many ways can i climb the ladder
 const assert = @import("std").debug.assert;
 
 pub fn ladder(n: u32) u32 {

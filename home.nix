@@ -113,6 +113,7 @@ in
       #     foam.foam-vscode
       #     golang.go
       #     haskell.haskell
+      #     ziglang.vscode-zig
       #   ];
       # };
     }
