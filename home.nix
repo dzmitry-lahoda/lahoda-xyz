@@ -247,80 +247,90 @@ in
     stateVersion = "24.05";
     username = "dz";
     homeDirectory = "/home/dz";
-    packages = with pkgs; [
+    packages = 
+    let    python-packages = ps: with ps; [ numpy cvxpy wheel virtualenv ];
+          python = pkgs.python3.withPackages python-packages;
+          in
+    with pkgs; [
+                      python3
+                elan
+                lean4
+                poetry            
+                pyo3-pack
+                typst
+                uv    
+      (rWrapper.override{ packages = with rPackages; [ devtools OpenRepGrid rgl ]; })    
+      # dust
       # ledger-live-desktop
       # ledger-wrapper
+      # rmesg
       #glib.dev
       #libiconv
-      (rWrapper.override{ packages = with rPackages; [ devtools OpenRepGrid rgl ]; })    
-      radianWrapper
-      rust-toolchain
-      openssl.dev
-      pkg-config
-      hyperfine
-      languagetool
-      direnv
-      bat
-      nix
-      cmake
-      sd
-      act
-      nixd
-      yt-dlp
-      nix-tree
-      # dust
-      starship
-      ripgrep
-      ryujinx
-      eza
-      # rmesg
-      zoxide
-      delta
       #tp-note
-      bandwhich
-      fd
-      procs
+      act
       alejandra
       attr
+      bandwhich
+      bat
       bottom
+      cachix
+      cargo-limit
+      cmake
       dasel
+      delta
+      direnv
+      eza
+      fd
+      fsearch
       gh
       git-lfs
       gopls
       grpcurl
-      cachix
-      jujutsu
-      pijul
-      watchexec
       haskell.compiler.ghcHEAD
       helix
       home-manager
       hwinfo
+      hyperfine
       jq
+      jujutsu
       kubo
+      languagetool
       lazygit
       llvm
       nginx
-      nixgl.nixGLIntel
+      nix
+      nix-tree
+      nixd
       nixfmt-rfc-style
+      nixgl.nixGLIntel
       nodejs
       openssl
+      openssl.dev
+      pijul
       pkg-config
+      pkg-config
+      procs
       protobuf
+      radianWrapper
       rclone
-      sqlfluff
       rclone-browser
-      cargo-limit
+      ripgrep
+      rocksdb
       rust-script
+      rust-toolchain
+      ryujinx
       sad
       sd
       shadow
+      sqlfluff
+      starship
       translate-shell
+      watchexec
       websocat
       xsv
       yarn
-      rocksdb
-      fsearch
+      yt-dlp
+      zoxide
     ];
   };
 }

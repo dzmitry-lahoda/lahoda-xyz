@@ -1,0 +1,8 @@
+- rust creates stack allocated machine per task
+- root future owned by executor is task
+- futures are polled by executor
+- there are multi thread, multi task, intra task concurrency
+- mutex hold over state transtion can deadlock
+- continuation passing style (callback) and future calls next future rejected as require allocation or multi ownership of callback
+- then it dicussed desing of async and sync libraries, from which i conclude - libraries are just different.
+- also references stackfull and stackless coroutines, but that is more reading needed

@@ -1,0 +1,1 @@
+-- Macro to automatically generate serialize, deserialize and schema

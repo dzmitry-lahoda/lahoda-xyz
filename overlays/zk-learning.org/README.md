@@ -1,0 +1,3 @@
+
+P - prover
+V - verifier
