@@ -18,12 +18,20 @@ instance : ToString Pos where
 
 def Pos.one := 1
 
+
 def Pos.mul: Pos → Pos → Pos
   | Pos.succ 0, b => b + b
   | Pos.succ (a+1), b => (Pos.mul (Pos.succ a) b) + b
 
 instance : Mul Pos where
   mul := Pos.mul
+
+def addPosNat : Pos -> Nat -> Pos
+  | a, 0 => a
+  | a, b + 1 => addPosNat (Pos.succ a.pred+1)  b
+
+instance : HAdd Pos Nat Pos where
+  hAdd := addPosNat
 
 #eval Pos.plus 13 11
 
@@ -33,6 +41,8 @@ def pp: Pos := 1
 
 def ppp: Pos := 33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 def zzz: Pos := 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+
+#eval (100: Pos) + (7: Nat)
 
 #eval pp
 #eval ppp

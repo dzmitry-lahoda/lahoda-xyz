@@ -248,13 +248,17 @@ in
     username = "dz";
     homeDirectory = "/home/dz";
     packages = 
-    let    python-packages = ps: with ps; [ numpy cvxpy wheel virtualenv ];
+    let    
+    
+      netboot = [pkgs.ipxe
+      pkgs.cdrtools pkgs.qemu pkgs.mtools];
+    python-packages = ps: with ps; [ numpy cvxpy wheel virtualenv ];
           python = pkgs.python3.withPackages python-packages;
           in
-    with pkgs; [
+    with pkgs; netboot ++ [
                       python3
                 elan
-                lean4
+                # lean4
                 poetry            
                 pyo3-pack
                 typst
@@ -287,6 +291,8 @@ in
       gopls
       grpcurl
       haskell.compiler.ghcHEAD
+      
+      opentofu
       helix
       home-manager
       hwinfo

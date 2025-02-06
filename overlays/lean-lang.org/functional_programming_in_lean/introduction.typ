@@ -27,5 +27,13 @@ Lean evaluates `IO` function, and returns them from main for execution.
 
 Class is implemented by instances. Instances are stuctures. 
 To define class instance requried, use `[...]` syntax.
-Things within square brackets are called `instance implciits`
-.
+Things within square brackets are called `instance implicits`.
+
+Better to define parameters in next order - type, instance, values.
+It allows to get imliocit typ type and instance inference from values.
+
+Metavariables are used to represent unknowns types.
+Metavariable error may be failed instance search.
+Outparam can be used to tell start search based on only input types.
+
+

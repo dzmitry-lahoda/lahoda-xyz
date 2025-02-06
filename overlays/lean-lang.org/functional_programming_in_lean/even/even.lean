@@ -1,27 +1,3 @@
-
-structure EvenNat where
-  val: Nat
-  isEven: val % 2 = 0
-
-class IsEven (n: Nat) where
-  proof: n % 2 = 0
-
-instance (n:Nat) [IsEven n] : OfNat EvenNat n where
-  ofNat := { val := n, isEven := IsEven.proof  }
-
-
-inductive EvenInductive : Nat -> Type where
-  | zero: EvenInductive 0
-  | addTwo {n: Nat}: EvenInductive n -> EvenInductive (n+2)
-
-instance : OfNat EvenInductive n where
-  ofNat :=
-    let rec aux (n: Nat) : EvenInductive n :=
-      match n with
-      | 0 => EvenInductive.zero
-      | n + 1 => aux n
-    aux n
-
 inductive Even
   | zero
   | addTwo : Even -> Even
