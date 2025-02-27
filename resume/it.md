@@ -1,11 +1,11 @@
+
 # Summary
 
 Dzmitry specializes in blockchain, underlying infrastructure, and protocols.
 
-Before crypto, he coded enterprise integrations, client-servers, actor systems, HPC, cloud, desktop, drivers, custom software frameworks, reusable libraries, real-time networks, and basic applied statistics in several domains.
+Previously he did enterprise, client-servers, actor systems, cloud, desktop, drivers, reusable frameworks and libraries, real-time, and basic applied statistics in several domains.
 
-Computer user since 1993, writes programs since 2004, industrial tooling and practices since 2007, open-source since 2009, works in companies since 2010.
-Did generalized machine learning algorithms in 2010.
+Writes programs since 2004.
 
 Dzmitry is currently trying to be better at mathematics, cryptography, and compilers.
 
@@ -27,36 +27,39 @@ heterogeneous computations; storages; computer languages and type systems;
 many engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
 mechanism designs, algorithms.
 
+(Slowly) learning math, related to finances, languages, cryptography and AI. 
+
 ### Coding
 
-Mostly `Rust` in the last years. I do `Solidity, Go, Python, Haskell, TS` as needed too, but not so much.
-
-Used Object Pascal, Matlab, C#/F# a lot before.
+Mostly `Rust` in the last years. Getting `Lean` under his belt. 
+For special cases do `Solidity, TS 5.7, Python 3.13` as needed too, but not so much. 
+Used Go, Object Pascal, Matlab, C#/F#, C before.
 
 ### Environment
 
-Git, Linux, Nix, VS Code, AI models, Markdown (with TeX/Mermaid/PlantUML), Terraform, Brave Browser.
+Git, *Nix, VS Code, AI models, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser. 
+Learning Helix editor, Jujutsu, Unix internals.
 
-Training in Helix (editor).
-
-A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum :)
+Used Kubernetes.
+A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 
 ## Work
 
 ### 2024.03.04 - now, LayerN
 
-- Maintained and enhanced the codebase of a **central limit order book** using the LMAX architecture.  
+- Maintained and enhanced the codebase of a **LMAX based central limit order book**  
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics**(with a **sans-io based bot**).  
-- Reduced bugs and maintenance overhead by introducing several **typestate patterns**.  
-- Developed a **schema-based rollup storage diff utility** for use in testing and debugging.  
+- Reduced bugs and maintenance overhead by introducing several **typestate patterns**
+- Executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), found several issues before and after audits
+- Developed a Borsh schema-based storage diff utility and TS API client generator.
 - Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.  
-- Authoring generalized **settlement contracts** for the Solana blockchain.
-- Nix all the things!
+- Drafted **settlement contracts** for the Solana blockchain.
+- Drafted unified messaging for L1/L2/L3, developing L2 executor to handle that.
 
 ### 2022.07-2024.03, Composable Foundation
 
 - Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot (Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer.
-- Cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware.
+- Cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware(CoW like).
 - Ethereum: Hosting local PoS devnet, wrote IBC cross-chain call contract, wrote manual cross-chain interpreter parser, reading a lot of code and specs for porting to other chains.
 - Coded and audited lending, AMM, staking/rewards, vote escrowed, CoW, governance.
 - Polkadot/CosmWasm/Solana/Cosmos/Ethereum.
@@ -82,7 +85,7 @@ Prototyped and test 1000+ user event driven scalable server for world consisting
 Did Login, questionnaires, documents signing, marketing backend flows on CQRS/ES. 
 Built templated low level PDF rendering engine.
 
-### 2020.03 - 2022.06, Metaverse game builder startup([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Backend Software Engineer and DevOps. GameDev.
+### 2020.03 - 2022.06, Metaverse game builder startup([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer. GameDev.
 
 Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers.
 Did referral, game event objectives, online presence and other flows into microservice architecture
@@ -92,9 +95,9 @@ Introduced distributed logging and alerting, monitoring dashboards
 ### 2019.11.11 - 2020.02. eCommerce Point of Sale. Wallmart. Backend Software Engineer
 
 Implemented California Consumer Privacy Act conformance(optout, access and PII delete flows)
-via new and modificaition of existing microservices, covered with monitoring and alerts.
+with new and withing existing microservices and delivered(with ops, monitoring, alerts).
 Wrote distributed testing tools, debugged and patched scalability issue in graph database driver.
-Coded read-delete-test+read PII delete playbook with dry run.
+Made `read-delete-test+read` pattern PII delete playbook with dry run.
 
 ### 2019.08 - 2019.10. Cloud-native microservice-based call and contact center, [Luware](https://luware.com/en/partners/microsoft/). Backend Software Engineer and DevOps.
 
@@ -104,8 +107,7 @@ Planned and deployed logging storage for 3TB logs storage with 40GB logs per day
 ### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
 
 Moved game from Proof of Concept to get it into Release.
-Did networking and game machanics middleware via Entity Component System, backend, SRE/DevOps.
-Did matchmaking and meta configuration based on actor and message queues.
+Did networking, game mechanics middleware, ECS, backend, SRE/DevOps, matchmaking and meta configuration based on actor and message queues.
 Did realtime synchronization protocol with compression; convenient and fast serialization over UDP.
 Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users.
 
@@ -115,9 +117,9 @@ Developed desktop app to show and analyze measurement signals from car sensors.
 Fixed bugs realtime data synchronization engine, migrating from single threaded to multithread database usage,  
 migrated syncronous blocking buggy code to bug free reactive, real time data tables and views.
 
-### 06.2015 - 08.2017. [Thomson Reuters Legal Electronic discovery engine(defunct) SaaS]. Legal. Backend Software Engineer
+### 06.2015 - 08.2017. Thomson Reuters Legal Electronic discovery SaaS. Legal. Backend Software Engineer
 
-Solution for the USA legal market aimed to decrease the volume of information within litigation to derive insights and create winning legal arguments
+Product for USA legal market aimed to decrease the volume of information within litigation to derive insights and create legal arguments
 
 - Developed asynchronous actor-like data-intensive persisted engine and multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
 - Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows

@@ -271,6 +271,7 @@ in
       #glib.dev
       #libiconv
       #tp-note
+      xz
       act
       alejandra
       attr
@@ -285,6 +286,7 @@ in
       direnv
       eza
       fd
+      fzf
       fsearch
       gh
       git-lfs
