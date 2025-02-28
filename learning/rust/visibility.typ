@@ -23,6 +23,6 @@ Depending on case, some are better of others, in composition with other Rust fea
 ## Power
 
 Rust also does not seems a powerfull as for example 
-C# (https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers, partial, ide/debuger hidden/step throught, non static class with private ctro),
+C# (https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers, partial, ide/debuger hidden/step throught, interplay of ctors/statics with visibility),
 but in reality it is as rich as others.
 
