@@ -4,6 +4,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
     home-manager = {
       url = "github:nix-community/home-manager/release-24.11";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     rust-overlay = {
       url = "github:oxalica/rust-overlay/master";
@@ -19,7 +20,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-
   outputs =
     inputs@{
       self,
@@ -58,21 +58,20 @@
             inherit system;
             config.allowUnfree = true;
           };
-          devShells.default = pkgs.mkShell {
-            packages = with pkgs; [
-              helix
-              home-manager
-              rust-toolchain
-            ];
-          };
           formatter = pkgs.nixfmt-rfc-style;
 
           packages = {
-            update = pkgs.writeShellApplication {
-              name = "update";
+            activate = pkgs.writeShellApplication {
+              name = "activate";
               runtimeInputs = with pkgs; [ home-manager ];
               text = builtins.readFile ./nix/activate.sh;
             };
+
+            pdf = pkgs.writeShellApplication {
+              name = "pdf";
+              runtimeInputs = with pkgs; [ home-manager ];
+              text = builtins.readFile ./nix/pdf.sh;
+            }; 
           };
         };
 

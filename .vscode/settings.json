@@ -46,4 +46,17 @@
   "files.associations": {
     "iostream": "cpp"
   },
+  "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+    "borsh",
+    "devnet",
+    "dzmitry",
+    "hackerrank",
+    "lahoda",
+    "optout",
+    "proptesting",
+    "realtime",
+    "rollup",
+    "templated"
+  ],
+  "languageToolLinter.languageTool.disabledCategories": "EN_UPPER_CASE_NGRAM",
 }

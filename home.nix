@@ -242,7 +242,6 @@ in
   home = {
     sessionVariables = {
       NIXPKGS_ALLOW_UNFREE = 1;
-      DZMITRY_LAHODA = 42;
     };
     stateVersion = "24.05";
     username = "dz";
@@ -271,7 +270,7 @@ in
       #glib.dev
       #libiconv
       #tp-note
-      xz
+      # xz
       act
       alejandra
       attr
@@ -286,21 +285,25 @@ in
       direnv
       eza
       fd
-      fzf
+      # fzf
       fsearch
       gh
       git-lfs
       gopls
       grpcurl
       haskell.compiler.ghcHEAD
-      
+      languagetool
+      languagetool-rust
+      fasttext
       opentofu
       helix
       home-manager
       hwinfo
       hyperfine
       jq
+      pandoc
       jujutsu
+      tectonic # pdf
       kubo
       languagetool
       lazygit
@@ -315,7 +318,6 @@ in
       openssl
       openssl.dev
       pijul
-      pkg-config
       pkg-config
       procs
       protobuf
