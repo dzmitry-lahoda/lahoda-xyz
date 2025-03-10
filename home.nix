@@ -299,6 +299,7 @@ in
       helix
       home-manager
       hwinfo
+      nurl
       hyperfine
       jq
       pandoc

@@ -1,6 +1,7 @@
 | part     | measurement                      | size   | alternative size |
 |----------|----------------------------------|--------|------------------|
 | shoulder |                                  | 50cm   |                  |
+| body     | chest                            | 114cm  |                  |
 | bust     |                                  | 110cm  |                  |
 | foot     | heel to toe                      | 26.8cm | 43EU, 10US       |
 | foot     | width of foot  (toe box width)   | 10cm   |                  |
