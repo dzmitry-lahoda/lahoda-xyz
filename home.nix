@@ -300,6 +300,7 @@ in
       home-manager
       hwinfo
       nurl
+      poppler_utils
       hyperfine
       jq
       pandoc
