@@ -296,6 +296,7 @@ in
       languagetool-rust
       fasttext
       opentofu
+      qpdf
       helix
       home-manager
       hwinfo
