@@ -24,15 +24,14 @@ Continuously better at mathematics for finances, cryptography, compilers and AI.
 
 Applied knowledge of:  
 heterogeneous computations; storages; computer languages and type systems;  
-many engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
+engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
 mechanism designs, algorithms.
 
 ### Coding
 
 Mostly `Rust` in the last years. Getting `Lean4`. 
-For special cases do `Solidity, TS 5.7, Python 3.13` as needed too, but not so much. 
+For special cases do `Solidity 0.9.29, TS 5.8, Python 3.14` as needed too, but not so much. 
 Used Go, Object Pascal, Matlab, C#/F#, C before.
-
 
 ### Environment
 
@@ -49,11 +48,10 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 - Maintained and enhanced the codebase of a **LMAX based central limit order book**  
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics**(with a **sans-io based bot**).  
 - Reduced bugs and maintenance overhead by introducing several **typestate patterns**
-- executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), found several issues before and after audits
+- Executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), found several issues before and after audits
 - Developed a Borsh schema-based storage diff utility and TS API client generator.
 - Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.  
-- Drafted **settlement contracts** for the Solana blockchain.
-- Drafted unified messaging for L1/L2/L3, developing L2 executor to handle that.
+- Drafted unified messaging for L1/L2, drafted L2 executor to handle that.
 
 ### 2022.07-2024.03, Composable Foundation
 
