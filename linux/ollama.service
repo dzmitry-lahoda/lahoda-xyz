@@ -1,0 +1,14 @@
+[Unit]
+Description=Ollama Service
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/ollama serve
+User=ollama
+Group=ollama
+Restart=always
+RestartSec=3
+Environment="PATH=/home/dz/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/dz/.local/share/solana/install/active_release/bin:/home/dz/.elan/bin:/home/dz/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/dz/.local/share/solana/install/active_release/bin:/home/dz/.elan/bin:/home/dz/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dz/.config/Code/User/globalStorage/ziglang.vscode-zig/zig/linux-x86_64-0.13.0:/home/dz/.sp1/bin"
+
+[Install]
+WantedBy=default.target

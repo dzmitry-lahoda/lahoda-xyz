@@ -13,4 +13,8 @@ digraph {
     "Negative ACL" -> "Positive permissions" [label= "override"] 
     ACL -> "Negative ACL" [label= "allow"]
 
+    lsblk -> sysfs [label = "reads"]
+    lsblk -> "udev db" [label = "reads"]
+    lsblk -> "LABELs, UUIDs, FS types from block device" [label = "sudo reads"]
+
 }
