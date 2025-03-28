@@ -17,3 +17,7 @@ fi
 if command -v nvidia-smi > /dev/null; then
   nvidia-smi
 fi
+
+if command aticonfig > /dev/null; then
+  aticonfig --odgt
+fi
