@@ -13,3 +13,6 @@ Watch good movies about good people.
 Walk into nature with sounds, smells and look arounds.
 
 All of above replace need of for chemical food partially.
+
+Some foods, like fast carbo, lead brain and gut whant more of all, including carbs.
+So not eading fast carbs at first place is a good idea.

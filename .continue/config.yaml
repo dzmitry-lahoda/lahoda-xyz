@@ -9,9 +9,9 @@ models:
       - chat
       - edit
       - apply
-  - name: qwen2.5-coder:3b
+  - name: qwen2.5-coder:7b
     provider: ollama
-    model: qwen2.5-coder:3b
+    model: qwen2.5-coder:7b
     roles:
       - autocomplete
   - name: Nomic Embed
