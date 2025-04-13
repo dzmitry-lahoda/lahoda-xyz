@@ -28,6 +28,7 @@
       nixpkgs,
       rust-overlay,
       nixgl,
+      nixpkgs-unstable,
       helix,
       ...
     }:
@@ -53,16 +54,17 @@
               #home-manager = home-manager.packages.${system}.home-manager;
             })
           ];
-          pkgs = import nixpkgs { inherit system overlays;
-          # config = {
-          #     allowUnfree = true;
-          #     allowUnfreePredicate =
-          #       pkg:
-          #       builtins.elem (pkgs.lib.getName pkg) [
-          #         "claude-code"
-          #       ];
-          #   };
-           };
+          pkgs = import nixpkgs {
+            inherit system overlays;
+            # config = {
+            #     allowUnfree = true;
+            #     allowUnfreePredicate =
+            #       pkg:
+            #       builtins.elem (pkgs.lib.getName pkg) [
+            #         "claude-code"
+            #       ];
+            #   };
+          };
         in
         {
           _module.args.pkgs = import nixpkgs {
@@ -95,6 +97,17 @@
 
       flake =
         let
+          unstable-pkgs = import nixpkgs-unstable {
+            inherit system;
+            config = {
+              allowUnfree = true; # must set this because these has own config, not shared with nixpkgs.
+              allowUnfreePredicate =
+                pkg:
+                builtins.elem (pkgs.lib.getName pkg) [
+                  "claude-code"
+                ];
+            };
+          };
           system = "x86_64-linux";
           overlays = [
             (import rust-overlay)
@@ -102,7 +115,7 @@
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
-              claude-code = inputs.nixpkgs-unstable.legacyPackages.${system}.claude-code;
+              claude-code = unstable-pkgs.claude-code;
             })
           ];
           pkgs = import nixpkgs {
