@@ -2,6 +2,7 @@
   description = "lahoda.xyz";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
+    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager/release-24.11";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -48,15 +49,32 @@
             nixgl.overlay
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
               #home-manager = home-manager.packages.${system}.home-manager;
             })
           ];
-          pkgs = import nixpkgs { inherit system overlays; };
+          pkgs = import nixpkgs { inherit system overlays;
+          # config = {
+          #     allowUnfree = true;
+          #     allowUnfreePredicate =
+          #       pkg:
+          #       builtins.elem (pkgs.lib.getName pkg) [
+          #         "claude-code"
+          #       ];
+          #   };
+           };
         in
         {
           _module.args.pkgs = import nixpkgs {
             inherit system;
-            config.allowUnfree = true;
+            # config = {
+            #   allowUnfree = true;
+            #   allowUnfreePredicate =
+            #     pkg:
+            #     builtins.elem (pkgs.lib.getName pkg) [
+            #       "claude-code"
+            #     ];
+            # };
           };
           formatter = pkgs.nixfmt-rfc-style;
 
@@ -71,7 +89,7 @@
               name = "pdf";
               runtimeInputs = with pkgs; [ home-manager ];
               text = builtins.readFile ./nix/pdf.sh;
-            }; 
+            };
           };
         };
 
@@ -81,11 +99,29 @@
           overlays = [
             (import rust-overlay)
             nixgl.overlay
-            (final: prev: { rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml; })
+            (final: prev: {
+              rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
+              claude-code = inputs.nixpkgs-unstable.legacyPackages.${system}.claude-code;
+            })
           ];
           pkgs = import nixpkgs {
             inherit system overlays;
             config = {
+              allowUnfree = true;
+              allowUnfreePredicate =
+                pkg:
+                builtins.elem (pkgs.lib.getName pkg) [
+                  "vscode"
+                  "vscode-extension-github-copilot"
+                  "vscode-extension-ms-vscode-remote-remote-ssh"
+                  "slack"
+                  "gh"
+                  "nvidia"
+                  "vscode-extensions.reditorsupport.r"
+                  "vscode-extensions.davidlday.languagetool-linter"
+                  "claude-code"
+                ];
               packageOverrides = pkgs: {
                 helix = helix.packages.${system}.helix;
                 vscode = nixpkgs.legacyPackages.${system}.vscode;
@@ -101,6 +137,9 @@
         {
           homeConfigurations.dz = inputs.home-manager.lib.homeManagerConfiguration {
             inherit pkgs;
+            # add nixos-instable to this module
+            # so that it can be used in the home-manager module
+
             modules = [ ./home.nix ];
           };
         };

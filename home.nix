@@ -1,29 +1,33 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  ...
+}:
 
 let
 in
 #anki-wrapper = pkgs.writeShellApplication {
 #  name = "anki";
 #  text = ''
-#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki} 
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki}
 #  '';
 #};
 #ledger-wrapper = pkgs.writeShellApplication {
 #  name = "ledger";
 #  text = ''
-#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@" 
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@"
 #  '';
 #};
 #slack-wrapper = pkgs.writeShellApplication {
 #  name = "slack";
 #  text = ''
-#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack} 
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.slack}
 #  '';
 #};
 #brave-wrapper = pkgs.writeShellApplication {
 #  name = "brave";
 #  text = ''
-#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave} 
+#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.brave}
 #  '';
 #};
 {
@@ -117,8 +121,7 @@ in
       #   ];
       # };
     }
-    // (import ./workstation.nix)
-    ;
+    // (import ./workstation.nix);
   # note in home-manager
   # environment.etc = {
   #   "resolv.conf".text = "nameserver ns-207.awsdns-25.com\n";
@@ -168,23 +171,26 @@ in
       ];
     };
   };
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-      extra-substituters = true;
-      allowUnfreePredicate =
-        pkg:
-        builtins.elem (pkgs.lib.getName pkg) [
-          "vscode"
-          "vscode-extension-github-copilot"
-          "vscode-extension-ms-vscode-remote-remote-ssh"
-          "slack"
-          "nvidia"
-          "vscode-extensions.reditorsupport.r"
-          "vscode-extensions.davidlday.languagetool-linter"
-        ];
-    };
-  };
+  # nixpkgs = {
+  #   config = {
+  #     allowUnfree = true;
+  #     extra-substituters = true;
+
+  #     allowUnfreePredicate =
+  #       pkg:
+  #       builtins.elem (pkgs.lib.getName pkg) [
+  #         "vscode"
+  #         "vscode-extension-github-copilot"
+  #         "vscode-extension-ms-vscode-remote-remote-ssh"
+  #         "slack"
+  #         "gh"
+  #         "nvidia"
+  #         "vscode-extensions.reditorsupport.r"
+  #         "vscode-extensions.davidlday.languagetool-linter"
+  #         "claude-code"
+  #       ];
+  #   };
+  # };
   # not in home
   # networking.nameservers = [ "ns-207.awsdns-25.com" ];
 
@@ -240,111 +246,131 @@ in
     #};
   };
   home = {
-    sessionVariables = {
-      NIXPKGS_ALLOW_UNFREE = 1;
-    };
+    # sessionVariables = {
+    #   NIXPKGS_ALLOW_UNFREE = 1;
+    # };
     stateVersion = "24.05";
     username = "dz";
     homeDirectory = "/home/dz";
-    packages = 
-    let    
-    
-      netboot = [pkgs.ipxe
-      pkgs.cdrtools pkgs.qemu pkgs.mtools];
-    python-packages = ps: with ps; [ numpy cvxpy wheel virtualenv ];
-          python = pkgs.python3.withPackages python-packages;
-          in
-    with pkgs; netboot ++ [
-                      python3
-                elan
-                # lean4
-                poetry            
-                pyo3-pack
-                typst
-                uv    
-      (rWrapper.override{ packages = with rPackages; [ devtools OpenRepGrid rgl ]; })    
-      # dust
-      # ledger-live-desktop
-      # ledger-wrapper
-      # rmesg
-      #glib.dev
-      #libiconv
-      #tp-note
-      # xz
-      act
-      alejandra
-      attr
-      bandwhich
-      bat
-      bottom
-      cachix
-      cargo-limit
-      cmake
-      dasel
-      delta
-      direnv
-      eza
-      fd
-      # fzf
-      fsearch
-      gh
-      git-lfs
-      gopls
-      grpcurl
-      haskell.compiler.ghcHEAD
-      languagetool
-      languagetool-rust
-      fasttext
-      opentofu
-      qpdf
-      helix
-      home-manager
-      hwinfo
-      nurl
-      poppler_utils
-      hyperfine
-      jq
-      pandoc
-      jujutsu
-      tectonic # pdf
-      kubo
-      languagetool
-      lazygit
-      llvm
-      nginx
-      nix
-      nix-tree
-      nixd
-      nixfmt-rfc-style
-      nixgl.nixGLIntel
-      nodejs
-      openssl
-      openssl.dev
-      pijul
-      pkg-config
-      procs
-      protobuf
-      radianWrapper
-      rclone
-      rclone-browser
-      ripgrep
-      rocksdb
-      rust-script
-      rust-toolchain
-      ryujinx
-      sad
-      sd
-      shadow
-      sqlfluff
-      starship
-      translate-shell
-      watchexec
-      websocat
-      xsv
-      yarn
-      yt-dlp
-      zoxide
-    ];
+    packages =
+      let
+
+        netboot = [
+          pkgs.ipxe
+          pkgs.cdrtools
+          pkgs.qemu
+          pkgs.mtools
+        ];
+        python-packages =
+          ps: with ps; [
+            numpy
+            cvxpy
+            wheel
+            virtualenv
+          ];
+        python = pkgs.python3.withPackages python-packages;
+      in
+      with pkgs;
+      netboot
+      ++ [
+        python3
+        elan
+        # lean4
+        poetry
+        pyo3-pack
+        typst
+        uv
+        (rWrapper.override {
+          packages = with rPackages; [
+            devtools
+            OpenRepGrid
+            rgl
+          ];
+        })
+        # dust
+        # ledger-live-desktop
+        # ledger-wrapper
+        # rmesg
+        #glib.dev
+        #libiconv
+        #tp-note
+        # xz
+        act
+        alejandra
+        attr
+        bandwhich
+        bat
+        bottom
+        cachix
+        cargo-limit
+        cmake
+        dasel
+        delta
+        direnv
+        eza
+        fd
+        fzf
+        ripgrep-all
+        fsearch
+        gh
+        # claude-code
+        git-lfs
+        gopls
+        grpcurl
+        haskell.compiler.ghcHEAD
+        languagetool
+        languagetool-rust
+        fasttext
+        opentofu
+        qpdf
+        helix
+        home-manager
+        hwinfo
+        nurl
+        poppler_utils
+        hyperfine
+        jq
+        pandoc
+        jujutsu
+        tectonic # pdf
+        kubo
+        languagetool
+        lazygit
+        llvm
+        nginx
+        nix
+        nix-tree
+        nixd
+        nixfmt-rfc-style
+        nixgl.nixGLIntel
+        nodejs
+        openssl
+        openssl.dev
+        pijul
+        pkg-config
+        procs
+        protobuf
+        radianWrapper
+        rclone
+        rclone-browser
+        ripgrep
+        rocksdb
+        rust-script
+        rust-toolchain
+        ryujinx
+        sad
+        sd
+        shadow
+        sqlfluff
+        starship
+        translate-shell
+        watchexec
+        websocat
+        xsv
+        yarn
+        yt-dlp
+        zoxide
+      ];
   };
 }
 

@@ -15,3 +15,5 @@ In math mode no need for such prefix.
 
 
 There are symbols. Some symbols has variants accesible via `.`.
+
+Math is within `$`. 
