@@ -1,15 +1,15 @@
 
-# Dzmitry Lahoda
+# Dzmitry Lahoda, Systems Software Engineer
 
-I specialize in blockchain, underlying infrastructure, and protocols.
+I specialize in distributed systems, infrastructure, blockchain and protocols.
 
-Previously did enterprise, client-servers, actor systems, cloud, desktop, drivers, reusable frameworks and libraries, real-time, and basic applied statistics in several domains, programming since 2004.
+Previously did enterprise, client-servers, actor systems, cloud, desktop, drivers, reusable frameworks and libraries, real-time, and basic applied statistics in several domains, since 2004.
 
 I grow scalable, fast, secure and maintainable code one light day at a time.
 
 Living and paying taxes in Portugal.
 
-Continuously better at mathematics for finances, cryptography, compilers and AI.
+Continuously better at mathematics, finances, cryptography and engineering.
 
 ## Profiles
 
@@ -29,13 +29,13 @@ mechanism designs, algorithms.
 
 ### Coding
 
-Mostly `Rust` in the last years. Getting `Lean4`. 
-For special cases do `Solidity 0.9.29, TS 5.8, Python 3.14` as needed too, but not so much. 
+Mostly `Rust` (since 2020). Getting `Lean4`. 
+For special cases do `Solidity 0.9, TS 5.9, Python 3.14` as needed too, but not so much. 
 Used Go, Object Pascal, Matlab, C#/F#, C before.
 
 ### Environment
 
-Git, *Nix, VS Code(RooCode withClaude), Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser. 
+Git, *Nix, VS Code(with Copilot), Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser. 
 Learning Helix editor, Jujutsu, Unix internals.
 
 Used Kubernetes.
@@ -45,6 +45,7 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 
 ### 2024.03.04 - now, [N1XYZ](https://github.com/n1xyz/)
 
+- Design and implementation of L2 storage replication protocol.
 - Maintained and enhanced the codebase of a **LMAX based central limit order book**  
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics**(with a **sans-io based bot**).  
 - Reduced bugs and maintenance overhead by introducing several **typestate patterns**
@@ -53,29 +54,28 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 - Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.  
 - Drafted unified messaging for L1/L2, drafted L2 executor to handle that.
 
-### 2022.07-2024.03, Composable Foundation
+### 2022.01-2024.03, Composable Foundation
 
-- Wasm: Maintaining and updating CosmWasm (WASM) VM on Polkadot (Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer.
+- Maintaining and updating CosmWasm (WASM) VM on Polkadot (Substrate) chain; writing/maintaining/deploying Wasm contracts for Wasmd and Wasmer.
 - Cross-chain interoperability, creating intent-based super app and cross-chain trading/routing infrastructure and middleware(CoW like).
-- Ethereum: Hosting local PoS devnet, wrote IBC cross-chain call contract, wrote manual cross-chain interpreter parser, reading a lot of code and specs for porting to other chains.
+- Ethereum: writing IBC cross-chain contracts infrastructure in Solidity.
 - Coded and audited lending, AMM, staking/rewards, vote escrowed, CoW, governance.
 - Polkadot/CosmWasm/Solana/Cosmos/Ethereum.
 - Infrastructure: local devnets, forks, relayers, indexers, tools.
 
-### 2021.03-2022.06, Web3.0, blockchain, p2p. Software Engineer. Contracts works and full-time works (Affinidi, Fluence Lab, Boosty Labs, MLabs, Paraswap)
+### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contracts works (Fluence Lab, Boosty Labs, MLabs, Paraswap)
 
 Coding, audit, research, monitoring, building, and deployment.
 Did AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana, Ethereum, [Fluence](https://fluence.network/).
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
-Coded 2D metaverse engine: character shadow, sit down, movements fixes.
-Prototyped and test 1000+ user event driven scalable server for world consisting of dynamic allocation of its parts, with WASM client.
+Coded 2D graphics metaverse engine features.
+Prototyped 1000+ user event driven scalable server for world consisting of dynamic allocation of its parts, with WASM client.
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
 
-Did login, questionnaires, documents signing, marketing backend flows via CQRS/ES. 
-Built templated low level PDF rendering engine for signatures.
+Did a lot of healthcare bussiness flows via CQRS/ES and  templated low level PDF rendering engine for patients to sign.
 
 ### 2020.03 - 2022.06, Metaverse game builder startup([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer. GameDev.
 
@@ -102,25 +102,24 @@ Coded game from Proof of Concept to Published state.
 Did fast realtime synchronization networking over UDP with compression, game mechanics middleware via ECS, backend, SRE/DevOps, matchmaking and meta configuration based.
 Automated stress tests and proved each realtime commodity server thread can game 35+ concurrent users.
 
-### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Desktop Software Engineer. Engineering
+### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer.
 
-Coded desktop app to show and analyze measurement signals from car sensors,
+Coded app to show and analyze measurement signals from car sensors,
 with realtime data synchronization. 
 Migrated from single threaded to multithreaded database usage, from synchronous blocking buggy code to bug free reactive, real time data tables and views.
 
-### 06.2015 - 08.2017. Thomson Reuters Legal Electronic discovery SaaS. Legal. Backend Software Engineer
+### 06.2015 - 08.2017. Thomson Reuters Legal Electronic discovery SaaS. Software Engineer
 
-Product for USA legal market aimed to decrease the volume of information within litigation to derive insights and create legal arguments
+Legal US product aimed to decrease the volume of information within litigation to derive insights and create legal arguments
 
-- Developed asynchronous actor-like data-intensive persisted engine and multi-tenant distributed file system aimed for upload/ [processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents on custom cloud
+- Developed asynchronous actor-like data-intensive multi-tenant distributed persisted engine and file system aimed for upload/[processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents.
 - Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows
-- Optimized system scaling, data ingestion and access performance on 20TB+ of indexed data
-- Used several data storages(relational, document, files, queue, cache).
+- Optimized system scaling, data ingestion and access performance on 20TB+ of multi storage indexed data
 - Created malicious e-Discovery hardening data set and document relationships visualization
 
-### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Legal. Software Engineer
+### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Software Engineer
 
-- Maintained client-server application framework, which has technical part dated back to 2003 and domain model from 1990s
+- Maintained custom client-server application framework.
 - Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
 - Fixed issues in fault tolerant background task executions and notifications
 
@@ -130,9 +129,7 @@ Used reverse engineering to find several holes in site security from client code
 
 ### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial. Desktop Software Engineer
 
-Software for linking data between documents, financial data charting tool, productivity tools integrated with Microsoft Office, the framework for an integrated suite of desktop applications used by distributed teams.
-Solved issues of complex multi process data enabled applications connected to several cloud data soures.
-Designed and delivered technical integration various products for financial professionals into cohesive integrated solution.
+Design and development of linking data between documents, financial charting tool, productivity enhancments for Microsoft Office, framework for an integrated suite of desktop applications used by distributed teams, multi process data enabled applications connected to several cloud data soures, automatic upgrades, integration various products  into cohesive solution.
 
 ### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher
 
