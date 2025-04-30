@@ -313,7 +313,7 @@ in
         ripgrep-all
         fsearch
         gh
-        # claude-code
+        claude-code
         git-lfs
         gopls
         grpcurl
