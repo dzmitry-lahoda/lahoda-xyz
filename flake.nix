@@ -56,27 +56,11 @@
           ];
           pkgs = import nixpkgs {
             inherit system overlays;
-            # config = {
-            #     allowUnfree = true;
-            #     allowUnfreePredicate =
-            #       pkg:
-            #       builtins.elem (pkgs.lib.getName pkg) [
-            #         "claude-code"
-            #       ];
-            #   };
           };
         in
         {
           _module.args.pkgs = import nixpkgs {
             inherit system;
-            # config = {
-            #   allowUnfree = true;
-            #   allowUnfreePredicate =
-            #     pkg:
-            #     builtins.elem (pkgs.lib.getName pkg) [
-            #       "claude-code"
-            #     ];
-            # };
           };
           formatter = pkgs.nixfmt-rfc-style;
 
@@ -116,6 +100,7 @@
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
               claude-code = unstable-pkgs.claude-code;
+              codex = unstable-pkgs.codex;
             })
           ];
           pkgs = import nixpkgs {

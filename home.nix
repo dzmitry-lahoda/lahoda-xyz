@@ -314,6 +314,7 @@ in
         fsearch
         gh
         claude-code
+        codex
         git-lfs
         gopls
         grpcurl

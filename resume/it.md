@@ -175,7 +175,7 @@ Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 ### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
 Specialized in physics and mathematics, within [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) environment.  
-Participated in state olympiad in Physics.
+Participated in state olympiad in Physics. GPA: 9/10.
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
