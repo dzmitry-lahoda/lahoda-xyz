@@ -17,24 +17,24 @@ Continuously improving at mathematics, finance, cryptography and engineering.
 [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)  
 [Brilliant (many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 
-## Toolbox
+## Skills and tools
 
-### Technical knowledge and experience
+### Knowledge and experience
 
 Applied knowledge of:  
 heterogeneous computations; storage; computer languages and type systems;  
 engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
 mechanism design, algorithms.
 
-### Coding
+### Languages
 
 Mostly `Rust` (since 2020). Learning `Lean4`.  
 For special cases do `Solidity 0.9, TS 5.9, Python 3.14` as needed too, but not so much.  
 Used Go, Object Pascal, Matlab, C#/F#, C before.
 
-### Environment
+### Tools
 
-Git, *Nix, VS Code (with Copilot), Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
+Git, *Nix, VS Code (with Copilot), Claude, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
 Learning Helix editor, Jujutsu, Unix internals.
 
 Used Kubernetes.  
@@ -57,7 +57,7 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 
 Design, development, maintenance and audit of Polkadot parachain, Cosmos CosmWasm (WASM) VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like), IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, staking/rewards, vote escrowed, governance, indexers, relayers and devtools.
 
-### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabs, Paraswap)
+### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabsCity, Velora)
 
 Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana and [Fluence](https://fluence.network/).
 
@@ -68,7 +68,7 @@ Prototyped 1000+ user event-driven scalable server for world consisting of dynam
 
 ### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
 
-Did a lot of healthcare business flows via CQRS/ES and templated low-level PDF rendering engine for patients to sign.
+Did a lot of longterm healthcare business flows via CQRS/ES and templated low-level PDF rendering engine for patients to sign.
 
 ### 2020.03 - 2022.06, Metaverse game builder startup ([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer. GameDev.
 

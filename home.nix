@@ -5,6 +5,14 @@
 }:
 
 let
+
+oculante-wrapper = pkgs.writeShellApplication {
+ name = "oculante";
+ text = ''
+   ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.oculante}
+ '';
+};
+
 in
 #anki-wrapper = pkgs.writeShellApplication {
 #  name = "anki";
@@ -315,6 +323,8 @@ in
         gh
         claude-code
         codex
+        oculante-wrapper
+        nasm
         git-lfs
         gopls
         grpcurl
@@ -323,7 +333,10 @@ in
         languagetool-rust
         fasttext
         opentofu
+        photoqt
+        digikam
         qpdf
+        dolphin
         helix
         home-manager
         hwinfo
