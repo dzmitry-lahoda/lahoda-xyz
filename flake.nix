@@ -51,7 +51,7 @@
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
-              #home-manager = home-manager.packages.${system}.home-manager;
+              ledger-live-desktop = inputs.nixpkgs-unstable.legacyPackages.${system}.ledger-live-desktop;            
             })
           ];
           pkgs = import nixpkgs {
@@ -99,6 +99,7 @@
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
+              ledger-live-desktop = inputs.nixpkgs-unstable.legacyPackages.${system}.ledger-live-desktop;
               claude-code = unstable-pkgs.claude-code;
               codex = unstable-pkgs.codex;
             })

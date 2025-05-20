@@ -13,17 +13,19 @@ oculante-wrapper = pkgs.writeShellApplication {
  '';
 };
 
+
+ledger-wrapper = pkgs.writeShellApplication {
+ name = "ledger";
+ text = ''
+   ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@"
+ '';
+};
+
 in
 #anki-wrapper = pkgs.writeShellApplication {
 #  name = "anki";
 #  text = ''
 #    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.anki}
-#  '';
-#};
-#ledger-wrapper = pkgs.writeShellApplication {
-#  name = "ledger";
-#  text = ''
-#    ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@"
 #  '';
 #};
 #slack-wrapper = pkgs.writeShellApplication {
@@ -296,8 +298,7 @@ in
           ];
         })
         # dust
-        # ledger-live-desktop
-        # ledger-wrapper
+        ledger-wrapper
         # rmesg
         #glib.dev
         #libiconv
