@@ -7,7 +7,6 @@ pub async fn transpose_future_mut<T>(
         None => None,
     }
 }
-
 use tokio::*;
 
 /// Expect:
@@ -22,13 +21,12 @@ use tokio::*;
 #[tokio::main]
 async fn main() {
     let mut seconds6 = Some(Box::pin(time::sleep(std::time::Duration::from_secs(6))));
-
     loop {
         select! {
             Some(_) = transpose_future_mut(&mut seconds6) => {
                 eprintln!("6 seconds passed");
-                assert!(seconds6.is_some(), "seconds6 should be Some");
-                seconds6 = None; // Set to None to prevent reusing the future
+                let done = seconds6.take().expect("still here");
+                assert!(done.is_elapsed());
                 break;
             }
             _ = time::sleep(std::time::Duration::from_secs(2)) => {
