@@ -52,6 +52,7 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 - Developed a Borsh schema-based storage diff utility and TS API client generator.
 - Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.
 - Drafted unified messaging for L1/L2, drafted L2 executor to handle that.
+- Discovered few Rust patterns which not documented in internet to make code fast, convenient and safe
 
 ### 2022.01-2024.03, Composable Foundation
 
