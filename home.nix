@@ -346,6 +346,7 @@ in
         hyperfine
         jq
         pandoc
+        aider-chat-full
         jujutsu
         tectonic # pdf
         kubo

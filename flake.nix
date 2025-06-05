@@ -50,6 +50,7 @@
             nixgl.overlay
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              aider-chat-full = inputs.nixpkgs-unstable.legacyPackages.${system}.aider-chat-full;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
               ledger-live-desktop = inputs.nixpkgs-unstable.legacyPackages.${system}.ledger-live-desktop;            
             })
@@ -98,6 +99,7 @@
             nixgl.overlay
             (final: prev: {
               rust-toolchain = pkgs.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+              aider-chat-full = inputs.nixpkgs-unstable.legacyPackages.${system}.aider-chat-full;
               jujutsu = inputs.nixpkgs-unstable.legacyPackages.${system}.jujutsu;
               ledger-live-desktop = inputs.nixpkgs-unstable.legacyPackages.${system}.ledger-live-desktop;
               claude-code = unstable-pkgs.claude-code;
