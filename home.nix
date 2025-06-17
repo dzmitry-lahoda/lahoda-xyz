@@ -337,7 +337,7 @@ in
         photoqt
         digikam
         qpdf
-        dolphin
+        kdePackages.dolphin
         helix
         home-manager
         hwinfo
@@ -382,7 +382,7 @@ in
         translate-shell
         watchexec
         websocat
-        xsv
+        xan
         yarn
         yt-dlp
         zoxide

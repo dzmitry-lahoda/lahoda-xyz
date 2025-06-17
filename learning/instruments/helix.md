@@ -46,3 +46,12 @@ u - undo
 hx --health - list of all plugins, integrations status
 
 hx . - open currenct directory file picker
+
+
+## Flows
+
+Some flows I keep use to
+
+Select all -> select regex:
+
+%->s->regex
