@@ -6,20 +6,26 @@
 
 let
 
-oculante-wrapper = pkgs.writeShellApplication {
- name = "oculante";
- text = ''
-   ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.oculante}
- '';
-};
+  oculante-wrapper = pkgs.writeShellApplication {
+    name = "oculante";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.oculante}
+    '';
+  };
 
+  ledger-wrapper = pkgs.writeShellApplication {
+    name = "ledger";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@"
+    '';
+  };
 
-ledger-wrapper = pkgs.writeShellApplication {
- name = "ledger";
- text = ''
-   ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.ledger-live-desktop} "$@"
- '';
-};
+  freetube-wrapper = pkgs.writeShellApplication {
+    name = "freetube";
+    text = ''
+      ${pkgs.lib.meta.getExe pkgs.nixgl.nixGLIntel} ${pkgs.lib.meta.getExe pkgs.freetube} "$@"
+    '';
+  };
 
 in
 #anki-wrapper = pkgs.writeShellApplication {
@@ -283,6 +289,15 @@ in
       with pkgs;
       netboot
       ++ [
+        freetube-wrapper
+        invidious
+      ]
+      ++ [
+        gemini-cli
+        claude-code
+        codex
+      ]
+      ++ [
         python3
         elan
         # lean4
@@ -322,8 +337,6 @@ in
         ripgrep-all
         fsearch
         gh
-        claude-code
-        codex
         oculante-wrapper
         nasm
         git-lfs
@@ -387,6 +400,7 @@ in
         yt-dlp
         zoxide
       ];
+
   };
 }
 
