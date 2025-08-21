@@ -17,7 +17,7 @@
     };
     nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
     helix = {
-      url = "github:helix-editor/helix/25.01.1";
+      url = "github:helix-editor/helix/25.07.1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

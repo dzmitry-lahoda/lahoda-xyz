@@ -298,6 +298,10 @@ in
         codex
       ]
       ++ [
+        nodejs
+        bun
+      ]
+      ++ [
         python3
         elan
         # lean4
@@ -372,7 +376,6 @@ in
         nixd
         nixfmt-rfc-style
         nixgl.nixGLIntel
-        nodejs
         openssl
         openssl.dev
         pijul

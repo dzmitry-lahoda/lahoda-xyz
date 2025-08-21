@@ -6,7 +6,7 @@ Previously did enterprise, client-servers, actor systems, cloud, desktop, driver
 
 I grow scalable, fast, secure and maintainable code one light day at a time.
 
-Living and paying taxes in Portugal.
+Live in Portugal since 2022.
 
 Continuously improving at mathematics, finance, cryptography and engineering.
 
@@ -15,8 +15,6 @@ Continuously improving at mathematics, finance, cryptography and engineering.
 [GitHub](https://github.com/dzmitry-lahoda)  
 [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda)  
 [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)  
-[Brilliant (many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
-
 ## Skills and tools
 
 ### Knowledge and experience
@@ -44,19 +42,19 @@ A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
 
 ### 2024.03.04 - now, [N1XYZ](https://github.com/n1xyz/)
 
-- Design and implementation of L2 storage replication protocol.
 - Maintained and enhanced the codebase of a **LMAX based central limit order book**
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics** (with a **sans-io based bot**).
 - Reduced bugs and maintenance overhead by introducing several **typestate patterns**
-- Executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), found several issues before and after audits
-- Developed a Borsh schema-based storage diff utility and TS API client generator.
-- Designed and implemented **manual offline** and **automatic live upgrades** for an **optimistic ZK fraud-proof rollup**.
-- Drafted unified messaging for L1/L2, drafted L2 executor to handle that.
-- Discovered few Rust patterns which not documented in internet to make code fast, convenient and safe
+- Executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), bugs found
+- Developed a `borsh` schema-based storage diff utility and TS API client generator.
+- Designeded **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
+- "Discovered" few Rust patterns which not documented in internet to make code fast, convenient and safe
 
 ### 2022.01-2024.03, Composable Foundation
 
-Design, development, maintenance and audit of Polkadot parachain, Cosmos CosmWasm (WASM) VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like), IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, staking/rewards, vote escrowed, governance, indexers, relayers and devtools.
+Design, development, maintenance and audit of
+Polkadot parachain, Cosmos CosmWasm (WASM) VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),
+IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, staking/rewards, vote escrowed, governance, indexers, relayers and devtools.
 
 ### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabsCity, Velora)
 
@@ -87,24 +85,24 @@ Made `read-delete-test+read` pattern PII delete playbook with dry run.
 
 ### 2019.08–2019.10. Cloud-native microservice-based call and contact center, [Luware](https://luware.com/products/nimbus). Software Engineer.
 
-Made call handling microservice scalable by eliminating in-memory state.  
-Planned and deployed logging storage for 3TB logs storage with 40GB logs per day.
+Scaled and persisted call handling microservice.  
+Executed logging storage for 3TB logs storage with 40GB logs per day.
 
-### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Network/Backend Software Engineer and DevOps
+### 2018.10 - 2019.08.09. [Trooper Shooter: Critical Assault FPS (3D mobile shooter)](https://play.google.com/store/apps/details?id=com.pocket.shooter). [AZUR INTERACTIVE GAMES][15]. Software Engineer
 
-Coded game from Proof of Concept to Published state.  
-Did fast real-time synchronization networking over UDP with compression, game mechanics middleware via ECS, backend, SRE/DevOps, matchmaking and meta configuration based.  
-Automated stress tests and proved each real-time commodity server thread can game 35+ concurrent users.
+Coded middleware and server parts of game from PoC to Published state.  
+Did fast real-time networking over UDP, game mechanics middleware via ECS, backend, infra, matchmaking and configuration based meta, actors.  
+Stress tested my real-time part to prove commodity server thread can game 35+ concurrent users.
 
 ### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer.
 
-Coded app to show and analyze measurement signals from car sensors,  
+Developed parts of app to show and analyze measurement signals from car sensors,  
 with real-time data synchronization.  
-Migrated from single-threaded to multithreaded database usage, from synchronous blocking buggy code to bug-free reactive, real-time data tables and views.
+Upgraded single-threaded to multithreaded database usage, synchronous blocking buggy code to bug-free reactive, real-time data views.
 
 ### 06.2015 - 08.2017. Thomson Reuters Legal Electronic discovery SaaS. Software Engineer
 
-Legal US product aimed to decrease the volume of information within litigation to derive insights and create legal arguments
+Legal product aimed to decrease the volume of information within litigation to derive insights and create legal arguments
 
 - Developed asynchronous actor-like data-intensive multi-tenant distributed persisted engine and file system aimed for upload/[processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents.
 - Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows
@@ -113,9 +111,8 @@ Legal US product aimed to decrease the volume of information within litigation t
 
 ### 2014.07-2015.01. [Accounting and practice management software platform for mid and large law firms](https://www.elite.com/3e/). Software Engineer
 
-- Maintained custom client-server application framework.
-- Maintained custom database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), custom [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
-- Fixed issues in fault tolerant background task executions and notifications
+- Maintained custom client-server application framework, database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
+- Fixed in fault tolerant background task executions and notifications
 
 ### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher
 
@@ -132,8 +129,9 @@ Design and development of linking data between documents, financial charting too
 
 ### 2008.07, 2009.07, internship. Time Lapse Microscopy Capture Tool, [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
 
-App for [time-lapse microscopy](https://en.wikipedia.org/wiki/Time-lapse_microscopy)  
-which controls camera attached to the microscope for continual shooting, entropy-based quality measurement, tuning camera settings.
+Time-lapse microscopy app
+to control camera attached to the microscope for continual shooting, 
+entropy-based quality measurement, tuning camera settings.
 
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by). Intern
 
@@ -156,7 +154,7 @@ Participated in a few in Belarus and Georgia. Won in legal hackathons.
 
 ### 2012-now, Security, privacy and decentralization
 
-Used distributed networks to store and read data, deplatformed phone, security, anonymization, encryption, and open source  
+Used distributed networks for data, deplatformed phone, security, anonymization, encryption, OSS  
 to see the world from hacker and privacy-focused perspective.  
 Built a couple of serverless sites.
 
@@ -164,6 +162,7 @@ Built a couple of serverless sites.
 
 ### 2010.04-2014.02, part time
 
+- [Brilliant (many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 - [Machine Learning, Model Thinking, Data Science, Functional Programming Principles](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/education/coursera) on [Coursera](https://www.coursera.org).
 - Watched and worked through all lectures in course of [Stanford Programming Paradigms (CS 107)](https://see.stanford.edu/Course/CS107).
 
@@ -171,12 +170,11 @@ Built a couple of serverless sites.
 
 Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
-### 2008, part time. Industrial software development, .NET development courses by outsource companies in Belarus
+### 2008, part time. Industrial/.NET software development courses
 
 ### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
-Specialized in physics and mathematics, within [dalton plan](https://en.wikipedia.org/wiki/Dalton_Plan) environment.  
-Participated in state olympiad in Physics. GPA: 9/10.
+Physics and mathematics, dalton plan, state olympiad in Physics. GPA: 9/10.
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  

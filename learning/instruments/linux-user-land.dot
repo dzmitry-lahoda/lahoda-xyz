@@ -17,4 +17,7 @@ digraph {
     lsblk -> "udev db" [label = "reads"]
     lsblk -> "LABELs, UUIDs, FS types from block device" [label = "sudo reads"]
 
+    xmodmap -> keyboard [label = "maps"]
+    gdm -> login [label = "graphics login shell"]
+    sudo -> gdm [label = "runs"];
 }
