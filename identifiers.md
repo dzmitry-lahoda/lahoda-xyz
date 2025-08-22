@@ -39,18 +39,15 @@ solana 5RwjjfPnSjnuUNoNpyB5jsJwHkz5ZzWWT399HoPAMeTy
 NISS 12089808875
 NIF 310653835
 
-
 ### Security
 
 Health (+Dental)
-
-Allianz 20662835100000 / 01
 
 #### Services
 
 #### EEM (Electricity)
 
-№ Cliente: 6204902
+№ Cliente: 
 
 ### LLC UA
 

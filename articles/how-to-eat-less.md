@@ -16,3 +16,5 @@ All of above replace need of for chemical food partially.
 
 Some foods, like fast carbo, lead brain and gut whant more of all, including carbs.
 So not eading fast carbs at first place is a good idea.
+
+No artificial sugars, no caffeine, and like.

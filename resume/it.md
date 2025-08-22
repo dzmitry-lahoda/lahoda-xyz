@@ -32,11 +32,10 @@ Used Go, Object Pascal, Matlab, C#/F#, C before.
 
 ### Tools
 
-Git, *Nix, VS Code (with Copilot), Claude, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
+Git, *Nix, VS Code (with Copilot+Codex), Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
 Learning Helix editor, Jujutsu, Unix internals.
 
-Used Kubernetes.  
-A long time ago was DOS/Windows/Visual Studio, and ZX Spectrum.
+Used Kubernetes, long time beofre Windows, Visual Studio, Dos and ZX Spectrum.
 
 ## Work
 
@@ -65,14 +64,14 @@ Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, 
 Coded 2D graphics metaverse engine features.  
 Prototyped 1000+ user event-driven scalable server for world consisting of dynamic allocation of its parts, with WASM client.
 
-### 2020.10-2021.03, [Elemy](https://www.elemy.com/). Backend Software Engineer. Healthcare. Contract works
+### 2020.10-2021.03, [Elemy](http://web.archive.org/web/20230616112716/https://www.elemy.com/). Software Engineer. Contract works
 
 Did a lot of longterm healthcare business flows via CQRS/ES and templated low-level PDF rendering engine for patients to sign.
 
-### 2020.03 - 2022.06, Metaverse game builder startup ([Crey Games](https://vbstudio-hu.translate.goog/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer. GameDev.
+### 2020.03 - 2022.06, Metaverse game builder startup ([Crey Games](https://vbstudio.hu/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer.
 
-Hybrid autoscaled cloud native instance allocation, updates and matchmaking for game servers.  
-Did referral, game event objectives, online presence and other flows into microservice architecture.  
+Did hybrid global autoscaled cloud native instance allocation, upgrades and matchmaking for game servers;  
+referral, game event objectives, online presence and other flows into microservice architecture.  
 Prototyped and scale tested graph database for game economics world (ownership and visibility of various assets and stuff, with roles and users).  
 Introduced distributed logging and alerting, monitoring dashboards.
 

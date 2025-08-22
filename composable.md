@@ -9,9 +9,7 @@ To build CDA(Cross Domain Auctioner) need to clarify serveral points.
 - volume of flow
 - capturable by us volume of flow 
 
-
 ## Atomicity
-
 
 Will pre conirmation from blockbuilders be accepted by blockbuilders as solution?
 
