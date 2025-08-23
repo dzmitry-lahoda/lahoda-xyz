@@ -23,11 +23,8 @@ There is general guidance on bookmarks usability which can be applied to.
 
 If files found is same as file by link, allow to see both links. In ReFs is cas of integrity for data is ON - show one to one Diffs.
 
-
-
 # Why it different?
 
-- written in safe and fast language to get best of speed and security languages.
 - does not stores metadata file along existing file, neither changes existing file, so hash of file is same and sync tools are not polluted
 - It does not have any sync or content indexing mechanisms buildin.
 - does not slows down system in most cases
