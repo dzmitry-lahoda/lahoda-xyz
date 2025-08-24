@@ -302,6 +302,12 @@ in
         bun
       ]
       ++ [
+        poppler-utils
+qpdf
+        tectonic 
+        
+      ]
+      ++ [
         python3
         elan
         # lean4
@@ -353,7 +359,7 @@ in
         opentofu
         photoqt
         digikam
-        qpdf
+        
         kdePackages.dolphin
         helix
         home-manager
@@ -365,7 +371,6 @@ in
         pandoc
         aider-chat-full
         jujutsu
-        tectonic # pdf
         kubo
         languagetool
         lazygit

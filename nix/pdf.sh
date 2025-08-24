@@ -1,1 +1,0 @@
-pandoc resume/it.md -o it.pdf --pdf-engine=typst
