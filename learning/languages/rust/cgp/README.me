@@ -1,0 +1,14 @@
+
+
+What CGP helps with:
+
+- define interface for `consumer` and `implementer`
+- abstract interface over abstract `context`, which wired by few line into concrete one
+- allows to extend type safety to be more reusable, without doing codegen(macroses)
+- context provides certain functionalities(depdnencies)
+  - along with consts and assocciated types
+- provider implements certain functionaly of context
+  - in Rust `provider` is impl of trait, can be only one, and only in same crate as context
+  - there could be many consumers, but only one providers
+    - leads to assymetry(boilerplate)
+    - context generic providers can break that assymetry
