@@ -303,9 +303,13 @@ in
       ]
       ++ [
         poppler-utils
-qpdf
-        tectonic 
-        
+        qpdf
+        tectonic
+      ]
+      ++ [
+        graphicsmagick
+        photoqt
+        digikam
       ]
       ++ [
         python3
@@ -357,9 +361,6 @@ qpdf
         languagetool-rust
         fasttext
         opentofu
-        photoqt
-        digikam
-        
         kdePackages.dolphin
         helix
         home-manager

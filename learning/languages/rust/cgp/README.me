@@ -12,3 +12,13 @@ What CGP helps with:
   - there could be many consumers, but only one providers
     - leads to assymetry(boilerplate)
     - context generic providers can break that assymetry
+- consumers can be context specififc and providers
+ - cgp allows variouys levels of generalization of both
+- blanket trait implementations are singular context generic providers
+- method A calls method B. B constrains input to X and Y. A constraints to Z. 
+   - but when A implemented it must constraint by X and Y 
+     - thats is leaky abstraction
+       - fixable by traits and blanket impls
+       - blanke impl are way to make function more abstract
+         - some constraints are only on impl
+         - leads to traits bloat
