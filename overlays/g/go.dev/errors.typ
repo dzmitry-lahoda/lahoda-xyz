@@ -14,4 +14,4 @@ So programmers can make their own error types with more context.
 
 `errors.Is` is shortcut for `==`.
 
-`%w` format arg allows to wrap other error, and make it exact and only target of `Is` and `As`.
+`%w` format arg is shortcat which allows to wrap other error. `Is`/`As` compares each error in chain of `Unwrap`s.
