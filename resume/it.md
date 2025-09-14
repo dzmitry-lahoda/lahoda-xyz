@@ -113,11 +113,11 @@ Legal product aimed to decrease the volume of information within litigation to d
 - Maintained custom client-server application framework, database oriented [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment), [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
 - Fixed in fault tolerant background task executions and notifications
 
-### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Researcher
+### 2011.07-2013.01. Website security/forensics audit for [PKI] usage in Auctions[2]. Security Researcher
 
 Used reverse engineering to find several holes in site security from client code to DB.
 
-### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Financial. Desktop Software Engineer
+### 2010.02-2014.06. Office add-ins suite and application framework for financial professionals, [Eikon for Office](https://en.wikipedia.org/wiki/Eikon). Desktop Software Engineer
 
 Design and development of linking data between documents, financial charting tool, productivity enhancements for Microsoft Office, framework for an integrated suite of desktop applications used by distributed teams, multi-process data enabled applications connected to several cloud data sources, automatic upgrades, integration of various products into cohesive solution.
 
@@ -128,8 +128,8 @@ Design and development of linking data between documents, financial charting too
 
 ### 2008.07, 2009.07, internship. Time Lapse Microscopy Capture Tool, [Institute of Physical Biology](http://www.frov.jcu.cz/en/)
 
-Time-lapse microscopy app
-to control camera attached to the microscope for continual shooting, 
+Created Time-lapse microscopy app
+for camera attached to the microscope for continual shooting, 
 entropy-based quality measurement, tuning camera settings.
 
 ### 2008.08-10, part-time. Social network data analysis and visualization, [Itransition](http://www.itransition.by). Intern
@@ -153,9 +153,7 @@ Participated in a few in Belarus and Georgia. Won in legal hackathons.
 
 ### 2012-now, Security, privacy and decentralization
 
-Used distributed networks for data, deplatformed phone, security, anonymization, encryption, OSS  
-to see the world from hacker and privacy-focused perspective.  
-Built a couple of serverless sites.
+Day to day user of distributed networks for data, deplatformed phones, anonymization, encryption, OSS, serverless tech.
 
 ## Education
 
@@ -169,13 +167,14 @@ Built a couple of serverless sites.
 
 Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
-### 2008, part time. Industrial/.NET software development courses
+### 2008, part time. Enterprise/.NET software development courses
 
 ### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
-Physics and mathematics, dalton plan, state olympiad in Physics. GPA: 9/10.
+Physics and mathematics speciality, state olympiad in Physics. GPA: 9/10.
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
 [15]: https://azurgames.com/
+
 
