@@ -1,14 +1,14 @@
-# Dzmitry Lahoda, Systems Software Engineer
+# Dzmitry Lahoda, Software Engineer
 
-I specialize in distributed systems, infrastructure, blockchain and protocols.
+I specialize in distributed systems, infrastructure, blockchain, reliable protocols, and high-availability software.
 
-Previously did enterprise, client-servers, actor systems, cloud, desktop, drivers, reusable frameworks and libraries, real-time, and basic applied statistics in several domains, since 2004.
+Previously, I worked on enterprise systems, desktop applications, and device drivers.
 
-I grow scalable, fast, secure and maintainable code one light day at a time.
+I focus on growing code that is scalable, composable, fast, secure, and maintainable — one light day at a time.
 
-Live in Portugal since 2022.
+Based in Portugal since 2022.
 
-Continuously improving at mathematics, finance, cryptography and engineering.
+Continuously sharpening my skills in mathematics, compilers, finance, and cryptography.
 
 ## Profiles
 
@@ -27,15 +27,15 @@ mechanism design, algorithms.
 ### Languages
 
 Mostly `Rust` (since 2020). Learning `Lean4`.  
-For special cases do `Solidity 0.9, TS 5.9, Python 3.14` as needed too, but not so much.  
+For special cases do `Solidity 0.9, TS 6, Python 3.15` as needed too, but not so much.  
 Used Go, Object Pascal, Matlab, C#/F#, C before.
 
 ### Tools
 
-Git, *Nix, VS Code (with Copilot+Codex), Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
+Git, *Nix, VS Code, Copilot, Codex, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
 Learning Helix editor, Jujutsu, Unix internals.
 
-Used Kubernetes, long time beofre Windows, Visual Studio, Dos and ZX Spectrum.
+Used Kubernetes, and long time beofore Windows, Visual Studio, Dos and ZX Spectrum.
 
 ## Work
 
@@ -178,3 +178,4 @@ Physics and mathematics, dalton plan, state olympiad in Physics. GPA: 9/10.
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
 [15]: https://azurgames.com/
+
