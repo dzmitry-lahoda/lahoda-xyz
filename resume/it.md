@@ -27,7 +27,7 @@ mechanism design, algorithms.
 ### Languages
 
 Mostly `Rust` (since 2020). Learning `Lean4`.  
-For special cases do `Solidity 0.9, TS 6, Python 3.15` as needed too, but not so much.  
+For special cases do latest versions of Solidity, TS, Python as needed, but not so much.  
 Used Go, Object Pascal, Matlab, C#/F#, C before.
 
 ### Tools
@@ -57,7 +57,7 @@ IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, sta
 
 ### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabsCity, Velora)
 
-Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana and [Fluence](https://fluence.network/).
+Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana and libp2p.
 
 ### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
@@ -176,5 +176,6 @@ Physics and mathematics speciality, state olympiad in Physics. GPA: 9/10.
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
 [15]: https://azurgames.com/
+
 
 
