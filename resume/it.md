@@ -35,7 +35,7 @@ Used Go, Object Pascal, Matlab, C#/F#, C before.
 Git, *Nix, VS Code, Copilot, Codex, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
 Learning Helix editor, Jujutsu, Unix internals.
 
-Used Kubernetes, and long time beofore Windows, Visual Studio, Dos and ZX Spectrum.
+Used Kubernetes, and, long time before - Windows, Visual Studio, Dos and ZX Spectrum.
 
 ## Work
 
@@ -52,7 +52,7 @@ Used Kubernetes, and long time beofore Windows, Visual Studio, Dos and ZX Spectr
 ### 2022.01-2024.03, Composable Foundation
 
 Design, development, maintenance and audit of
-Polkadot parachain, Cosmos CosmWasm (WASM) VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),
+Polkadot parachain, Cosmos CosmWASM VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),
 IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, staking/rewards, vote escrowed, governance, indexers, relayers and devtools.
 
 ### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabsCity, Velora)
@@ -176,6 +176,7 @@ Physics and mathematics speciality, state olympiad in Physics. GPA: 9/10.
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
 [15]: https://azurgames.com/
+
 
 
 
