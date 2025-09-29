@@ -2,13 +2,15 @@
 
 I specialize in distributed systems, infrastructure, blockchain, reliable protocols, and high-availability software.
 
-Previously, I worked on enterprise systems, desktop applications, and device drivers.
+Previously, I worked on enterprise systems, gaming, desktop applications, and device drivers.
 
 I focus on growing code that is scalable, composable, fast, secure, and maintainable — one light day at a time.
 
 Based in Portugal since 2022.
 
 Continuously sharpening my skills in mathematics, compilers, finance, and cryptography.
+
+I have read and applied those old papers where people described what is to be engineer in software.
 
 ## Profiles
 
@@ -17,39 +19,23 @@ Continuously sharpening my skills in mathematics, compilers, finance, and crypto
 [HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)  
 ## Skills and tools
 
-### Knowledge and experience
-
-Applied knowledge of:  
-heterogeneous computations; storage; computer languages and type systems;  
-engineering, infrastructure, design, construction, architecture, and quality-related processes and patterns;  
-mechanism design, algorithms.
-
-### Languages
-
-Mostly `Rust` (since 2020). Learning `Lean4`.  
-For special cases do latest versions of Solidity, TS, Python as needed, but not so much.  
-Used Go, Object Pascal, Matlab, C#/F#, C before.
-
-### Tools
-
-Git, *Nix, VS Code, Copilot, Codex, Typst, Markdown (with Mermaid/PlantUML/Graphviz), Terraform, Brave Browser.  
-Learning Helix editor, Jujutsu, Unix internals.
-
-Used Kubernetes, and, long time before - Windows, Visual Studio, Dos and ZX Spectrum.
+Mostly `Rust`. Learning `Lean4`.  
+Sometimes dig into Nix, Solidity, TS, Python.  
+Used Go, Object Pascal, Matlab, C#/F#, C within Kubernetes or Windows before.
 
 ## Work
 
-### 2024.03.04 - now, [N1XYZ](https://github.com/n1xyz/)
+### 2024.03.04 - now, [N1XYZ](https://github.com/n1xyz/), Full time
 
 - Maintained and enhanced the codebase of a **LMAX based central limit order book**
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics** (with a **sans-io based bot**).
 - Reduced bugs and maintenance overhead by introducing several **typestate patterns**
-- Executed efficient proptesting strategy (wide coverage with inverses and invariants, and yet fast and low code), bugs found
+- Executed efficient prop testing strategy (wide coverage with inverses and invariants, and yet fast and low code), bugs found
 - Developed a `borsh` schema-based storage diff utility and TS API client generator.
-- Designeded **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
+- Designed **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
 - "Discovered" few Rust patterns which not documented in internet to make code fast, convenient and safe
 
-### 2022.01-2024.03, Composable Foundation
+### 2022.01-2024.03, Composable Foundation(bankrupted), Full time
 
 Design, development, maintenance and audit of
 Polkadot parachain, Cosmos CosmWASM VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),
@@ -59,16 +45,16 @@ IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, sta
 
 Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana and libp2p.
 
-### 2021.05-2021.11.  [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
+### 2021.05-2021.11. [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 
 Coded 2D graphics metaverse engine features.  
 Prototyped 1000+ user event-driven scalable server for world consisting of dynamic allocation of its parts, with WASM client.
 
-### 2020.10-2021.03, [Elemy](http://web.archive.org/web/20230616112716/https://www.elemy.com/). Software Engineer. Contract works
+### 2020.10-2021.03, [Elemy](http://web.archive.org/web/20230616112716/https://www.elemy.com/), bankrupt. Software Engineer. Contract works
 
-Did a lot of longterm healthcare business flows via CQRS/ES and templated low-level PDF rendering engine for patients to sign.
+Did a lot of long-term healthcare business flows via CQRS/ES and templated low-level PDF rendering engine for patients to sign.
 
-### 2020.03 - 2022.06, Metaverse game builder startup ([Crey Games](https://vbstudio.hu/en/blog/20230710-The-End-of-CREY-Games)). Software Engineer.
+### 2020.03 - 2022.06, Metaverse game builder startup ([Crey Games](https://vbstudio.hu/en/blog/20230710-The-End-of-CREY-Games)), bankrupt. Software Engineer.
 
 Did hybrid global autoscaled cloud native instance allocation, upgrades and matchmaking for game servers;  
 referral, game event objectives, online presence and other flows into microservice architecture.  
@@ -93,7 +79,7 @@ Coded middleware and server parts of game from PoC to Published state.
 Did fast real-time networking over UDP, game mechanics middleware via ECS, backend, infra, matchmaking and configuration based meta, actors.  
 Stress tested my real-time part to prove commodity server thread can game 35+ concurrent users.
 
-### 2017.10 - 2018.10. [ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer.
+### 2017.10 - 2018.10. [Bosch-ETAS Measurement data analyzer](https://www.etas.com/en/products/mda-mda_v8.php). Software Engineer.
 
 Developed parts of app to show and analyze measurement signals from car sensors,  
 with real-time data synchronization.  
@@ -136,7 +122,7 @@ entropy-based quality measurement, tuning camera settings.
 
 Coded some server-side part to get data to and from database
 
-### 2006.08-12, part time. Woodworking machine driver, [Stroydetali Llc](http://vi-lario.com/). Driver/Desktop Software Engineer
+### 2006.08-12, part time. Woodworking machine driver, [Stroydetali LLC](http://vi-lario.com/). Driver/Desktop Software Engineer
 
 Created real-time application for woodworking machine to manage sawing plan, configuration and control of sawing process.  
 Domain specific configuration file format, system event loop, TUI with edit boxes/menus/labels/help, bit level communication protocol with hardware.
@@ -144,16 +130,6 @@ Domain specific configuration file format, system event loop, TUI with edit boxe
 ### 2004.09-2005.03, part time. Graduates database
 
 Coded graduates app, 2nd place in regional competition of school student’s software
-
-## Experiences
-
-### 2018-2020, Hackathons
-
-Participated in a few in Belarus and Georgia. Won in legal hackathons.
-
-### 2012-now, Security, privacy and decentralization
-
-Day to day user of distributed networks for data, deplatformed phones, anonymization, encryption, OSS, serverless tech.
 
 ## Education
 
