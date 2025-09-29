@@ -35,7 +35,7 @@ Used Go, Object Pascal, Matlab, C#/F#, C within Kubernetes or Windows before.
 - Designed **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
 - "Discovered" few Rust patterns which not documented in internet to make code fast, convenient and safe
 
-### 2022.01-2024.03, Composable Foundation(bankrupted), Full time
+### 2022.01-2024.03, Composable Foundation (bankrupt), Full time
 
 Design, development, maintenance and audit of
 Polkadot parachain, Cosmos CosmWASM VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),
@@ -90,7 +90,7 @@ Upgraded single-threaded to multithreaded database usage, synchronous blocking b
 Legal product aimed to decrease the volume of information within litigation to derive insights and create legal arguments
 
 - Developed asynchronous actor-like data-intensive multi-tenant distributed persisted engine and file system aimed for upload/[processing/production](http://www.edrm.net/resources/edrm-stages-explained)/analysis/search/review of millions of documents.
-- Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSql database, asynchronous data- and work-flows
+- Developed orchestration with error handling of event-driven services, API, billing, audit, reporting, query provider to NoSQL database, asynchronous data- and work-flows
 - Optimized system scaling, data ingestion and access performance on 20TB+ of multi storage indexed data
 - Created malicious e-Discovery hardening data set and document relationships visualization
 
@@ -107,7 +107,7 @@ Used reverse engineering to find several holes in site security from client code
 
 Design and development of linking data between documents, financial charting tool, productivity enhancements for Microsoft Office, framework for an integrated suite of desktop applications used by distributed teams, multi-process data enabled applications connected to several cloud data sources, automatic upgrades, integration of various products into cohesive solution.
 
-### 2008.10-2010.06, part time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher
+### 2008.10-2010.06, part-time. [Music Information Retrieval, visualization and analysis](http://www.scribd.com/collections/4340277/bsu-by-2005-2010). Researcher
 
 - Prototyped visualization to organize music collection onto 2-dimensional scatter plot via [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis) based on audio content processed by [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [MIRToolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox).
 - Researched algorithms which understand music from audio content using Hierarchical Temporal Memory and classify via [KNN](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
@@ -122,18 +122,22 @@ entropy-based quality measurement, tuning camera settings.
 
 Coded some server-side part to get data to and from database
 
+<<<<<<< HEAD
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali LLC](http://vi-lario.com/). Driver/Desktop Software Engineer
+=======
+### 2006.08-12, part-time. Woodworking machine driver, [Stroydetali LLC](http://vi-lario.com/). Driver/Desktop Software Engineer
+>>>>>>> 27259c9 (flush)
 
 Created real-time application for woodworking machine to manage sawing plan, configuration and control of sawing process.  
 Domain specific configuration file format, system event loop, TUI with edit boxes/menus/labels/help, bit level communication protocol with hardware.
 
-### 2004.09-2005.03, part time. Graduates database
+### 2004.09-2005.03, part-time. Graduates database
 
 Coded graduates app, 2nd place in regional competition of school student’s software
 
 ## Education
 
-### 2010.04-2014.02, part time
+### 2010.04-2014.02, part-time
 
 - [Brilliant (many math courses)](https://brilliant.org/profile/dzmitry-rrotsd/about/)
 - [Machine Learning, Model Thinking, Data Science, Functional Programming Principles](https://gitlab.com/dzmitry-lahoda/dzmitry-lahoda.gitlab.io/tree/master/assets/docs/me/education/coursera) on [Coursera](https://www.coursera.org).
@@ -143,11 +147,19 @@ Coded graduates app, 2nd place in regional competition of school student’s sof
 
 Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
+<<<<<<< HEAD
 ### 2008, part time. Enterprise/.NET software development courses
 
 ### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
 Physics and mathematics speciality, state olympiad in Physics. GPA: 9/10.
+=======
+### 2008, part-time. Industrial/.NET software development courses
+
+### 1994-2005. Gymnasium №1, Vileyka, Belarus
+
+Physics and mathematics, Dalton Plan, state olympiad in Physics. GPA: 9/10.
+>>>>>>> 27259c9 (flush)
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
