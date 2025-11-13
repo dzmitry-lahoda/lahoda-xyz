@@ -16,7 +16,8 @@ I have read and applied those old papers where people described what is to be en
 
 [GitHub](https://github.com/dzmitry-lahoda)  
 [LinkedIn](https://www.linkedin.com/in/dzmitrylahoda)  
-[HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)  
+[HackerRank Certificate](https://www.hackerrank.com/certificates/4f1dfdbd7772)
+
 ## Skills and tools
 
 Mostly `Rust`. Learning `Lean4`.  
@@ -122,11 +123,7 @@ entropy-based quality measurement, tuning camera settings.
 
 Coded some server-side part to get data to and from database
 
-<<<<<<< HEAD
 ### 2006.08-12, part time. Woodworking machine driver, [Stroydetali LLC](http://vi-lario.com/). Driver/Desktop Software Engineer
-=======
-### 2006.08-12, part-time. Woodworking machine driver, [Stroydetali LLC](http://vi-lario.com/). Driver/Desktop Software Engineer
->>>>>>> 27259c9 (flush)
 
 Created real-time application for woodworking machine to manage sawing plan, configuration and control of sawing process.  
 Domain specific configuration file format, system event loop, TUI with edit boxes/menus/labels/help, bit level communication protocol with hardware.
@@ -147,19 +144,11 @@ Coded graduates app, 2nd place in regional competition of school student’s sof
 
 Bachelor's degree, Major Radiophysics - 01.04.03 GPA: 6/10.
 
-<<<<<<< HEAD
 ### 2008, part time. Enterprise/.NET software development courses
 
 ### 1994-2005. Gymnasium №1, Vileyka, Belarus
 
 Physics and mathematics speciality, state olympiad in Physics. GPA: 9/10.
-=======
-### 2008, part-time. Industrial/.NET software development courses
-
-### 1994-2005. Gymnasium №1, Vileyka, Belarus
-
-Physics and mathematics, Dalton Plan, state olympiad in Physics. GPA: 9/10.
->>>>>>> 27259c9 (flush)
 
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure  
 [10]: https://en.wikipedia.org/wiki/Entity_component_system  
