@@ -11,3 +11,6 @@ my domain nameserver E authoritative namesever
 
 authoritative namesever = *records
 
+
+`Domain Registry` - hold ownership and concat invormation only.
+

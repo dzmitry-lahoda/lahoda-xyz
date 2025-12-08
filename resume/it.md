@@ -30,13 +30,13 @@ Used Go, Object Pascal, Matlab, C#/F#, C within Kubernetes or Windows before.
 
 - Maintained and enhanced the codebase of a **LMAX based central limit order book**
 - Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics** (with a **sans-io based bot**).
-- Reduced bugs and maintenance overhead by introducing several **typestate patterns**
-- Executed efficient prop testing strategy (wide coverage with inverses and invariants, and yet fast and low code), bugs found
+- Reduced bugs and maintenance overhead by introducing several **typestate patterns** and implementation specific **units of measure**
+- Executed efficient prop testing strategy (wide coverage with inverses+invariants+generating base distirbutions, and yet fast and low code), bugs eliminated
 - Developed a `borsh` schema-based storage diff utility and TS API client generator.
 - Designed **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
 - "Discovered" few Rust patterns which not documented in internet to make code fast, convenient and safe
 
-### 2022.01-2024.03, Composable Foundation (bankrupt), Full time
+### 2022.01-2024.03, [Composable Foundation (bankrupt)](https://mina86.com/2024/beware-composable-foundation/), Full time
 
 Design, development, maintenance and audit of
 Polkadot parachain, Cosmos CosmWASM VM for Polkadot, cross-chain interoperability, intent-based super app and cross-chain trading/routing infrastructure and middleware (CoW like),

@@ -84,12 +84,14 @@ in
       #chromium.enable = true;
       git = {
         enable = true;
-        userName = "${myname}-lahoda";
-        userEmail = "${myname}@lahoda.pro";
-        extraConfig = {
-          user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
-          commit.gpgsign = true;
-          core.editor = "${pkgs.helix}/bin/hx";
+        settings = {
+          user = {
+            email = "${myname}@lahoda.pro";
+            name = "${myname}-lahoda";
+            user.signingkey = "B6DAD565C19E1C302B735664BF77F46FF7501BE1";
+            commit.gpgsign = true;
+            core.editor = "${pkgs.helix}/bin/hx";
+          };
         };
       };
       # vscode = {
@@ -283,6 +285,7 @@ in
             cvxpy
             wheel
             virtualenv
+        opencv-python-headless
           ];
         python = pkgs.python3.withPackages python-packages;
       in
@@ -307,17 +310,20 @@ in
         tectonic
       ]
       ++ [
+        pgcli
+      ]
+      ++ [
         graphicsmagick
         photoqt
         digikam
       ]
-      ++ [
-        python3
+      ++ [        
         elan
-        # lean4
+        lean4
         poetry
-        pyo3-pack
+        maturin
         typst
+        python
         uv
         (rWrapper.override {
           packages = with rPackages; [
@@ -366,7 +372,7 @@ in
         home-manager
         hwinfo
         nurl
-        poppler_utils
+        poppler-utils
         hyperfine
         jq
         pandoc
@@ -395,7 +401,7 @@ in
         rocksdb
         rust-script
         rust-toolchain
-        ryujinx
+        ryubing
         sad
         sd
         shadow
