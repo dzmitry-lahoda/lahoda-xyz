@@ -1,16 +1,12 @@
 # Dzmitry Lahoda, Software Engineer
 
-I specialize in distributed systems, infrastructure, blockchain, reliable protocols, and high-availability software.
+I specialize in industrial scale software enginering, distributed systems, infrastructure, blockchain, reliable protocols, and high-availability software.
 
 Previously, I worked on enterprise systems, gaming, desktop applications, and device drivers.
 
 I focus on growing code that is scalable, composable, fast, secure, and maintainable — one light day at a time.
 
 Based in Portugal since 2022.
-
-Continuously sharpening my skills in mathematics, compilers, finance, and cryptography.
-
-I have read and applied those old papers where people described what is to be engineer in software.
 
 ## Profiles
 
@@ -20,20 +16,25 @@ I have read and applied those old papers where people described what is to be en
 
 ## Skills and tools
 
-Mostly `Rust`. Learning `Lean4`.  
+Mostly `Rust`.  
 Sometimes dig into Nix, Solidity, TS, Python.  
 Used Go, Object Pascal, Matlab, C#/F#, C within Kubernetes or Windows before.
+
+### Learing 
+Math, compilers, finance, and cryptography.
+Lean4, Zig.
 
 ## Work
 
 ### 2024.03.04 - now, [N1XYZ](https://github.com/n1xyz/), Full time
 
-- Maintained and enhanced the codebase of a **LMAX based central limit order book**
-- Designed and implemented **perpetuals funding index**, **reduce orders**, **liquidator mechanics** (with a **sans-io based bot**).
-- Reduced bugs and maintenance overhead by introducing several **typestate patterns** and implementation specific **units of measure**
+- Maintained, codesigned and implemented LMAX CLOB for spot and perp and related infra 
+- Reduced bugs and maintenance overhead by introducing several **typestate patterns** and implementation specific **units of measure**,
+- Designed adn implemented **sans-io based bot**
 - Executed efficient prop testing strategy (wide coverage with inverses+invariants+generating base distirbutions, and yet fast and low code), bugs eliminated
-- Developed a `borsh` schema-based storage diff utility and TS API client generator.
-- Designed **manual offline** and **automatic live upgrades**; unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**, partially implemented
+- Developed a `borsh` schema-based storage diff utility and client SDK generator.
+- Codesigned and coimplemnted  **manual offline and automatic live upgrades**
+- Designed unified messaging for L1/L2s, storage replication protocol for an **optimistic ZK fraud-proof rollup**
 - "Discovered" few Rust patterns which not documented in internet to make code fast, convenient and safe
 
 ### 2022.01-2024.03, [Composable Foundation (bankrupt)](https://mina86.com/2024/beware-composable-foundation/), Full time
@@ -44,7 +45,7 @@ IBC cross-chain contracts infrastructure in Ethereum Solidity, lending, AMM, sta
 
 ### 2021.03-2022.03, Web3.0, blockchain, p2p. Software Engineer. Contract works (Fluence Lab, Boosty Labs, MLabsCity, Velora)
 
-Design, coding, audit, research, and deployment of AMM, NFT, crowdfunding, IDO, governance, DAO, identities, indexers, tools, chats for Solana and libp2p.
+Design, coding, audit, research, and deployment of DeFi and p2p technologies along with related infrastructure and tooling.
 
 ### 2021.05-2021.11. [The Workplace Metaverse](https://www.sowork.com/). Software Engineer. Contract works
 

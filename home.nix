@@ -317,9 +317,8 @@ in
         photoqt
         digikam
       ]
-      ++ [        
-        elan
-        lean4
+      ++ [     
+        lean4 # contains elan
         poetry
         maturin
         typst
